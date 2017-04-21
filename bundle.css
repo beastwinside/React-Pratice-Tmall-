@@ -1,1 +1,11 @@
-html{background-color: #E8FAAC;}
+html{background-color: #E8FAAC;
+	font-size:36px; }
+
+.Logo{
+	background-image: url(source/image/react.jpg);
+	background-size:cover;
+	display: inline-block;
+	height: 150px;
+	vertical-align: middle;
+	width:150px;
+}
