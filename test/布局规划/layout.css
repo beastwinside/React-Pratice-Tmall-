@@ -132,15 +132,43 @@ body,html{
 
 	}
 
+	#mainshow ul{
+		height: 100%;
+		width: 200px;
+		background-color: white;
+		position: relative;
+	}
+
+	#mainshow ul >li:first-child{
+		border-top-style: none; 
+	}
+	#mainshow ul li{
+		height: 14%;
+		width: 100%;
+		float: left;
+		border-top-style: solid; 
+		position: relative;
+
+	}
+
+	#mainshow p{
+		width: 100%;
+		height: 25%;
+		position: absolute;
+		bottom: 10px;
+		font-size: 15px;
+		text-align: left;
+		color: #817A7A;
+	}
 
 
 	#sideleft{
-		width: 50px;
+		width: 100px;
 		height: 500px;
 		background-color: #F43A3A;
 		position: fixed;
 		top: 200px;
-		left: 200px;
+		left: 1%;
 		font-size: 20px;
 		color: white;
 	}
