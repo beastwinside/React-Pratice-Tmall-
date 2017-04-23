@@ -6,5 +6,12 @@ class Logo extends React.Component{
 		}
 }
 
+// var Logo=React.createClass({
+// 	render:function(){
+// 		return (<div className="Logo" />);
+// 	}
+
+// })
+
 
 export default Logo

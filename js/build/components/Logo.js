@@ -37,4 +37,12 @@ var Logo = function (_React$Component) {
 	return Logo;
 }(_react2.default.Component);
 
+// var Logo=React.createClass({
+// 	render:function(){
+// 		return (<div className="Logo" />);
+// 	}
+
+// })
+
+
 exports.default = Logo;
