@@ -194,7 +194,8 @@
 
 			<script type="text/javascript">
 				window.onscroll = function(){
-					var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+					//scrolltop获取兼容写法
+					var scrollTop = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset;;
 					if( scrollTop>500)
 						{document.getElementsByTagName('header')[0].style.display='block';
 					document.getElementsByTagName('header')[0].style.position='fixed';}

@@ -204,7 +204,7 @@ _reactDom2.default.render(_react2.default.createElement(
 		' welcome to the app!'
 ), document.getElementById('app'));
 },{"./components/Logo":3,"react":183,"react-dom":32}],3:[function(require,module,exports){
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -212,7 +212,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require("react");
+var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -234,9 +234,18 @@ var Logo = function (_React$Component) {
 	}
 
 	_createClass(Logo, [{
-		key: "render",
+		key: 'render',
 		value: function render() {
-			return _react2.default.createElement("div", { className: "Logo" });
+			return _react2.default.createElement('div', { className: 'Logo' });
+		}
+	}, {
+		key: 'componentDidMount',
+		value: function componentDidMount() {
+			window.onscroll = function () {
+				//scrolltop获取兼容写法
+				var scrollTop = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset;;
+				if (scrollTop > 500) alert('123');
+			};
 		}
 	}]);
 
