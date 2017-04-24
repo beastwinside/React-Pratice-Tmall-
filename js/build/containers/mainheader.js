@@ -33,7 +33,30 @@ var Mainheader = function (_React$Component) {
 			return _react2.default.createElement(
 				"header",
 				{ id: "mainheader" },
-				" "
+				_react2.default.createElement(
+					"div",
+					{ id: "headleftlogo" },
+					_react2.default.createElement(
+						"div",
+						{ id: "logo" },
+						"\u5929\u732B\u8D85\u5E02logo"
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ id: "pos_select" },
+					"\u5317\u4EAC"
+				),
+				_react2.default.createElement(
+					"form",
+					null,
+					_react2.default.createElement("input", { type: "text" }),
+					_react2.default.createElement(
+						"button",
+						{ id: "search" },
+						"\u641C\u7D22"
+					)
+				)
 			);
 		}
 	}]);

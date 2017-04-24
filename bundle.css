@@ -46,7 +46,7 @@ body,html{
 		font-size:15px;
 	}
 
-	header{
+	header#mainheader{
 		width: 1200px;
 		height:200px;
 		background-color: #F1B546;
@@ -55,7 +55,7 @@ body,html{
 		left: 0;
 		right: 0;
 		margin: auto;
-		z-index: 2;
+		
 
 	}
 	#headleftlogo{
@@ -94,7 +94,7 @@ body,html{
 
 
 	header#mainheader form{
-		position: absolute;
+		position: relative;
 		top:60px;
 		left: 0;
 		right: 0;
@@ -347,6 +347,7 @@ body,html{
 		left: 1%;
 		font-size: 20px;
 		color: white;
+	
 	}
 
 	#sideright{
@@ -502,4 +503,16 @@ body,html{
 		bottom: 0;
 		left: 0;
 		background-color: green;
+	}
+
+	footer{
+
+		width: 1200px;
+		height: 600px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-color: #20B5E7;
 	}
