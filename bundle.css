@@ -1,11 +1,505 @@
-html{background-color: #E8FAAC;
-	font-size:36px; }
+/*初始化  reset*/  
+body,button,dd,dl,dt,h1,h2,h3,h4,h5,h6,input,li,ol,p,td,ul{margin:0;padding:0}  
+body,button,input{font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif}  
+h1,h2,h3,h4,h5,h6,button,input{font-size:100%}  
+ol,ul{list-style:none}  
+a{text-decoration:none}  
+a:hover{text-decoration:underline}  
+fieldset,img{border:0;vertical-align:top;}  
+a,button{cursor:pointer;}  
+/*清除浮动*/  
+.clearfix:before,.clearfix:after {  
+    content:"";  
+    display:table;  
+}  
+.clearfix:after{clear:both;}  
+.clearfix{  
+    *zoom:1;/*IE/7/6*/  
+}  
+/*normalize.css，以上样式为*/
 
-.Logo{
-	background-image: url(source/image/react.jpg);
-	background-size:cover;
-	display: inline-block;
-	height: 150px;
-	vertical-align: middle;
-	width:150px;
-}
+body,html{
+	width: 100%;
+	height: 100%;
+	background-color: #48632C;
+	position: absolute;
+	font-size:30px; 
+	text-align: center;}
+
+	#app,#baohan{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+
+	}
+
+
+
+	#sitenav{
+		width:1200px;
+		height: 50px;
+		background-color: #92F6B8;
+		position: relative;
+		left: 0;
+		right: 0;
+		margin: auto;
+		font-size:15px;
+	}
+
+	header{
+		width: 1200px;
+		height:200px;
+		background-color: #F1B546;
+		position: absolute;
+		top: 50px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		z-index: 2;
+
+	}
+	#headleftlogo{
+		width: 200px;
+		height: 70%;
+		position: absolute;
+		left: 0;
+		background-color: #C2B3B3;
+	}
+	
+	#headleftlogo #logo{
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		font-size: 40px;
+		color: red;
+	}
+
+	
+
+
+	#pos_select{
+		width: 80px;
+		height: 50px;
+		position: absolute;
+		background-color: white;
+		color: red;
+		top: 60px;
+		left: 200px;
+		z-index: 100;
+		border-style: solid;
+		border-color: black;
+
+
+	}
+
+
+	header#mainheader form{
+		position: absolute;
+		top:60px;
+		left: 0;
+		right: 0;
+		margin: auto;
+
+	}
+	
+	header#mainheader input{
+		width: 500px;
+		margin: 0;
+	}
+	
+	header#mainheader button{
+		margin: 0; 
+		width:100px;
+		height: 50px;
+	} 
+
+
+
+	#fixed{
+		width: 1200px;
+		height: 10%;
+		background-color: #98FCB6;
+		position: fixed;
+		top: 0;
+		
+	}
+	
+	#fixed nav{
+		height:60%;
+		width: 800px;
+		position: absolute;
+		left: 250px;
+		bottom: 0;
+		background-color: #6385F0; 
+	}
+	
+	#fixed nav ul{
+		left: 0;
+		position: absolute;
+	}
+
+	#fixed nav ul> li:first-child{
+		border-left-style: none;
+	}
+
+	#fixed nav li{
+		display: inline-block;
+		border-left-style: solid;
+
+	}
+	
+
+	#fixed #classify{
+		width:20%;
+		height: 80%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-color: black;
+		color: white;
+
+
+	}
+
+	#fixed #shopping_card{
+		width: 15%;
+		height: 80%;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background-color: black;
+		color: white; 
+
+	}
+
+	#main{
+		width: 1200px;
+		height: 10000px;
+		background-color:#F07777;
+		position: relative;
+		top: 200px;
+		left: 0;
+		right: 0;
+		margin: auto;
+
+	}
+
+	#mainshow{
+		width: 100%;
+		height: 600px;
+		background-color: white;
+		position: relative;
+		top: 0;
+		border-bottom-style:  solid;
+		border-color: #D2D0D0;
+
+
+	}
+
+
+	#mainshow ul{
+		height: 100%;
+		width: 200px;
+		background-color: white;
+		position: relative;
+	}
+
+	#mainshow ul >li:first-child{
+		border-top-style: none; 
+	}
+	#mainshow ul li{
+		height: 14%;
+		width: 100%;
+		float: left;
+		border-top-style: solid; 
+		position: relative;
+
+	}
+
+
+	#mainshow ul li:hover{
+		background-color: red;
+		color: white;
+	}
+
+	#mainshow p{
+		width: 100%;
+		height: 25%;
+		position: absolute;
+		bottom: 10px;
+		font-size: 15px;
+		text-align: left;
+		color: #817A7A;
+	}
+
+	#lunbo_main{
+		width:800px;
+		height: 100%;
+		position: absolute;
+		left: 200px;
+		background-color: #CEB8B8; 
+		top: 0;
+
+
+	}
+
+	#lunbo{
+		width: 100%;
+		height: 50%;
+		background-color: #59D5EB;
+		position: absolute;
+		top: 0;
+		font-size: 80px;
+	}
+
+	#lunbo_down{
+		width: 100%;
+		height: 50%;
+		background-color: #EE1861;
+		position: absolute;
+		bottom: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: : center;
+
+	}
+
+	#lunbo_down div{
+		width: 33%;
+		height: 49%;
+		background-color: #B0FAAA;
+
+	}
+
+	#lunbo_down div:hover{
+		font-size: 50px;
+
+
+	}
+
+	#lunbo_right{
+		width: 180px;
+		height: 100%;
+		background-color: #2B6DF6;
+		position: absolute;
+		right: 0;
+		top: 0;
+
+
+	}
+
+	#mywelfare{
+		width:100%;
+		height: 40%;
+		position: absolute;
+		top: 0;
+		background-color: #E77330; 
+
+
+	}
+
+	#welfarelogo{
+		width:100%;
+		height: 30%;
+		position: absolute;
+		bottom: 0;
+		background-color: #F8FEAF; 
+
+	}
+
+	#welfarelogo>a:first-child{
+		border-left-style: none;
+	}
+	#welfarelogo a{
+		border-left-style: solid;
+		font-size: 15px;
+
+	}
+
+	#lunbo_right_1{
+		width:100%;
+		height: 30%;
+		position: absolute;
+		top: 40%;
+		background-color: #41E455; 
+
+	}
+
+	#lunbo_right_2{
+		width:100%;
+		height: 30%;
+		position: absolute;
+		bottom: 0;
+		background-color: #E7DA30; 
+
+	}
+
+	
+
+
+	#sideleft{
+		width: 100px;
+		height: 500px;
+		background-color: #F43A3A;
+		position: fixed;
+		top: 200px;
+		left: 1%;
+		font-size: 20px;
+		color: white;
+	}
+
+	#sideright{
+		width: 50px;
+		height: 1080px;
+		background-color: black;
+		position: fixed;
+		top: 0;
+		right: 0;
+		font-size: 20px;
+		color: white;
+	}
+
+	.show_box{
+		width: 100%;
+		height: 600px;
+		
+		position: relative;
+		
+	}
+
+	.show_header{
+		width: 100%;
+		height: 10%;
+		background-color: #1A7DD6;
+		position: relative;
+		top: 10%;
+		font-weight: bolder;
+		font-style: 30px;
+		text-align: left;
+		border-bottom-style: solid;
+		
+
+
+	}
+
+	.show_container{
+		width: 100%;
+		height: 90%;
+		background-color: #C7F864;
+		position: relative;
+		top: 10%;
+
+
+	}
+
+
+	.show_box_left{
+		width: 20%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		background-color: #F88D0C;
+
+
+	}
+
+	.show_box_left_top{
+		width: 100%;
+		height: 40%;
+		position: absolute;
+		top: 0;
+		background-color: #2EE159;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+
+
+	}
+
+	.showbox_9item{
+
+		width: 28%;
+		height: 30%;
+		background-color: white;
+		border-radius: 50%;
+
+	}
+
+	.showbox_left_img{
+
+		width: 100%;
+		height: 60%;
+		position: absolute;
+		bottom: 0;
+		background-color: #F7A2A2;
+		left: 0;
+
+	}
+
+	.show_box_main{
+
+		width: 65%;
+		height: 100%;
+		background-color: #332F2F;
+		position: absolute;
+		top: 0;
+		left: 20%;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+
+
+	.show_box_main_item{
+		width: 24%;
+		height: 49%;
+		background-color: #F05E25;
+		position: relative;
+
+	}
+
+	.show_box_main_item p{
+
+		width: 100%;
+		height: 20%;
+		position: absolute;
+		bottom: 0;
+		background-color: #E4BBBB;
+		color: white;
+
+	}
+
+
+
+	.show_box_right{
+		width: 15%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-color: #1D74EA;
+
+	}
+
+	.show_box_right_u{
+		width: 100%;
+		height: 50%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: red;
+
+	}
+
+	.show_box_right_d{
+		width: 100%;
+		height: 50%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-color: green;
+	}

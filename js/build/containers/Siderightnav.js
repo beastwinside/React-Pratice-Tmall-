@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require('react');
+var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -18,40 +18,46 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Logo = function (_React$Component) {
-	_inherits(Logo, _React$Component);
+var Siderightnav = function (_React$Component) {
+	_inherits(Siderightnav, _React$Component);
 
-	function Logo() {
-		_classCallCheck(this, Logo);
+	function Siderightnav() {
+		_classCallCheck(this, Siderightnav);
 
-		return _possibleConstructorReturn(this, (Logo.__proto__ || Object.getPrototypeOf(Logo)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Siderightnav.__proto__ || Object.getPrototypeOf(Siderightnav)).apply(this, arguments));
 	}
 
-	_createClass(Logo, [{
-		key: 'render',
+	_createClass(Siderightnav, [{
+		key: "render",
 		value: function render() {
-			return _react2.default.createElement('div', { className: 'Logo' });
-		}
-	}, {
-		key: 'componentDidMount',
-		value: function componentDidMount() {
-			window.onscroll = function () {
-				//scrolltop获取兼容写法
-				var scrollTop = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset;;
-				if (scrollTop > 500) alert('123');
-			};
+			return _react2.default.createElement(
+				"nav",
+				{ id: "sideright" },
+				"\u6211\u7684\u7279\u6743",
+				_react2.default.createElement("br", null),
+				_react2.default.createElement("br", null),
+				_react2.default.createElement("br", null),
+				"\u6211\u7684\u8D44\u4EA7",
+				_react2.default.createElement("br", null),
+				_react2.default.createElement("br", null),
+				_react2.default.createElement("br", null),
+				"\u6211\u7684\u5173\u6CE8",
+				_react2.default.createElement("br", null),
+				_react2.default.createElement("br", null),
+				_react2.default.createElement("br", null),
+				"\u6211\u7684\u6536\u85CF",
+				_react2.default.createElement("br", null),
+				_react2.default.createElement("br", null),
+				_react2.default.createElement("br", null),
+				"\u6211\u770B\u8FC7\u7684",
+				_react2.default.createElement("br", null),
+				_react2.default.createElement("br", null),
+				_react2.default.createElement("br", null)
+			);
 		}
 	}]);
 
-	return Logo;
+	return Siderightnav;
 }(_react2.default.Component);
 
-// var Logo=React.createClass({
-// 	render:function(){
-// 		return (<div className="Logo" />);
-// 	}
-
-// })
-
-
-exports.default = Logo;
+exports.default = Siderightnav;

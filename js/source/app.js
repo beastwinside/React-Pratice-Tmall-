@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Logo from './components/Logo';
+import Main from  './containers/Main';
+import Sitenav from  './containers/Sitenav';
+import Mainheader from  './containers/Mainheader';
+import Sideleftnav from  './containers/Sideleftnav';
+import Siderightnav from  './containers/Siderightnav';
+
 
 ReactDOM.render(
-		<h1>
-			<Logo /> welcome to the app!
-
-		</h1>,
+		<div >
+		<Sitenav />
+		<Main />
+		<Mainheader />
+		<Sideleftnav />
+		<Siderightnav />
+		</div>
+		,
 		document.getElementById('app')
 
 	);

@@ -8,15 +8,34 @@ var _reactDom = require('react-dom');
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _Logo = require('./components/Logo');
+var _Main = require('./containers/Main');
 
-var _Logo2 = _interopRequireDefault(_Logo);
+var _Main2 = _interopRequireDefault(_Main);
+
+var _Sitenav = require('./containers/Sitenav');
+
+var _Sitenav2 = _interopRequireDefault(_Sitenav);
+
+var _Mainheader = require('./containers/Mainheader');
+
+var _Mainheader2 = _interopRequireDefault(_Mainheader);
+
+var _Sideleftnav = require('./containers/Sideleftnav');
+
+var _Sideleftnav2 = _interopRequireDefault(_Sideleftnav);
+
+var _Siderightnav = require('./containers/Siderightnav');
+
+var _Siderightnav2 = _interopRequireDefault(_Siderightnav);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom2.default.render(_react2.default.createElement(
-		'h1',
+		'div',
 		null,
-		_react2.default.createElement(_Logo2.default, null),
-		' welcome to the app!'
+		_react2.default.createElement(_Sitenav2.default, null),
+		_react2.default.createElement(_Main2.default, null),
+		_react2.default.createElement(_Mainheader2.default, null),
+		_react2.default.createElement(_Sideleftnav2.default, null),
+		_react2.default.createElement(_Siderightnav2.default, null)
 ), document.getElementById('app'));

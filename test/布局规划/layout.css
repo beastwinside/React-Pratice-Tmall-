@@ -1,3 +1,23 @@
+/*初始化  reset*/  
+body,button,dd,dl,dt,h1,h2,h3,h4,h5,h6,input,li,ol,p,td,ul{margin:0;padding:0}  
+body,button,input{font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif}  
+h1,h2,h3,h4,h5,h6,button,input{font-size:100%}  
+ol,ul{list-style:none}  
+a{text-decoration:none}  
+a:hover{text-decoration:underline}  
+fieldset,img{border:0;vertical-align:top;}  
+a,button{cursor:pointer;}  
+/*清除浮动*/  
+.clearfix:before,.clearfix:after {  
+    content:"";  
+    display:table;  
+}  
+.clearfix:after{clear:both;}  
+.clearfix{  
+    *zoom:1;/*IE/7/6*/  
+}  
+/*normalize.css，以上样式为*/
+
 body,html{
 	width: 100%;
 	height: 100%;
@@ -5,6 +25,13 @@ body,html{
 	position: absolute;
 	font-size:30px; 
 	text-align: center;}
+
+	#app{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+
+	}
 
 	#sitenav{
 		width:1200px;
@@ -31,7 +58,7 @@ body,html{
 	}
 	#headleftlogo{
 		width: 200px;
-		height: 100%;
+		height: 70%;
 		position: absolute;
 		left: 0;
 		background-color: #C2B3B3;
@@ -39,22 +66,14 @@ body,html{
 	
 	#headleftlogo #logo{
 		width: 100%;
-		height: 70%;
+		height: 100%;
 		background-color: white;
 		font-size: 40px;
 		color: red;
 	}
 
-	#headleftlogo #classify{
-		width:100%;
-		height: 30%;
-		position: absolute;
-		bottom: 0;
-		background-color: black;
-		color: white;
+	
 
-
-	}
 
 	#pos_select{
 		width: 80px;
@@ -72,7 +91,7 @@ body,html{
 	}
 
 
-	header form{
+	header#mainheader form{
 		position: absolute;
 		top:60px;
 		left: 0;
@@ -81,41 +100,75 @@ body,html{
 
 	}
 	
-	header input{
+	header#mainheader input{
 		width: 500px;
 		margin: 0;
 	}
 	
-	header button{
+	header#mainheader button{
 		margin: 0; 
 		width:100px;
 		height: 50px;
 	} 
 
-	header nav{
-		height:30%;
+
+
+	#fixed{
+		width: 1200px;
+		height: 10%;
+		background-color: #98FCB6;
+		position: fixed;
+		top: 0;
+		
+	}
+	
+	#fixed nav{
+		height:60%;
 		width: 800px;
 		position: absolute;
-		left: 200px;
+		left: 250px;
 		bottom: 0;
 		background-color: #6385F0; 
 	}
 	
-	header nav ul{
+	#fixed nav ul{
 		left: 0;
 		position: absolute;
 	}
 
-	header nav ul> li:first-child{
+	#fixed nav ul> li:first-child{
 		border-left-style: none;
 	}
 
-	header nav li{
+	#fixed nav li{
 		display: inline-block;
 		border-left-style: solid;
 
 	}
 	
+
+	#fixed #classify{
+		width:20%;
+		height: 80%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-color: black;
+		color: white;
+
+
+	}
+
+	#fixed #shopping_card{
+		width: 15%;
+		height: 80%;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background-color: black;
+		color: white; 
+
+	}
 
 	#main{
 		width: 1200px;
