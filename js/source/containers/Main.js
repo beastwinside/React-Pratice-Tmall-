@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Show_box_last from './Show_box_last'
 import Mainshow from  './Mainshow';
 import Show_box from  './Show_box';
 
@@ -21,6 +21,7 @@ class 	Main extends React.Component{
 		<Show_box/>
 		<Show_box/>
 		<Show_box/>
+		<Show_box_last/>
 		
 		</div>;
 	}

@@ -377,7 +377,7 @@ body,html{
 		margin-top: 4px;
 		width: 100%;
 		height: 10%;
-		background-color: #1A7DD6;
+		background-color: white;
 		position: relative;
 		top: 10%;
 		font-weight: bolder;
@@ -509,6 +509,30 @@ body,html{
 		left: 0;
 		background-color: green;
 	}
+
+
+ 	#Show_box_last{
+ 		width: 100%;
+ 		height: 225px;
+ 		background-color: #CE0BDD;
+ 		position: absolute;
+ 		bottom: 0;
+ 		display:flex;
+ 		flex-wrap: nowrap;
+		justify-content: space-around;
+		align-items: center;
+
+ 	}
+
+ 	.Show_box_last_item{
+ 		width: 18%;
+ 		height: 95%;
+ 		background-color: #F72929;
+
+
+
+ 	}
+
 
 	footer{
 

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -6,21 +6,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require('react');
+var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
-
-var _Show_box_last = require('./Show_box_last');
-
-var _Show_box_last2 = _interopRequireDefault(_Show_box_last);
-
-var _Mainshow = require('./Mainshow');
-
-var _Mainshow2 = _interopRequireDefault(_Mainshow);
-
-var _Show_box = require('./Show_box');
-
-var _Show_box2 = _interopRequireDefault(_Show_box);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30,42 +18,51 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Main = function (_React$Component) {
-	_inherits(Main, _React$Component);
+var Show_box_last = function (_React$Component) {
+	_inherits(Show_box_last, _React$Component);
 
-	function Main() {
-		_classCallCheck(this, Main);
+	function Show_box_last() {
+		_classCallCheck(this, Show_box_last);
 
-		return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Show_box_last.__proto__ || Object.getPrototypeOf(Show_box_last)).apply(this, arguments));
 	}
 
-	_createClass(Main, [{
-		key: 'render',
+	_createClass(Show_box_last, [{
+		key: "render",
 		value: function render() {
 			return _react2.default.createElement(
-				'div',
-				{ id: 'main' },
-				_react2.default.createElement(_Mainshow2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box_last2.default, null)
+				"div",
+				{ id: "Show_box_last" },
+				_react2.default.createElement(
+					"div",
+					{ className: "Show_box_last_item" },
+					"23"
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "Show_box_last_item" },
+					"23"
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "Show_box_last_item" },
+					"23"
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "Show_box_last_item" },
+					"23"
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "Show_box_last_item" },
+					"23"
+				)
 			);
 		}
 	}]);
 
-	return Main;
+	return Show_box_last;
 }(_react2.default.Component);
 
-exports.default = Main;
+exports.default = Show_box_last;
