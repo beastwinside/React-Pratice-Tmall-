@@ -10,10 +10,6 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Mainshow_ul = require('../components/Mainshow_ul');
-
-var _Mainshow_ul2 = _interopRequireDefault(_Mainshow_ul);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22,27 +18,51 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Mainshow = function (_React$Component) {
-	_inherits(Mainshow, _React$Component);
+var Mainshow_ul_li = function (_React$Component) {
+	_inherits(Mainshow_ul_li, _React$Component);
 
-	function Mainshow() {
-		_classCallCheck(this, Mainshow);
+	function Mainshow_ul_li() {
+		_classCallCheck(this, Mainshow_ul_li);
 
-		return _possibleConstructorReturn(this, (Mainshow.__proto__ || Object.getPrototypeOf(Mainshow)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Mainshow_ul_li.__proto__ || Object.getPrototypeOf(Mainshow_ul_li)).apply(this, arguments));
 	}
 
-	_createClass(Mainshow, [{
+	_createClass(Mainshow_ul_li, [{
 		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
-				'div',
-				{ id: 'mainshow' },
-				_react2.default.createElement(_Mainshow_ul2.default, null)
+				'li',
+				null,
+				'\u8FDB\u53E3\u5546\u54C1',
+				_react2.default.createElement(
+					'p',
+					null,
+					_react2.default.createElement(
+						'a',
+						null,
+						'\u725B\u5976 '
+					),
+					_react2.default.createElement(
+						'a',
+						null,
+						'\u96F6\u98DF '
+					),
+					_react2.default.createElement(
+						'a',
+						null,
+						'\u997C\u5E72 '
+					),
+					_react2.default.createElement(
+						'a',
+						null,
+						'\u901F\u98DF '
+					)
+				)
 			);
 		}
 	}]);
 
-	return Mainshow;
+	return Mainshow_ul_li;
 }(_react2.default.Component);
 
-exports.default = Mainshow;
+exports.default = Mainshow_ul_li;
