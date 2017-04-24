@@ -28,6 +28,10 @@ var _Siderightnav = require('./containers/Siderightnav');
 
 var _Siderightnav2 = _interopRequireDefault(_Siderightnav);
 
+var _Footer = require('./containers/./Footer');
+
+var _Footer2 = _interopRequireDefault(_Footer);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom2.default.render(_react2.default.createElement(
@@ -37,5 +41,6 @@ _reactDom2.default.render(_react2.default.createElement(
 		_react2.default.createElement(_Main2.default, null),
 		_react2.default.createElement(_Mainheader2.default, null),
 		_react2.default.createElement(_Sideleftnav2.default, null),
-		_react2.default.createElement(_Siderightnav2.default, null)
+		_react2.default.createElement(_Siderightnav2.default, null),
+		_react2.default.createElement(_Footer2.default, null)
 ), document.getElementById('app'));

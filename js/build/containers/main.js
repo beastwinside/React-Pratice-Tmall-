@@ -10,10 +10,6 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Footer = require('./Footer');
-
-var _Footer2 = _interopRequireDefault(_Footer);
-
 var _Mainshow = require('./Mainshow');
 
 var _Mainshow2 = _interopRequireDefault(_Mainshow);
@@ -59,8 +55,7 @@ var Main = function (_React$Component) {
 				_react2.default.createElement(_Show_box2.default, null),
 				_react2.default.createElement(_Show_box2.default, null),
 				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Footer2.default, null)
+				_react2.default.createElement(_Show_box2.default, null)
 			);
 		}
 	}]);

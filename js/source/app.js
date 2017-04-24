@@ -6,7 +6,7 @@ import Sitenav from  './containers/Sitenav';
 import Mainheader from  './containers/Mainheader';
 import Sideleftnav from  './containers/Sideleftnav';
 import Siderightnav from  './containers/Siderightnav';
-
+import Footer from  './containers/./Footer';
 
 ReactDOM.render(
 		<div >
@@ -15,7 +15,7 @@ ReactDOM.render(
 		<Mainheader />
 		<Sideleftnav />
 		<Siderightnav />
-		
+		<Footer />	
 		</div>
 		,
 		document.getElementById('app')

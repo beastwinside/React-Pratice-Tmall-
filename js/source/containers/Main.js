@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from  './Footer';
+
 import Mainshow from  './Mainshow';
 import Show_box from  './Show_box';
 
@@ -21,7 +21,7 @@ class 	Main extends React.Component{
 		<Show_box/>
 		<Show_box/>
 		<Show_box/>
-		<Footer />	
+		
 		</div>;
 	}
 
