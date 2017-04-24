@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -6,13 +6,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require('react');
+var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
-
-var _Show_container = require('./Show_container');
-
-var _Show_container2 = _interopRequireDefault(_Show_container);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22,32 +18,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Show_box = function (_React$Component) {
-	_inherits(Show_box, _React$Component);
+var Show_box_left = function (_React$Component) {
+	_inherits(Show_box_left, _React$Component);
 
-	function Show_box() {
-		_classCallCheck(this, Show_box);
+	function Show_box_left() {
+		_classCallCheck(this, Show_box_left);
 
-		return _possibleConstructorReturn(this, (Show_box.__proto__ || Object.getPrototypeOf(Show_box)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Show_box_left.__proto__ || Object.getPrototypeOf(Show_box_left)).apply(this, arguments));
 	}
 
-	_createClass(Show_box, [{
-		key: 'render',
+	_createClass(Show_box_left, [{
+		key: "render",
 		value: function render() {
-			return _react2.default.createElement(
-				'div',
-				{ className: 'show_box' },
-				_react2.default.createElement(
-					'header',
-					{ className: 'show_headerr' },
-					'\u751F\u9C9C\u6C34\u679C'
-				),
-				_react2.default.createElement(_Show_container2.default, null)
-			);
+			return _react2.default.createElement("div", { className: "show_box_left" });
 		}
 	}]);
 
-	return Show_box;
+	return Show_box_left;
 }(_react2.default.Component);
 
-exports.default = Show_box;
+exports.default = Show_box_left;
