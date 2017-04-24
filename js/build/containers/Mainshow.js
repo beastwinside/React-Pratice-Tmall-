@@ -18,6 +18,10 @@ var _Lunbomain = require('./Lunbomain');
 
 var _Lunbomain2 = _interopRequireDefault(_Lunbomain);
 
+var _Lunboright = require('./Lunboright');
+
+var _Lunboright2 = _interopRequireDefault(_Lunboright);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -42,6 +46,7 @@ var Mainshow = function (_React$Component) {
 				'div',
 				{ id: 'mainshow' },
 				_react2.default.createElement(_Lunbomain2.default, null),
+				_react2.default.createElement(_Lunboright2.default, null),
 				_react2.default.createElement(_Mainshow_ul2.default, null)
 			);
 		}

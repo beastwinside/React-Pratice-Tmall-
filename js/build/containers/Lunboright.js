@@ -10,17 +10,9 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Footer = require('./Footer');
+var _Lunboright_mywelfare = require('./Lunboright_mywelfare');
 
-var _Footer2 = _interopRequireDefault(_Footer);
-
-var _Mainshow = require('./Mainshow');
-
-var _Mainshow2 = _interopRequireDefault(_Mainshow);
-
-var _Show_box = require('./Show_box');
-
-var _Show_box2 = _interopRequireDefault(_Show_box);
+var _Lunboright_mywelfare2 = _interopRequireDefault(_Lunboright_mywelfare);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30,38 +22,37 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Main = function (_React$Component) {
-	_inherits(Main, _React$Component);
+var Lunboright = function (_React$Component) {
+	_inherits(Lunboright, _React$Component);
 
-	function Main() {
-		_classCallCheck(this, Main);
+	function Lunboright() {
+		_classCallCheck(this, Lunboright);
 
-		return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Lunboright.__proto__ || Object.getPrototypeOf(Lunboright)).apply(this, arguments));
 	}
 
-	_createClass(Main, [{
+	_createClass(Lunboright, [{
 		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
 				'div',
-				{ id: 'main' },
-				_react2.default.createElement(_Mainshow2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Footer2.default, null)
+				{ id: 'lunbo_right' },
+				_react2.default.createElement(_Lunboright_mywelfare2.default, null),
+				_react2.default.createElement(
+					'div',
+					{ id: 'lunbo_right_1' },
+					'\u5E7F\u544A'
+				),
+				_react2.default.createElement(
+					'div',
+					{ id: 'lunbo_right_2' },
+					'\u5E7F\u544A'
+				)
 			);
 		}
 	}]);
 
-	return Main;
+	return Lunboright;
 }(_react2.default.Component);
 
-exports.default = Main;
+exports.default = Lunboright;

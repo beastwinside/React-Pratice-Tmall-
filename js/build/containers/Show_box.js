@@ -10,17 +10,9 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Footer = require('./Footer');
+var _Show_container = require('./Show_container');
 
-var _Footer2 = _interopRequireDefault(_Footer);
-
-var _Mainshow = require('./Mainshow');
-
-var _Mainshow2 = _interopRequireDefault(_Mainshow);
-
-var _Show_box = require('./Show_box');
-
-var _Show_box2 = _interopRequireDefault(_Show_box);
+var _Show_container2 = _interopRequireDefault(_Show_container);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30,38 +22,32 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Main = function (_React$Component) {
-	_inherits(Main, _React$Component);
+var Show_box = function (_React$Component) {
+	_inherits(Show_box, _React$Component);
 
-	function Main() {
-		_classCallCheck(this, Main);
+	function Show_box() {
+		_classCallCheck(this, Show_box);
 
-		return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Show_box.__proto__ || Object.getPrototypeOf(Show_box)).apply(this, arguments));
 	}
 
-	_createClass(Main, [{
+	_createClass(Show_box, [{
 		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
 				'div',
-				{ id: 'main' },
-				_react2.default.createElement(_Mainshow2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Footer2.default, null)
+				{ className: 'show_box' },
+				_react2.default.createElement(
+					'header',
+					{ 'class': 'show_header' },
+					'\u751F\u9C9C\u6C34\u679C'
+				),
+				_react2.default.createElement(_Show_container2.default, null)
 			);
 		}
 	}]);
 
-	return Main;
+	return Show_box;
 }(_react2.default.Component);
 
-exports.default = Main;
+exports.default = Show_box;

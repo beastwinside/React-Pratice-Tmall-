@@ -364,7 +364,7 @@ body,html{
 	.show_box{
 		width: 100%;
 		height: 600px;
-		
+		background-color: #DD438B;
 		position: relative;
 		
 	}
