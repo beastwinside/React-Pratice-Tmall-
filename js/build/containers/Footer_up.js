@@ -30,7 +30,121 @@ var Footer_up = function (_React$Component) {
 	_createClass(Footer_up, [{
 		key: 'render',
 		value: function render() {
-			return _react2.default.createElement('div', { id: 'Footer_up' });
+			return _react2.default.createElement(
+				'div',
+				{ id: 'Footer_up' },
+				_react2.default.createElement(
+					'dl',
+					{ id: 'Footer_up_gwzn' },
+					_react2.default.createElement(
+						'dt',
+						null,
+						'\u8D2D\u7269\u6307\u5357'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u8D2D\u7269\u6307\u53571'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u8D2D\u7269\u6307\u53572'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u8D2D\u7269\u6307\u53573'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u8D2D\u7269\u6307\u53574'
+					)
+				),
+				_react2.default.createElement(
+					'dl',
+					{ id: 'Footer_up_shfw' },
+					_react2.default.createElement(
+						'dt',
+						null,
+						'\u552E\u540E\u670D\u52A1'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u552E\u540E\u670D\u52A11'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u552E\u540E\u670D\u52A12'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u552E\u540E\u670D\u52A13'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u552E\u540E\u670D\u52A14'
+					)
+				),
+				_react2.default.createElement(
+					'dl',
+					{ id: 'Footer_up_zzfw' },
+					_react2.default.createElement(
+						'dt',
+						null,
+						'\u81EA\u52A9\u670D\u52A1'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u81EA\u52A9\u670D\u52A11'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u81EA\u52A9\u670D\u52A12'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u81EA\u52A9\u670D\u52A13'
+					)
+				),
+				_react2.default.createElement(
+					'dl',
+					{ id: 'Footer_up_sjfw' },
+					_react2.default.createElement(
+						'dt',
+						null,
+						'\u5546\u5BB6\u670D\u52A1'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u5546\u5BB6\u670D\u52A11'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u5546\u5BB6\u670D\u52A12'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u5546\u5BB6\u670D\u52A13'
+					),
+					_react2.default.createElement(
+						'dd',
+						null,
+						'\u5546\u5BB6\u670D\u52A14'
+					)
+				)
+			);
 		}
 	}]);
 
