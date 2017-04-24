@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -6,13 +6,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require('react');
+var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
-
-var _Show_box_main_cell = require('../components/Show_box_main_cell');
-
-var _Show_box_main_cell2 = _interopRequireDefault(_Show_box_main_cell);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22,34 +18,35 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Show_box_main = function (_React$Component) {
-	_inherits(Show_box_main, _React$Component);
+var Show_box_left_top = function (_React$Component) {
+	_inherits(Show_box_left_top, _React$Component);
 
-	function Show_box_main() {
-		_classCallCheck(this, Show_box_main);
+	function Show_box_left_top() {
+		_classCallCheck(this, Show_box_left_top);
 
-		return _possibleConstructorReturn(this, (Show_box_main.__proto__ || Object.getPrototypeOf(Show_box_main)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Show_box_left_top.__proto__ || Object.getPrototypeOf(Show_box_left_top)).apply(this, arguments));
 	}
 
-	_createClass(Show_box_main, [{
-		key: 'render',
+	_createClass(Show_box_left_top, [{
+		key: "render",
 		value: function render() {
 			return _react2.default.createElement(
-				'div',
-				{ className: 'show_box_main' },
-				_react2.default.createElement(_Show_box_main_cell2.default, null),
-				_react2.default.createElement(_Show_box_main_cell2.default, null),
-				_react2.default.createElement(_Show_box_main_cell2.default, null),
-				_react2.default.createElement(_Show_box_main_cell2.default, null),
-				_react2.default.createElement(_Show_box_main_cell2.default, null),
-				_react2.default.createElement(_Show_box_main_cell2.default, null),
-				_react2.default.createElement(_Show_box_main_cell2.default, null),
-				_react2.default.createElement(_Show_box_main_cell2.default, null)
+				"div",
+				{ className: "show_box_left_top" },
+				_react2.default.createElement("span", { className: "showbox_9item" }),
+				_react2.default.createElement("span", { className: "showbox_9item" }),
+				_react2.default.createElement("span", { className: "showbox_9item" }),
+				_react2.default.createElement("span", { className: "showbox_9item" }),
+				_react2.default.createElement("span", { className: "showbox_9item" }),
+				_react2.default.createElement("span", { className: "showbox_9item" }),
+				_react2.default.createElement("span", { className: "showbox_9item" }),
+				_react2.default.createElement("span", { className: "showbox_9item" }),
+				_react2.default.createElement("span", { className: "showbox_9item" })
 			);
 		}
 	}]);
 
-	return Show_box_main;
+	return Show_box_left_top;
 }(_react2.default.Component);
 
-exports.default = Show_box_main;
+exports.default = Show_box_left_top;

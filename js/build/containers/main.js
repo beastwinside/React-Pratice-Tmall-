@@ -56,6 +56,10 @@ var Main = function (_React$Component) {
 				_react2.default.createElement(_Show_box2.default, null),
 				_react2.default.createElement(_Show_box2.default, null),
 				_react2.default.createElement(_Show_box2.default, null),
+				_react2.default.createElement(_Show_box2.default, null),
+				_react2.default.createElement(_Show_box2.default, null),
+				_react2.default.createElement(_Show_box2.default, null),
+				_react2.default.createElement(_Show_box2.default, null),
 				_react2.default.createElement(_Footer2.default, null)
 			);
 		}

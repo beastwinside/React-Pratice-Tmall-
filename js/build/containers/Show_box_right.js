@@ -30,7 +30,12 @@ var Show_box_right = function (_React$Component) {
 	_createClass(Show_box_right, [{
 		key: "render",
 		value: function render() {
-			return _react2.default.createElement("div", { className: "show_box_right" });
+			return _react2.default.createElement(
+				"div",
+				{ className: "show_box_right" },
+				_react2.default.createElement("img", { alt: "\u56FE", className: "show_box_right_u" }),
+				_react2.default.createElement("img", { alt: "\u56FE", className: "show_box_right_d" })
+			);
 		}
 	}]);
 
