@@ -197,17 +197,17 @@ body,html{
 	}
 
 
-	#mainshow ul{
+	#mainshow_ul{
 		height: 100%;
 		width: 200px;
 		background-color: white;
 		position: relative;
 	}
 
-	#mainshow ul >li:first-child{
+	#mainshow_ul >li:first-child{
 		border-top-style: none; 
 	}
-	#mainshow ul li{
+	#mainshow_ul li{
 		height: 14%;
 		width: 100%;
 		float: left;
@@ -217,7 +217,7 @@ body,html{
 	}
 
 
-	#mainshow ul li:hover{
+	#mainshow_ul li:hover{
 		background-color: red;
 		color: white;
 	}
@@ -347,7 +347,7 @@ body,html{
 		left: 1%;
 		font-size: 20px;
 		color: white;
-	
+
 	}
 
 	#sideright{
