@@ -10,13 +10,9 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Mainshow_ul = require('../components/Mainshow_ul');
+var _Lunbodown_div = require('../components/Lunbodown_div');
 
-var _Mainshow_ul2 = _interopRequireDefault(_Mainshow_ul);
-
-var _Lunbomain = require('./Lunbomain');
-
-var _Lunbomain2 = _interopRequireDefault(_Lunbomain);
+var _Lunbodown_div2 = _interopRequireDefault(_Lunbodown_div);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26,28 +22,32 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Mainshow = function (_React$Component) {
-	_inherits(Mainshow, _React$Component);
+var Lunbodown = function (_React$Component) {
+	_inherits(Lunbodown, _React$Component);
 
-	function Mainshow() {
-		_classCallCheck(this, Mainshow);
+	function Lunbodown() {
+		_classCallCheck(this, Lunbodown);
 
-		return _possibleConstructorReturn(this, (Mainshow.__proto__ || Object.getPrototypeOf(Mainshow)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Lunbodown.__proto__ || Object.getPrototypeOf(Lunbodown)).apply(this, arguments));
 	}
 
-	_createClass(Mainshow, [{
+	_createClass(Lunbodown, [{
 		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
 				'div',
-				{ id: 'mainshow' },
-				_react2.default.createElement(_Lunbomain2.default, null),
-				_react2.default.createElement(_Mainshow_ul2.default, null)
+				{ id: 'lunbo_down' },
+				_react2.default.createElement(_Lunbodown_div2.default, null),
+				_react2.default.createElement(_Lunbodown_div2.default, null),
+				_react2.default.createElement(_Lunbodown_div2.default, null),
+				_react2.default.createElement(_Lunbodown_div2.default, null),
+				_react2.default.createElement(_Lunbodown_div2.default, null),
+				_react2.default.createElement(_Lunbodown_div2.default, null)
 			);
 		}
 	}]);
 
-	return Mainshow;
+	return Lunbodown;
 }(_react2.default.Component);
 
-exports.default = Mainshow;
+exports.default = Lunbodown;
