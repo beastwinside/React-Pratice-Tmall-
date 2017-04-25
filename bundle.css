@@ -111,7 +111,32 @@ body,html{
 		
 
 	}
+
+	#header_form_down_ul{
+		height: 15px;
+		width: 600px;
+		color: #A19D9D;
+		position: absolute;
+		font-size: 15px;
+		text-align: left;
+		top: 63px;
+		left: 350px;
+		z-index: 3;
+	}
+
 	
+	#header_form_down_ul li{
+		display: inline-block;
+		border-left-style: solid;
+		border-width: 1px;
+		margin-right: 10px;
+		text-indent: 10px;
+	}
+
+	#header_form_down_ul>li:first-child{
+		border-left-style: none;
+		text-indent: 0px;
+	}
 	#mainheader input{
 		width: 500px;
 		margin: 0;
@@ -156,7 +181,7 @@ body,html{
 		text-align: center;
 		font-weight: bolder;
 		z-index: 10
-	
+
 	}
 
 	#Mainheader_nav__nav{
@@ -277,460 +302,460 @@ body,html{
 		background-color: #e41a3a;
 		cursor: pointer;}
 
-	#mainshow_ul span{
-		position: absolute;
-		top: 20px;
-	}
-
-    #mainshow_ul >li:last-child:hover{
-    	background-color: #f3f3f3;
-    	color: black;
-    	cursor: default;
-    }
-	
-
-
-	#mainshow p{
-		width: 100%;
-		height: 25%;
-		position: absolute;
-		bottom: 10px;
-		font-size: 15px;
-		text-align: left;
-		color: #817A7A;
-	}
-
-
-	#lunbo_main{
-		width:800px;
-		height: 100%;
-		position: absolute;
-		left: 200px;
-	
-		top: 0;
-
-
-	}
-
-	#lunbo{
-		width: 100%;
-		height: 50%;
-		background-color: #32A04A;
-		position: absolute;
-		top: 0;
-		font-size: 80px;
-	}
-
-	#lunbo_down{
-		width: 100%;
-		height: 50%;
-		
-		position: absolute;
-		bottom: -3px;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		align-items: : center;
-
-	}
-
-	#lunbo_down div{
-		width: 33%;
-		height: 49%;
-		background-color: #B0FAAA;
-
-	}
-
-	#lunbo_down div:hover{
-		font-size: 50px;
-
-
-	}
-
-	#lunbo_right{
-		width: 180px;
-		height: 100%;
-		background-color: #2B6DF6;
-		position: absolute;
-		right: 0;
-		top: 0;
-
-
-	}
-
-	#mywelfare{
-		width:100%;
-		height: 40%;
-		position: absolute;
-		top: 0;
-		background-color: #E77330; 
-
-
-	}
-
-	#welfarelogo{
-		width:100%;
-		height: 30%;
-		position: absolute;
-		bottom: 0;
-		background-color: #F8FEAF; 
-
-	}
-
-	#welfarelogo>a:first-child{
-		border-left-style: none;
-	}
-	#welfarelogo a{
-		border-left-style: solid;
-		font-size: 15px;
-
-	}
-
-	#lunbo_right_1{
-		width:100%;
-		height: 30%;
-		position: absolute;
-		top: 40%;
-		background-color: #41E455; 
-
-	}
-
-	#lunbo_right_2{
-		width:100%;
-		height: 30%;
-		position: absolute;
-		bottom: 0;
-		background-color: #E7DA30; 
-
-	}
-
-	
-
-
-	#sideleft{
-		width: 100px;
-		height: 500px;
-		background-color: #F43A3A;
-		position: fixed;
-		top: 200px;
-		right: 90%;
-		font-size: 20px;
-		color: white;
-		z-index:10;
-		
-
-	}
-
-
-	.side_left_item{
-		width: 100%;
-		height: 10%;
-		border-bottom-style: solid;
-		border-width: 1px;
-		border-color: white;
-	}
-
-	.side_left_item:hover{
-		background-color: #F70986;
-	}
-
-	#sideright{
-		width: 30px;
-		height: 1080px;
-		background-color: black;
-		position: fixed;
-		top: 0;
-		right: 0;
-		font-size: 20px;
-		color: white;
-		z-index: 3;
-	}
-
-     
-	.show_box{
-		width: 100%;
-		height: 600px;
-		
-		position: relative;
-		margin-top: 30px;
-		
-	}
-
-
-
-
-	.show_headerr{
-		margin-top: 4px;
-		width: 100%;
-		height: 10%;
-		background-color: white;
-		position: relative;
-		top: 10%;
-		font-family: 华文幼圆;
-		font-weight: bolder;
-		font-size: 20px;
-		text-align: left;
-		border-bottom-style: solid;
-		
-
-
-	}
+		#mainshow_ul span{
+			position: absolute;
+			top: 20px;
+		}
+
+		#mainshow_ul >li:last-child:hover{
+			background-color: #f3f3f3;
+			color: black;
+			cursor: default;
+		}
+
+
+
+		#mainshow p{
+			width: 100%;
+			height: 25%;
+			position: absolute;
+			bottom: 10px;
+			font-size: 15px;
+			text-align: left;
+			color: #817A7A;
+		}
+
+
+		#lunbo_main{
+			width:800px;
+			height: 100%;
+			position: absolute;
+			left: 200px;
 
-	.show_headerr span{
-		height: 25px;
-		position: absolute;
-		bottom: 5px;
-
-	}
-
-	.show_container{
-		width: 100%;
-		height: 90%;
-		background-color: #C7F864;
-		position: relative;
-		top: 10%;
-
-
-	}
-
-
-	.show_box_left{
-		width: 20%;
-		height: 100%;
-		position: absolute;
-		left: 0;
-		background-color: #F88D0C;
-
-
-	}
-
-	.show_box_left_top{
-		width: 100%;
-		height: 40%;
-		position: absolute;
-		top: 0;
-		background-color: #2EE159;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		align-items: center;
-
-
-	}
-
-	.showbox_9item{
-
-		width: 28%;
-		height: 30%;
-		background-color: white;
-		border-radius: 50%;
-
-	}
-
-	.showbox_left_img{
+			top: 0;
 
-		width: 100%;
-		height: 60%;
-		position: absolute;
-		bottom: 0;
-		background-color: #F7A2A2;
-		left: 0;
-
-	}
-
-	.show_box_main{
-
-		width: 65%;
-		height: 100%;
-		background-color: #332F2F;
-		position: absolute;
-		top: 0;
-		left: 20%;
-		display: flex;
-		justify-content: space-around;
-		flex-wrap: wrap;
-		align-items: center;
-	}
-
-
-
-	.show_box_main_item{
-		width: 24%;
-		height: 49%;
-		background-color: #F05E25;
-		position: relative;
-
-	}
-
-	.show_box_main_item p{
-
-		width: 100%;
-		height: 20%;
-		position: absolute;
-		bottom: 0;
-		background-color: #E4BBBB;
-		color: white;
-
-	}
-
-
-
-	.show_box_right{
-		width: 15%;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		right: 0;
-		background-color: #2C3E56;
-
-	}
-
-	.show_box_right_u{
-		width: 100%;
-		height: 50%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		background-color: red;
-
-	}
-
-	.show_box_right_d{
-		width: 100%;
-		height: 50%;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		background-color: green;
-	}
-
-
-	#Show_box_last{
-		width: 100%;
-		height: 225px;
-		background-color: #CE0BDD;
-		position: absolute;
-		bottom: 0;
-		display:flex;
-		flex-wrap: nowrap;
-		justify-content: space-around;
-		align-items: center;
-
-	}
-
-	.Show_box_last_item{
-		width: 18%;
-		height: 95%;
-		background-color: #F72929;
-
-
-
-	}
-
-
-	footer{
-
-		width: 100%;
-		height: 400px;
-		position: absolute;
-		top: 8980px;
-		right: 0;
-		left: 0;
-		margin: auto;
-		background-color: #20B5E7;
-		z-index: 1;
-	}
-
-	#Footer_up{
-		height: 50%;
-		width: 100%;
-		top: 0;
-		background-color: white;
-		font-size: 15px;
-
-	}
-
-	#Footer_up_container{
-		height: 100%;
-		width: 800px;
-		left: 0;
-		right: 0;
-		margin:auto;
-		position: absolute;
-		display: flex;
-		justify-content: flex-end;
-
-	}
-
-	#Footer_up_gwzn{
-		width: 120px;
-		height: 180px;
-		background-color: #D5C5C5;
-		margin-right: 50px;
-		
-	}
-
-	#Footer_up_shfw{
-		width: 120px;
-		height: 180px;
-		background-color: #A09494;
-		margin-right: 50px;
-		
-	}
-
-	#Footer_up_zzfw{
-		width: 120px;
-		height: 180px;
-		background-color: #8A8383;
-		margin-right: 50px;
-
-	}
-
-	#Footer_up_sjfw{
-		width: 120px;
-		height: 180px;
-		background-color: #312E2E;
-	}
-
-
-
-	#Footer_down{
-		height: 50%;
-		width: 100%;
-		position: absolute;
-		bottom: 0;
-		background-color: red;
-		color: white;
-		
-	}
-
-	#Footer_down_main{
-		height: 100%;
-		width: 1200px;
-		position: absolute;
-		left: 0;
-		right: 0;
-		margin: auto;
-		color: #EAE550;
-		border-style: solid;
-	}
-
-	#Footer_down_p1{
-		width: 100%;
-		height: 70px;
-		position: relative;
-		background-color: black;
-		color: white;
-		font-size: 30px;
-
-	}
-
-	#Footer_down_p2{
-		width: 100%;
-		height: 60px;
-		position: relative;
-		background-color: grey;
-		color: white;
-		font-size: 15px;
-
-	}
+
+		}
+
+		#lunbo{
+			width: 100%;
+			height: 50%;
+			background-color: #32A04A;
+			position: absolute;
+			top: 0;
+			font-size: 80px;
+		}
+
+		#lunbo_down{
+			width: 100%;
+			height: 50%; 
+			position: absolute;
+			bottom: -3px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: : center;
+
+		}
+
+		#lunbo_down div{
+			width: 33%;
+			height: 49%;
+			background-color: #B0FAAA;
+
+		}
+
+		#lunbo_down div:hover{
+			width: 34%;
+			height: 50%;
+			
+
+		}
+
+		#lunbo_right{
+			width: 180px;
+			height: 100%;
+			background-color: #2B6DF6;
+			position: absolute;
+			right: 0;
+			top: 0;
+
+
+		}
+
+		#mywelfare{
+			width:100%;
+			height: 40%;
+			position: absolute;
+			top: 0;
+			background-color: #E77330; 
+
+
+		}
+
+		#welfarelogo{
+			width:100%;
+			height: 30%;
+			position: absolute;
+			bottom: 0;
+			background-color: #F8FEAF; 
+
+		}
+
+		#welfarelogo>a:first-child{
+			border-left-style: none;
+		}
+		#welfarelogo a{
+			border-left-style: solid;
+			font-size: 15px;
+
+		}
+
+		#lunbo_right_1{
+			width:100%;
+			height: 30%;
+			position: absolute;
+			top: 40%;
+			background-color: #41E455; 
+
+		}
+
+		#lunbo_right_2{
+			width:100%;
+			height: 30%;
+			position: absolute;
+			bottom: 0;
+			background-color: #E7DA30; 
+
+		}
+
+
+
+
+		#sideleft{
+			width: 100px;
+			height: 500px;
+			background-color: #F43A3A;
+			position: fixed;
+			top: 200px;
+			right: 90%;
+			font-size: 20px;
+			color: white;
+			z-index:10;
+
+
+		}
+
+
+		.side_left_item{
+			width: 100%;
+			height: 10%;
+			border-bottom-style: solid;
+			border-width: 1px;
+			border-color: white;
+		}
+
+		.side_left_item:hover{
+			background-color: #F70986;
+		}
+
+		#sideright{
+			width: 30px;
+			height: 1080px;
+			background-color: black;
+			position: fixed;
+			top: 0;
+			right: 0;
+			font-size: 20px;
+			color: white;
+			z-index: 3;
+		}
+
+
+		.show_box{
+			width: 100%;
+			height: 600px;
+
+			position: relative;
+			margin-top: 30px;
+
+		}
+
+
+
+
+		.show_headerr{
+			margin-top: 4px;
+			width: 100%;
+			height: 10%;
+			background-color: white;
+			position: relative;
+			top: 10%;
+			font-family: 华文幼圆;
+			font-weight: bolder;
+			font-size: 20px;
+			text-align: left;
+			border-bottom-style: solid;
+
+
+
+		}
+
+		.show_headerr span{
+			height: 25px;
+			position: absolute;
+			bottom: 5px;
+
+		}
+
+		.show_container{
+			width: 100%;
+			height: 90%;
+			background-color: #C7F864;
+			position: relative;
+			top: 10%;
+
+
+		}
+
+
+		.show_box_left{
+			width: 20%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			background-color: #F88D0C;
+
+
+		}
+
+		.show_box_left_top{
+			width: 100%;
+			height: 40%;
+			position: absolute;
+			top: 0;
+			background-color: #2EE159;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: center;
+
+
+		}
+
+		.showbox_9item{
+
+			width: 28%;
+			height: 30%;
+			background-color: white;
+			border-radius: 50%;
+
+		}
+
+		.showbox_left_img{
+
+			width: 100%;
+			height: 60%;
+			position: absolute;
+			bottom: 0;
+			background-color: #F7A2A2;
+			left: 0;
+
+		}
+
+		.show_box_main{
+
+			width: 65%;
+			height: 100%;
+			background-color: #332F2F;
+			position: absolute;
+			top: 0;
+			left: 20%;
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+
+
+		.show_box_main_item{
+			width: 24%;
+			height: 49%;
+			background-color: #F05E25;
+			position: relative;
+
+		}
+
+		.show_box_main_item p{
+
+			width: 100%;
+			height: 20%;
+			position: absolute;
+			bottom: 0;
+			background-color: #E4BBBB;
+			color: white;
+
+		}
+
+
+
+		.show_box_right{
+			width: 15%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			right: 0;
+			background-color: #2C3E56;
+
+		}
+
+		.show_box_right_u{
+			width: 100%;
+			height: 50%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: red;
+
+		}
+
+		.show_box_right_d{
+			width: 100%;
+			height: 50%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background-color: green;
+		}
+
+
+		#Show_box_last{
+			width: 100%;
+			height: 225px;
+			background-color: #CE0BDD;
+			position: absolute;
+			bottom: 0;
+			display:flex;
+			flex-wrap: nowrap;
+			justify-content: space-around;
+			align-items: center;
+
+		}
+
+		.Show_box_last_item{
+			width: 18%;
+			height: 95%;
+			background-color: #F72929;
+
+
+
+		}
+
+
+		footer{
+
+			width: 100%;
+			height: 400px;
+			position: absolute;
+			top: 8980px;
+			right: 0;
+			left: 0;
+			margin: auto;
+			background-color: #20B5E7;
+			z-index: 1;
+		}
+
+		#Footer_up{
+			height: 50%;
+			width: 100%;
+			top: 0;
+			background-color: white;
+			font-size: 15px;
+
+		}
+
+		#Footer_up_container{
+			height: 100%;
+			width: 800px;
+			left: 0;
+			right: 0;
+			margin:auto;
+			position: absolute;
+			display: flex;
+			justify-content: flex-end;
+
+		}
+
+		#Footer_up_gwzn{
+			width: 120px;
+			height: 180px;
+			background-color: #D5C5C5;
+			margin-right: 50px;
+
+		}
+
+		#Footer_up_shfw{
+			width: 120px;
+			height: 180px;
+			background-color: #A09494;
+			margin-right: 50px;
+
+		}
+
+		#Footer_up_zzfw{
+			width: 120px;
+			height: 180px;
+			background-color: #8A8383;
+			margin-right: 50px;
+
+		}
+
+		#Footer_up_sjfw{
+			width: 120px;
+			height: 180px;
+			background-color: #312E2E;
+		}
+
+
+
+		#Footer_down{
+			height: 50%;
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			background-color: red;
+			color: white;
+
+		}
+
+		#Footer_down_main{
+			height: 100%;
+			width: 1200px;
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: auto;
+			color: #EAE550;
+			border-style: solid;
+		}
+
+		#Footer_down_p1{
+			width: 100%;
+			height: 70px;
+			position: relative;
+			background-color: black;
+			color: white;
+			font-size: 30px;
+
+		}
+
+		#Footer_down_p2{
+			width: 100%;
+			height: 60px;
+			position: relative;
+			background-color: grey;
+			color: white;
+			font-size: 15px;
+
+		}

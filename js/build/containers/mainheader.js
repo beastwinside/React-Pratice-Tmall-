@@ -37,6 +37,40 @@ var Mainheader = function (_React$Component) {
 			return _react2.default.createElement(
 				'header',
 				{ id: 'mainheader' },
+				_react2.default.createElement(
+					'ul',
+					{ id: 'header_form_down_ul' },
+					_react2.default.createElement(
+						'li',
+						null,
+						'\u9152\u6C34'
+					),
+					_react2.default.createElement(
+						'li',
+						null,
+						'\u7EB8\u5DFE'
+					),
+					_react2.default.createElement(
+						'li',
+						null,
+						'\u536B\u751F\u5DFE'
+					),
+					_react2.default.createElement(
+						'li',
+						null,
+						'\u5783\u573E\u888B'
+					),
+					_react2.default.createElement(
+						'li',
+						null,
+						'\u725B\u5976'
+					),
+					_react2.default.createElement(
+						'li',
+						null,
+						'\u889C\u5B50'
+					)
+				),
 				_react2.default.createElement(_Mainheader_nav2.default, null),
 				_react2.default.createElement(
 					'div',
