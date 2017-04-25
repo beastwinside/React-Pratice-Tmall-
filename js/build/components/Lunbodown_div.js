@@ -30,7 +30,12 @@ var Lunbodown_div = function (_React$Component) {
 	_createClass(Lunbodown_div, [{
 		key: 'render',
 		value: function render() {
-			return _React2.default.createElement('div', null);
+
+			return _React2.default.createElement(
+				'div',
+				null,
+				_React2.default.createElement('img', null)
+			);
 		}
 	}]);
 
