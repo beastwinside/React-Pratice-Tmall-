@@ -20,7 +20,7 @@ a,button{cursor:pointer;}
 
 body,html{
 	width: 100%;
-
+	min-width: 1600px;
 	height: 100%;
 	background-color: #48632C;
 	position: absolute;
@@ -38,7 +38,7 @@ body,html{
 
 	#sitenav{
 		width:1200px;
-		height: 50px;
+		height: 30px;
 		background-color: #92F6B8;
 		position: relative;
 		left: 0;
@@ -52,7 +52,7 @@ body,html{
 		height:200px;
 		background-color: #F1B546;
 		position: absolute;
-		top: 50px;
+		top: 30px;
 		left: 0;
 		right: 0;
 		margin: auto;
@@ -64,15 +64,17 @@ body,html{
 		height: 70%;
 		position: absolute;
 		left: 0;
-		background-color: #C2B3B3;
+		
 	}
 	
 	#headleftlogo #logo{
 		width: 100%;
-		height: 100%;
+		height: 80%;
 		background-color: white;
-		font-size: 40px;
+		font-size: 20px;
 		color: red;
+		background-image: url(./source/image/Tmall.png);
+		background-size:contain;
 	}
 
 	
@@ -80,98 +82,75 @@ body,html{
 
 	#pos_select{
 		width: 80px;
-		height: 50px;
+		height: 45px;
 		position: absolute;
 		background-color: white;
 		color: red;
 		top: 60px;
-		left: 200px;
+		left: 250px;
 		z-index: 100;
 		border-style: solid;
-		border-color: black;
+		border-color: #B0AAAA;
+		border-width: 1px;
+		font-size: 20px;
+		text-align: left;
+		padding-left: 10px;
+		
 
 
 	}
 
 
-	header#mainheader form{
+	#mainheader form{
 		position: relative;
 		top:60px;
-		left: 0;
-		right: 0;
-		margin: auto;
+		left: 150px;
+		
 
 	}
 	
-	header#mainheader input{
+	#mainheader input{
 		width: 500px;
 		margin: 0;
+		border-style: solid;
+		border-color: red;
+		border-width: 3px;
 	}
 	
-	header#mainheader button{
+	#mainheader button{
 		margin: 0; 
 		width:100px;
 		height: 50px;
-	} 
+		background-color: #F21A1A;
+		border-style: solid;
+		border-top-width: 3px;
+		border-bottom-width: 10px;
+		border-color: red;
+		color: white;
+	}
 
 
 
-	#fixed{
-		width: 1200px;
-		height: 10%;
-		background-color: #98FCB6;
-		position: fixed;
-		top: 0;
+	#Mainheader_nav_left{
+		width: 200px;
+		height: 30%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-color: #E41212;
+	}
+
+	#Mainheader_nav__nav{
+		width: 800px;
+		height: 30%;
+		position: absolute;
+		bottom: 0;
+		left: 200px;
+		background-color: #239897;
+		text-align: left;
 		
 	}
-	
-	#fixed nav{
-		height:60%;
-		width: 800px;
-		position: absolute;
-		left: 250px;
-		bottom: 0;
-		background-color: #6385F0; 
-	}
-	
-	#fixed nav ul{
-		left: 0;
-		position: absolute;
-	}
 
-	#fixed nav ul> li:first-child{
-		border-left-style: none;
-	}
-
-	#fixed nav li{
-		display: inline-block;
-		border-left-style: solid;
-
-	}
-	
-
-	#fixed #classify{
-		width:20%;
-		height: 80%;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		background-color: black;
-		color: white;
-
-
-	}
-
-	#fixed #shopping_card{
-		width: 15%;
-		height: 80%;
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		background-color: black;
-		color: white; 
-
-	}
 
 	#main{
 		width: 1200px;
@@ -346,11 +325,11 @@ body,html{
 		background-color: #F43A3A;
 		position: fixed;
 		top: 200px;
-		
+		right: 90%;
 		font-size: 20px;
 		color: white;
 		z-index:10;
-		margin-left: 30px ;
+		
 
 	}
 
@@ -363,8 +342,12 @@ body,html{
 		border-color: white;
 	}
 
+	.side_left_item:hover{
+		background-color: #F70986;
+	}
+
 	#sideright{
-		width: 50px;
+		width: 30px;
 		height: 1080px;
 		background-color: black;
 		position: fixed;
@@ -550,7 +533,7 @@ body,html{
 		width: 100%;
 		height: 400px;
 		position: absolute;
-		top: 9050px;
+		top: 9030px;
 		right: 0;
 		left: 0;
 		margin: auto;
@@ -600,14 +583,14 @@ body,html{
 		height: 180px;
 		background-color: #8A8383;
 		margin-right: 50px;
-	
+
 	}
 
 	#Footer_up_sjfw{
 		width: 120px;
 		height: 180px;
 		background-color: #312E2E;
-		}
+	}
 
 
 
