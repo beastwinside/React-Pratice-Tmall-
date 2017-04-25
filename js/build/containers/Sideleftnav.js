@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -6,9 +6,13 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require("react");
+var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
+
+var _Sideleft_item = require('../components/Sideleft_item');
+
+var _Sideleft_item2 = _interopRequireDefault(_Sideleft_item);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28,12 +32,20 @@ var Sideleftnav = function (_React$Component) {
 	}
 
 	_createClass(Sideleftnav, [{
-		key: "render",
+		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
-				"nav",
-				{ id: "sideleft" },
-				"\u5DE6\u8FB9\u51FA\u73B0\u7684\u5BFC\u822A\u6761\uFF0C \u5F53\u9875\u9762\u6EDA\u52A8\u4E00\u5B9A\u8DDD\u79BB\u51FA\u73B0"
+				'nav',
+				{ id: 'sideleft' },
+				_react2.default.createElement(_Sideleft_item2.default, null),
+				_react2.default.createElement(_Sideleft_item2.default, null),
+				_react2.default.createElement(_Sideleft_item2.default, null),
+				_react2.default.createElement(_Sideleft_item2.default, null),
+				_react2.default.createElement(_Sideleft_item2.default, null),
+				_react2.default.createElement(_Sideleft_item2.default, null),
+				_react2.default.createElement(_Sideleft_item2.default, null),
+				_react2.default.createElement(_Sideleft_item2.default, null),
+				_react2.default.createElement(_Sideleft_item2.default, null)
 			);
 		}
 	}]);

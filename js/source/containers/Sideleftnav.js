@@ -1,10 +1,20 @@
 import React from 'react';
+import Sideleft_item from '../components/Sideleft_item';
 
 
 class Sideleftnav extends React.Component{
 	render(){
-		return <nav id="sideleft">左边出现的导航条，
-			当页面滚动一定距离出现</nav> ;
+		return <nav id="sideleft">
+		<Sideleft_item/>
+		<Sideleft_item/>
+		<Sideleft_item/>
+		<Sideleft_item/>
+		<Sideleft_item/>
+		<Sideleft_item/>
+		<Sideleft_item/>
+		<Sideleft_item/>
+		<Sideleft_item/>
+		</nav> ;
 	}
 
 }

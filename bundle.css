@@ -175,7 +175,7 @@ body,html{
 
 	#main{
 		width: 1200px;
-		height: 9350px;
+		height: 8800px;
 		background-color:#F07777;
 		position: relative;
 		top: 200px;
@@ -354,6 +354,15 @@ body,html{
 
 	}
 
+
+	.side_left_item{
+		width: 100%;
+		height: 10%;
+		border-bottom-style: solid;
+		border-width: 1px;
+		border-color: white;
+	}
+
 	#sideright{
 		width: 50px;
 		height: 1080px;
@@ -513,27 +522,27 @@ body,html{
 	}
 
 
- 	#Show_box_last{
- 		width: 100%;
- 		height: 225px;
- 		background-color: #CE0BDD;
- 		position: absolute;
- 		bottom: 0;
- 		display:flex;
- 		flex-wrap: nowrap;
+	#Show_box_last{
+		width: 100%;
+		height: 225px;
+		background-color: #CE0BDD;
+		position: absolute;
+		bottom: 0;
+		display:flex;
+		flex-wrap: nowrap;
 		justify-content: space-around;
 		align-items: center;
 
- 	}
+	}
 
- 	.Show_box_last_item{
- 		width: 18%;
- 		height: 95%;
- 		background-color: #F72929;
+	.Show_box_last_item{
+		width: 18%;
+		height: 95%;
+		background-color: #F72929;
 
 
 
- 	}
+	}
 
 
 	footer{
@@ -541,7 +550,7 @@ body,html{
 		width: 100%;
 		height: 400px;
 		position: absolute;
-		top: 9600px;
+		top: 9050px;
 		right: 0;
 		left: 0;
 		margin: auto;
@@ -558,37 +567,47 @@ body,html{
 
 	}
 
+	#Footer_up_container{
+		height: 100%;
+		width: 800px;
+		left: 0;
+		right: 0;
+		margin:auto;
+		position: absolute;
+		display: flex;
+		justify-content: flex-end;
+
+	}
+
 	#Footer_up_gwzn{
 		width: 120px;
 		height: 180px;
 		background-color: #D5C5C5;
-		position: absolute;
-		left: 600px;
+		margin-right: 50px;
+		
 	}
 
 	#Footer_up_shfw{
 		width: 120px;
 		height: 180px;
 		background-color: #A09494;
-		position: absolute;
-		left: 800px;
+		margin-right: 50px;
+		
 	}
 
 	#Footer_up_zzfw{
 		width: 120px;
 		height: 180px;
 		background-color: #8A8383;
-		position: absolute;
-		left: 1000px;
+		margin-right: 50px;
+	
 	}
 
 	#Footer_up_sjfw{
 		width: 120px;
 		height: 180px;
 		background-color: #312E2E;
-		position: absolute;
-		left: 1200px;
-	}
+		}
 
 
 
@@ -614,21 +633,21 @@ body,html{
 	}
 
 	#Footer_down_p1{
-	width: 100%;
-	height: 70px;
-	position: relative;
-	background-color: black;
-	color: white;
-	font-size: 30px;
+		width: 100%;
+		height: 70px;
+		position: relative;
+		background-color: black;
+		color: white;
+		font-size: 30px;
 
 	}
 
 	#Footer_down_p2{
-	width: 100%;
-	height: 60px;
-	position: relative;
-	background-color: grey;
-	color: white;
-	font-size: 15px;
+		width: 100%;
+		height: 60px;
+		position: relative;
+		background-color: grey;
+		color: white;
+		font-size: 15px;
 
 	}

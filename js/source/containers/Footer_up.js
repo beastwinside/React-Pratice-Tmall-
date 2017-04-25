@@ -3,6 +3,7 @@ import React from 'react';
 class Footer_up extends React.Component{
 	render(){
 		return<div id='Footer_up'>
+		<div id="Footer_up_container">
 		<dl id='Footer_up_gwzn'>
 		<dt>购物指南</dt>
 		<dd>购物指南1</dd>
@@ -30,7 +31,8 @@ class Footer_up extends React.Component{
 		<dd>商家服务2</dd>
 		<dd>商家服务3</dd>
 		<dd>商家服务4</dd>
-		</dl>	
+		</dl>
+		</div>	
 		</div>;
 	}
 
