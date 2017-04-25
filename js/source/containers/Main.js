@@ -19,8 +19,7 @@ class 	Main extends React.Component{
 		<Show_box/>
 		<Show_box/>
 		<Show_box/>
-		<Show_box/>
-		<Show_box/>
+		
 		<Show_box_last/>
 		
 		</div>;

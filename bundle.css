@@ -20,6 +20,7 @@ a,button{cursor:pointer;}
 
 body,html{
 	width: 100%;
+
 	height: 100%;
 	background-color: #48632C;
 	position: absolute;
@@ -370,6 +371,7 @@ body,html{
 		height: 600px;
 		background-color: #DD438B;
 		position: relative;
+		margin-top: 65px;
 		
 	}
 
@@ -561,7 +563,7 @@ body,html{
 		height: 180px;
 		background-color: #D5C5C5;
 		position: absolute;
-		left: 400px;
+		left: 600px;
 	}
 
 	#Footer_up_shfw{
@@ -569,7 +571,7 @@ body,html{
 		height: 180px;
 		background-color: #A09494;
 		position: absolute;
-		left: 700px;
+		left: 800px;
 	}
 
 	#Footer_up_zzfw{
@@ -585,7 +587,7 @@ body,html{
 		height: 180px;
 		background-color: #312E2E;
 		position: absolute;
-		left: 1300px;
+		left: 1200px;
 	}
 
 
