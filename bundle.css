@@ -19,10 +19,10 @@ a,button{cursor:pointer;}
 /*normalize.css，以上样式为*/
 
 body,html{
+	font-family: 华文幼圆;
 	width: 100%;
 	min-width: 1600px;
 	height: 100%;
-	background-color: #48632C;
 	position: absolute;
 	font-size:30px; 
 	text-align: center;}
@@ -37,20 +37,21 @@ body,html{
 
 
 	#sitenav{
-		width:1200px;
+		width:100%;
 		height: 30px;
-		background-color: #92F6B8;
+		background-color: #E7E9E8;
 		position: relative;
 		left: 0;
 		right: 0;
 		margin: auto;
 		font-size:15px;
+		color:#676767;
 	}
 
-	header#mainheader{
+	#mainheader{
 		width: 1200px;
-		height:200px;
-		background-color: #F1B546;
+		height:150px;
+		background-color: white;
 		position: absolute;
 		top: 30px;
 		left: 0;
@@ -61,7 +62,7 @@ body,html{
 	}
 	#headleftlogo{
 		width: 200px;
-		height: 70%;
+		height: 80%;
 		position: absolute;
 		left: 0;
 		
@@ -86,15 +87,17 @@ body,html{
 		position: absolute;
 		background-color: white;
 		color: red;
-		top: 60px;
-		left: 250px;
+		top: 10px;
+		left: 200px;
 		z-index: 100;
 		border-style: solid;
-		border-color: #B0AAAA;
+		border-color: #2f2f2f;
 		border-width: 1px;
 		font-size: 20px;
 		text-align: left;
 		padding-left: 10px;
+		border-radius: 3px;
+		font-weight: bolder;
 		
 
 
@@ -103,8 +106,8 @@ body,html{
 
 	#mainheader form{
 		position: relative;
-		top:60px;
-		left: 150px;
+		top:10px;
+		left: 50px;
 		
 
 	}
@@ -113,51 +116,99 @@ body,html{
 		width: 500px;
 		margin: 0;
 		border-style: solid;
-		border-color: red;
+		border-color: #c40000;
 		border-width: 3px;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
 	}
 	
 	#mainheader button{
 		margin: 0; 
 		width:100px;
 		height: 50px;
-		background-color: #F21A1A;
+		background-color: #c40000;
 		border-style: solid;
 		border-top-width: 3px;
 		border-bottom-width: 10px;
-		border-color: red;
+		border-color: #c40000;
 		color: white;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
 	}
 
+	#Mainheader_nav{
+		width: 100%;
+		height: 70px;
+		position: absolute;
+		bottom: 0;
 
-
+	}
+	
 	#Mainheader_nav_left{
 		width: 200px;
-		height: 30%;
+		height: 100%;
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		background-color: #E41212;
+		background-color: #2f2f2f;
+		color: white;
+		font-size: 25px;
+		text-align: center;
+		font-weight: bolder;
+		z-index: 10
+	
 	}
 
 	#Mainheader_nav__nav{
 		width: 800px;
-		height: 30%;
+		height: 100%;
 		position: absolute;
-		bottom: 0;
+		bottom: 30px;
 		left: 200px;
-		background-color: #239897;
-		text-align: left;
+		background-color: white;;
 		
 	}
 
+	#Mainheader_nav__nav ul{
+		text-align: left;
+		font-weight: bolder;
+		height: 30px;
+		margin-top: 20px;
+		
+
+
+	}
+	
+
+	#Mainheader_nav__nav ul li{
+		display: inline-block;
+		height: 30px;
+		text-indent: 40px;
+		margin: 35px;
+		margin-right: 0px;
+		border-left-style: solid;
+		border-color: #9A9595;
+		color: #2f2f2f;
+		font-size: 25px;
+	}
+
+	#Mainheader_nav__nav ul>li:first-child{
+		border-left-style:none;
+		text-indent: 0px;
+
+	}
+
+	#Mainheader_nav__nav ul li:hover{
+		color: red;
+		cursor: pointer;
+	}
 
 	#main{
 		width: 1200px;
 		height: 8800px;
-		background-color:#F07777;
+		
 		position: relative;
-		top: 200px;
+		top: 150px;
 		left: 0;
 		right: 0;
 		margin: auto;
@@ -171,9 +222,12 @@ body,html{
 		background-color: white;
 		position: relative;
 		top: 0;
-		border-bottom-style:  solid;
-		border-color: #D2D0D0;
-
+		border-left-style:solid;
+		border-bottom-style:solid;
+		border-width: 1px;
+		border-color:#E7E6E6;
+		margin-bottom: -30px;
+		
 
 	}
 
@@ -181,27 +235,60 @@ body,html{
 	#mainshow_ul{
 		height: 100%;
 		width: 200px;
-		background-color:#3ED8FD;
 		position: relative;
 	}
 
 	#mainshow_ul >li:first-child{
 		border-top-style: none; 
+
 	}
-	#mainshow_ul li{
-		height: 14%;
+
+	#mainshow_ul >li:last-child{
+
+		background-color: #f3f3f3;
 		width: 100%;
+		margin-left: 0px;
+		border-style: none;
+		text-indent: 15px;
+		height: 15%;
+	}
+
+	#mainshow_ul li{
+		margin-left: 30px;
+		font-size: 20px;
+		
+		text-align: left;
+		height: 14%;
+		width: 70%;
 		float: left;
 		border-top-style: solid; 
+		border-top-color: #D4D2D2;
+		border-top-width: 0.5px;
 		position: relative;
+		font-weight: bolder;
 
 	}
 
-
-	#mainshow_ul li:hover{
-		background-color: red;
+	#mainshow_ul >li:hover{
+		width: 100%;
+		margin-left: 0px;
+		text-indent: 15px;
 		color: white;
+		background-color: #e41a3a;
+		cursor: pointer;}
+
+	#mainshow_ul span{
+		position: absolute;
+		top: 20px;
 	}
+
+    #mainshow_ul >li:last-child:hover{
+    	background-color: #f3f3f3;
+    	color: black;
+    	cursor: default;
+    }
+	
+
 
 	#mainshow p{
 		width: 100%;
@@ -213,12 +300,13 @@ body,html{
 		color: #817A7A;
 	}
 
+
 	#lunbo_main{
 		width:800px;
 		height: 100%;
 		position: absolute;
 		left: 200px;
-		background-color: #CEB8B8; 
+	
 		top: 0;
 
 
@@ -236,9 +324,9 @@ body,html{
 	#lunbo_down{
 		width: 100%;
 		height: 50%;
-		background-color: #EE1861;
+		
 		position: absolute;
-		bottom: 0;
+		bottom: -3px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
@@ -358,14 +446,18 @@ body,html{
 		z-index: 3;
 	}
 
+     
 	.show_box{
 		width: 100%;
 		height: 600px;
-		background-color: #DD438B;
+		
 		position: relative;
-		margin-top: 65px;
+		margin-top: 30px;
 		
 	}
+
+
+
 
 	.show_headerr{
 		margin-top: 4px;
@@ -374,12 +466,20 @@ body,html{
 		background-color: white;
 		position: relative;
 		top: 10%;
+		font-family: 华文幼圆;
 		font-weight: bolder;
-		font-style: 30px;
+		font-size: 20px;
 		text-align: left;
 		border-bottom-style: solid;
 		
 
+
+	}
+
+	.show_headerr span{
+		height: 25px;
+		position: absolute;
+		bottom: 5px;
 
 	}
 
@@ -533,7 +633,7 @@ body,html{
 		width: 100%;
 		height: 400px;
 		position: absolute;
-		top: 9030px;
+		top: 8980px;
 		right: 0;
 		left: 0;
 		margin: auto;

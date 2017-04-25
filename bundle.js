@@ -350,7 +350,11 @@ var Mainheader_nav = function (_React$Component) {
 			return _react2.default.createElement(
 				"div",
 				{ id: "Mainheader_nav" },
-				_react2.default.createElement("div", { id: "Mainheader_nav_left" }),
+				_react2.default.createElement(
+					"div",
+					{ id: "Mainheader_nav_left" },
+					"\u6240\u6709\u4EA7\u54C1\u5206\u7C7B"
+				),
 				_react2.default.createElement(
 					"div",
 					{ id: "Mainheader_nav__nav" },
@@ -484,7 +488,11 @@ var Mainshow_ul_li = function (_React$Component) {
 			return _react2.default.createElement(
 				'li',
 				null,
-				'\u8FDB\u53E3\u5546\u54C1',
+				_react2.default.createElement(
+					'span',
+					null,
+					'\u8FDB\u53E3\u5546\u54C1'
+				),
 				_react2.default.createElement(
 					'p',
 					null,
@@ -1400,7 +1408,11 @@ var Show_box = function (_React$Component) {
 				_react2.default.createElement(
 					'header',
 					{ className: 'show_headerr' },
-					'\u751F\u9C9C\u6C34\u679C'
+					_react2.default.createElement(
+						'span',
+						null,
+						'\u751F\u9C9C\u6C34\u679C'
+					)
 				),
 				_react2.default.createElement(_Show_container2.default, null)
 			);

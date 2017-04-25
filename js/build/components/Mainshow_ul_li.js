@@ -33,7 +33,11 @@ var Mainshow_ul_li = function (_React$Component) {
 			return _react2.default.createElement(
 				'li',
 				null,
-				'\u8FDB\u53E3\u5546\u54C1',
+				_react2.default.createElement(
+					'span',
+					null,
+					'\u8FDB\u53E3\u5546\u54C1'
+				),
 				_react2.default.createElement(
 					'p',
 					null,

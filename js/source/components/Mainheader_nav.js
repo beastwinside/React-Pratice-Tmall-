@@ -4,7 +4,9 @@ class Mainheader_nav extends React.Component{
 	render(){
 
 		return <div id="Mainheader_nav">
-		<div id="Mainheader_nav_left"></div>
+		<div id="Mainheader_nav_left">
+		所有产品分类
+		</div>
 		<div id="Mainheader_nav__nav">
 		<ul>
 		<li>首页</li>

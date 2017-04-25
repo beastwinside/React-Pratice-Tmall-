@@ -34,7 +34,11 @@ var Mainheader_nav = function (_React$Component) {
 			return _react2.default.createElement(
 				"div",
 				{ id: "Mainheader_nav" },
-				_react2.default.createElement("div", { id: "Mainheader_nav_left" }),
+				_react2.default.createElement(
+					"div",
+					{ id: "Mainheader_nav_left" },
+					"\u6240\u6709\u4EA7\u54C1\u5206\u7C7B"
+				),
 				_react2.default.createElement(
 					"div",
 					{ id: "Mainheader_nav__nav" },
