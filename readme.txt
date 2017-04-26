@@ -48,3 +48,33 @@
 
  2017/4/20 
 
+
+
+
+state与props的大坑，在es6，
+class  ?? extends React.Component{()}中已经没有
+getinitistate方法，也没有getdefaultprops和propTypes方法
+，在es6中使用
+state的话: 
+constructor(props){
+super(props);
+this.state={ss:'xx',}
+}}这种
+
+默认prop和prop用
+
+static defaultPorps={
+x:'123',
+y:'312',
+
+}
+
+static propTypes={
+x:React.PropTypes.bool.isRequired,
+ y: React.PropTypes.number.isRequired,
+
+}
+
+2017/4/26
+
+

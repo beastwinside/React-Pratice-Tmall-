@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -6,9 +6,13 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require("react");
+var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
+
+var _Sideright_img = require('../components/Sideright_img');
+
+var _Sideright_img2 = _interopRequireDefault(_Sideright_img);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28,31 +32,19 @@ var Siderightnav = function (_React$Component) {
 	}
 
 	_createClass(Siderightnav, [{
-		key: "render",
+		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
-				"nav",
-				{ id: "sideright" },
-				"\u6211\u7684\u7279\u6743",
-				_react2.default.createElement("br", null),
-				_react2.default.createElement("br", null),
-				_react2.default.createElement("br", null),
-				"\u6211\u7684\u8D44\u4EA7",
-				_react2.default.createElement("br", null),
-				_react2.default.createElement("br", null),
-				_react2.default.createElement("br", null),
-				"\u6211\u7684\u5173\u6CE8",
-				_react2.default.createElement("br", null),
-				_react2.default.createElement("br", null),
-				_react2.default.createElement("br", null),
-				"\u6211\u7684\u6536\u85CF",
-				_react2.default.createElement("br", null),
-				_react2.default.createElement("br", null),
-				_react2.default.createElement("br", null),
-				"\u6211\u770B\u8FC7\u7684",
-				_react2.default.createElement("br", null),
-				_react2.default.createElement("br", null),
-				_react2.default.createElement("br", null)
+				'nav',
+				{ id: 'sideright' },
+				_react2.default.createElement(_Sideright_img2.default, { num: '1' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '2' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '3' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '4' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '5' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '6' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '7' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '8' })
 			);
 		}
 	}]);

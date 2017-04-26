@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require("react");
+var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -18,50 +18,36 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Lunboright_mywelfare = function (_React$Component) {
-	_inherits(Lunboright_mywelfare, _React$Component);
+var Sideright_img = function (_React$Component) {
+	_inherits(Sideright_img, _React$Component);
 
-	function Lunboright_mywelfare() {
-		_classCallCheck(this, Lunboright_mywelfare);
+	function Sideright_img(props) {
+		_classCallCheck(this, Sideright_img);
 
-		return _possibleConstructorReturn(this, (Lunboright_mywelfare.__proto__ || Object.getPrototypeOf(Lunboright_mywelfare)).apply(this, arguments));
+		var _this = _possibleConstructorReturn(this, (Sideright_img.__proto__ || Object.getPrototypeOf(Sideright_img)).call(this, props));
+
+		_this.state = {
+			ss: 'sasa'
+		};
+
+		return _this;
 	}
 
-	_createClass(Lunboright_mywelfare, [{
-		key: "render",
+	_createClass(Sideright_img, [{
+		key: 'handlechange',
+		value: function handlechange() {
+			alert('123');
+		}
+	}, {
+		key: 'render',
 		value: function render() {
-			return _react2.default.createElement(
-				"div",
-				{ id: "mywelfare" },
-				_react2.default.createElement(
-					"div",
-					{ id: "mywelfare_header" },
-					"\u6211\u7684\u798F\u5229\u533A"
-				),
-				_react2.default.createElement(
-					"div",
-					{ id: "welfarelogo" },
-					_react2.default.createElement(
-						"a",
-						null,
-						"\u4F18\u60E0\u5238"
-					),
-					_react2.default.createElement(
-						"a",
-						null,
-						"\u6DD8\u4EAB\u5361"
-					),
-					_react2.default.createElement(
-						"a",
-						null,
-						"\u6211\u5E38\u4E70"
-					)
-				)
-			);
+			return _react2.default.createElement('img', {
+				src: './source/image/siderightnav_logo/srlogo' + this.props.num + '.png',
+				className: this.state.ss, onClick: this.handlechange });
 		}
 	}]);
 
-	return Lunboright_mywelfare;
+	return Sideright_img;
 }(_react2.default.Component);
 
-exports.default = Lunboright_mywelfare;
+exports.default = Sideright_img;

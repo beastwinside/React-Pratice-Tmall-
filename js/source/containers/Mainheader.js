@@ -5,12 +5,12 @@ class Mainheader extends React.Component{
 	render(){
 		return <header id="mainheader">
 		<ul id="header_form_down_ul">
-		<li>酒水</li>
-		<li>纸巾</li>
-		<li>卫生巾</li>
-		<li>垃圾袋</li>
-		<li>牛奶</li>
-		<li>袜子</li>
+		<a><li>酒水</li></a>
+		<a><li>纸巾</li></a>
+		<a><li>卫生巾</li></a>
+		<a><li>垃圾袋</li></a>
+		<a><li>牛奶</li></a>
+		<a><li>袜子</li></a>
 		</ul>
 		<Mainheader_nav/>
 		<div id="headleftlogo">

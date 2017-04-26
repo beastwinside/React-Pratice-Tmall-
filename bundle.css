@@ -166,6 +166,11 @@ body,html{
 		text-indent: 10px;
 	}
 
+	#header_form_down_ul li:hover{
+
+		color: #bf0000;
+	}
+
 	#header_form_down_ul>li:first-child{
 		border-left-style: none;
 		text-indent: 0px;
@@ -520,7 +525,9 @@ body,html{
 		height: 30%;
 		position: absolute;
 		bottom: 0;
-		background-color: #F8FEAF; 
+		background-color: #F8FEAF;
+
+
 
 	}
 
@@ -528,10 +535,26 @@ body,html{
 		border-left-style: none;
 	}
 	#welfarelogo a{
-		border-left-style: solid;
-		font-size: 15px;
+		margin-left: 5px;
+		margin-right: 5px;
+		font-size: 16px;
+		color: #979696;
 
 	}
+
+	#welfarelogo a:hover{
+		color: #bf0000;
+	}
+
+	#mywelfare_header{
+		width: 100%;
+		height: 20%;
+		position: absolute;
+		top: 0;background-color: #980A0A;
+
+	}
+
+
 
 	#lunbo_right_1{
 		width:100%;
@@ -591,6 +614,11 @@ body,html{
 		font-size: 20px;
 		color: white;
 		z-index: 3;
+	}
+
+	#sideright img{
+		width: 100%;
+		height: 30px;
 	}
 
 
