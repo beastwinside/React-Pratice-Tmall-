@@ -16,7 +16,9 @@ class Mainheader_nav extends React.Component{
 		<li>大彩电</li>
 		</ul>
 		</div>
-		<div id="shopcart"></div>
+		<div id="shopcart">
+		￥0.00元 0kg
+		</div>
 		</div>;
 	}
 
