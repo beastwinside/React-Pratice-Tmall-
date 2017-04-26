@@ -264,7 +264,7 @@ var Lunbodown_div = function (_React$Component) {
 			return _React2.default.createElement(
 				'div',
 				null,
-				_React2.default.createElement('img', null)
+				_React2.default.createElement('img', { src: this.props.imgurl })
 			);
 		}
 	}]);
@@ -442,13 +442,13 @@ var Mainshow_ul = function (_React$Component) {
 			return _react2.default.createElement(
 				'ul',
 				{ id: 'mainshow_ul' },
-				_react2.default.createElement(_Mainshow_ul_li2.default, null),
-				_react2.default.createElement(_Mainshow_ul_li2.default, null),
-				_react2.default.createElement(_Mainshow_ul_li2.default, null),
-				_react2.default.createElement(_Mainshow_ul_li2.default, null),
-				_react2.default.createElement(_Mainshow_ul_li2.default, null),
-				_react2.default.createElement(_Mainshow_ul_li2.default, null),
-				_react2.default.createElement(_Mainshow_ul_li2.default, null)
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u98DE\u673A\u7EA2.png' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u996E\u6599\u7EA2.png' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u6CB9\u7EA2.png' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u8721\u70DB\u7EA2.png' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u526A\u5200\u7EA2.png' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u9910\u5DFE\u7EB8\u7EA2.png' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u9C7C\u513F\u7EA2.png' })
 			);
 		}
 	}]);
@@ -493,6 +493,7 @@ var Mainshow_ul_li = function (_React$Component) {
 			return _react2.default.createElement(
 				'li',
 				null,
+				_react2.default.createElement('img', { src: this.props.li_img_url }),
 				_react2.default.createElement(
 					'span',
 					null,
@@ -981,12 +982,12 @@ var Lunbodown = function (_React$Component) {
 			return _react2.default.createElement(
 				'div',
 				{ id: 'lunbo_down' },
-				_react2.default.createElement(_Lunbodown_div2.default, null),
-				_react2.default.createElement(_Lunbodown_div2.default, null),
-				_react2.default.createElement(_Lunbodown_div2.default, null),
-				_react2.default.createElement(_Lunbodown_div2.default, null),
-				_react2.default.createElement(_Lunbodown_div2.default, null),
-				_react2.default.createElement(_Lunbodown_div2.default, null)
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' }),
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' }),
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' }),
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' }),
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' }),
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' })
 			);
 		}
 	}]);

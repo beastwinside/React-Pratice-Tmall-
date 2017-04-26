@@ -33,6 +33,7 @@ var Mainshow_ul_li = function (_React$Component) {
 			return _react2.default.createElement(
 				'li',
 				null,
+				_react2.default.createElement('img', { src: this.props.li_img_url }),
 				_react2.default.createElement(
 					'span',
 					null,

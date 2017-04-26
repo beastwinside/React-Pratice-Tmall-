@@ -74,7 +74,7 @@ body,html{
 		background-color: white;
 		font-size: 20px;
 		color: red;
-		background-image: url(./source/image/Tmall.png);
+		background-image: url(./source/image/mainshow_image/Tmall.png);
 		background-size:contain;
 	}
 
@@ -300,7 +300,11 @@ body,html{
 		text-indent: 15px;
 		color: white;
 		background-color: #e41a3a;
-		cursor: pointer;}
+		cursor: pointer;
+		transition-property: width text-indent  margin-left
+		 background-color;
+		transition-duration: 0.5s; 
+	}
 
 		#mainshow_ul span{
 			position: absolute;
@@ -313,6 +317,16 @@ body,html{
 			cursor: default;
 		}
 
+		#mainshow_ul  img{
+			position: absolute;
+			top: 24px;
+			left: -25px;
+		}
+
+		#mainshow_ul >li:last-child img{
+			left: 5px;
+
+		}
 
 
 		#mainshow p{
@@ -362,15 +376,27 @@ body,html{
 			width: 33%;
 			height: 49%;
 			background-color: #B0FAAA;
-
+			position: relative;
 		}
 
-		#lunbo_down div:hover{
-			width: 34%;
-			height: 50%;
+		#lunbo_down img{
+			width: 100%;
+			height: 100%;
+			position: relative;
 			
-
 		}
+
+		#lunbo_down img:hover{
+			width: 110%;
+			height: 110%;
+			cursor: pointer;	
+			z-index: 2;
+			transition-property: width height ;
+			transition-duration: 1.5s;
+		}
+
+		
+
 
 		#lunbo_right{
 			width: 180px;

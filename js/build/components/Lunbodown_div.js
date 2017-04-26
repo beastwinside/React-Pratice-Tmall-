@@ -34,7 +34,7 @@ var Lunbodown_div = function (_React$Component) {
 			return _React2.default.createElement(
 				'div',
 				null,
-				_React2.default.createElement('img', null)
+				_React2.default.createElement('img', { src: this.props.imgurl })
 			);
 		}
 	}]);

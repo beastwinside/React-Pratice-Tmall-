@@ -37,12 +37,12 @@ var Lunbodown = function (_React$Component) {
 			return _react2.default.createElement(
 				'div',
 				{ id: 'lunbo_down' },
-				_react2.default.createElement(_Lunbodown_div2.default, null),
-				_react2.default.createElement(_Lunbodown_div2.default, null),
-				_react2.default.createElement(_Lunbodown_div2.default, null),
-				_react2.default.createElement(_Lunbodown_div2.default, null),
-				_react2.default.createElement(_Lunbodown_div2.default, null),
-				_react2.default.createElement(_Lunbodown_div2.default, null)
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' }),
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' }),
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' }),
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' }),
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' }),
+				_react2.default.createElement(_Lunbodown_div2.default, { imgurl: './source/image/mainshow_image/react.jpg' })
 			);
 		}
 	}]);

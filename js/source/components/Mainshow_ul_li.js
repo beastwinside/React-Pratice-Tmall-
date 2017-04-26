@@ -3,6 +3,7 @@ import React from 'react'
 class Mainshow_ul_li extends React.Component{
 	render(){
 		return <li>
+		<img src={this.props.li_img_url}/>
 		<span>进口商品</span>
 		<p>
 		<a>牛奶 </a>
