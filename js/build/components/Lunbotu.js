@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -6,9 +6,13 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require("react");
+var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
+
+var _Lunbotu_7but = require('./Lunbotu_7but');
+
+var _Lunbotu_7but2 = _interopRequireDefault(_Lunbotu_7but);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28,9 +32,13 @@ var Lunbotu = function (_React$Component) {
 	}
 
 	_createClass(Lunbotu, [{
-		key: "render",
+		key: 'render',
 		value: function render() {
-			return _react2.default.createElement("div", { id: "lunbo" });
+			return _react2.default.createElement(
+				'div',
+				{ id: 'lunbo' },
+				_react2.default.createElement(_Lunbotu_7but2.default, null)
+			);
 		}
 	}]);
 

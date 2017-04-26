@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require('react');
+var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -18,107 +18,61 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Sitenav_ul = function (_React$Component) {
-	_inherits(Sitenav_ul, _React$Component);
+var Lunbotu_7but = function (_React$Component) {
+	_inherits(Lunbotu_7but, _React$Component);
 
-	function Sitenav_ul() {
-		_classCallCheck(this, Sitenav_ul);
+	function Lunbotu_7but() {
+		_classCallCheck(this, Lunbotu_7but);
 
-		return _possibleConstructorReturn(this, (Sitenav_ul.__proto__ || Object.getPrototypeOf(Sitenav_ul)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Lunbotu_7but.__proto__ || Object.getPrototypeOf(Lunbotu_7but)).apply(this, arguments));
 	}
 
-	_createClass(Sitenav_ul, [{
-		key: 'render',
+	_createClass(Lunbotu_7but, [{
+		key: "render",
 		value: function render() {
 			return _react2.default.createElement(
-				'ul',
-				{ id: 'Sitenav_ul' },
+				"div",
+				{ id: "Lunbotu_7but" },
 				_react2.default.createElement(
-					'a',
+					"div",
 					null,
-					_react2.default.createElement(
-						'li',
-						null,
-						'\u6211\u7684\u6DD8\u5B9D '
-					)
+					"1"
 				),
 				_react2.default.createElement(
-					'a',
+					"div",
 					null,
-					_react2.default.createElement(
-						'li',
-						null,
-						'\u6211\u5173\u6CE8\u7684\u54C1\u724C '
-					)
+					"2"
 				),
 				_react2.default.createElement(
-					'a',
+					"div",
 					null,
-					_react2.default.createElement(
-						'li',
-						null,
-						'\u8D2D\u7269\u8F66 '
-					)
+					"3"
 				),
 				_react2.default.createElement(
-					'a',
+					"div",
 					null,
-					_react2.default.createElement(
-						'li',
-						null,
-						'\u6536\u85CF\u5939 |'
-					)
+					"4"
 				),
 				_react2.default.createElement(
-					'a',
+					"div",
 					null,
-					_react2.default.createElement(
-						'li',
-						null,
-						'\u624B\u673A\u7248 '
-					)
+					"5"
 				),
 				_react2.default.createElement(
-					'a',
+					"div",
 					null,
-					_react2.default.createElement(
-						'li',
-						null,
-						'\u6DD8\u5B9D\u7F51 '
-					)
+					"6"
 				),
 				_react2.default.createElement(
-					'a',
+					"div",
 					null,
-					_react2.default.createElement(
-						'li',
-						null,
-						'\u4F01\u4E1A\u8D2D'
-					)
-				),
-				_react2.default.createElement(
-					'a',
-					null,
-					_react2.default.createElement(
-						'li',
-						null,
-						'\u5546\u5BB6\u652F\u6301 '
-					)
-				),
-				_react2.default.createElement(
-					'a',
-					null,
-					_react2.default.createElement(
-						'li',
-						null,
-						'\u7F51\u7AD9\u5BFC\u822A '
-					)
+					"7"
 				)
 			);
 		}
 	}]);
 
-	return Sitenav_ul;
+	return Lunbotu_7but;
 }(_react2.default.Component);
 
-exports.default = Sitenav_ul;
+exports.default = Lunbotu_7but;
