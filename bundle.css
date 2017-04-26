@@ -161,6 +161,7 @@ body,html{
 		display: inline-block;
 		border-left-style: solid;
 		border-width: 1px;
+		border-color: #F0EAEA;
 		margin-right: 10px;
 		text-indent: 10px;
 	}
@@ -429,7 +430,7 @@ body,html{
 		height: 50px;
 		position: absolute;
 		right: 0;
-		bottom: 20px;
+		bottom: 10px;
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
