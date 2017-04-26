@@ -4,21 +4,27 @@ class Sideright_img extends React.Component{
 	constructor(props){
 		super(props);
 		this.state={
-			ss:'sasa',
+			numx:this.props.num,
 		}
+		this.handlechange = this.handlechange.bind(this);
 
 
 	}
 
+	
 
 	handlechange(){
-		alert('123');
-	}
+		alert(this.state.numx);
+}
 
-	render(){	
+	render(){
+		var topheight=this.props.topvalue+'%';
 		return<img 
-		src={'./source/image/siderightnav_logo/srlogo'+this.props.num+'.png'} 
-		className={this.state.ss}  onClick={this.handlechange}/>;
+		src={'./source/image/siderightnav_logo/srlogo'+this.state.numx+'.png'} 
+		  onClick={this.handlechange}
+
+		style={{top:topheight}}
+		/>;
 
 	}
 }

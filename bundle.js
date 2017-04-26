@@ -788,8 +788,9 @@ var Sideright_img = function (_React$Component) {
 		var _this = _possibleConstructorReturn(this, (Sideright_img.__proto__ || Object.getPrototypeOf(Sideright_img)).call(this, props));
 
 		_this.state = {
-			ss: 'sasa'
+			numx: _this.props.num
 		};
+		_this.handlechange = _this.handlechange.bind(_this);
 
 		return _this;
 	}
@@ -797,14 +798,18 @@ var Sideright_img = function (_React$Component) {
 	_createClass(Sideright_img, [{
 		key: 'handlechange',
 		value: function handlechange() {
-			alert('123');
+			alert(this.state.numx);
 		}
 	}, {
 		key: 'render',
 		value: function render() {
+			var topheight = this.props.topvalue + '%';
 			return _react2.default.createElement('img', {
-				src: './source/image/siderightnav_logo/srlogo' + this.props.num + '.png',
-				className: this.state.ss, onClick: this.handlechange });
+				src: './source/image/siderightnav_logo/srlogo' + this.state.numx + '.png',
+				onClick: this.handlechange,
+
+				style: { top: topheight }
+			});
 		}
 	}]);
 
@@ -2134,14 +2139,13 @@ var Siderightnav = function (_React$Component) {
 			return _react2.default.createElement(
 				'nav',
 				{ id: 'sideright' },
-				_react2.default.createElement(_Sideright_img2.default, { num: '1' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '2' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '3' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '4' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '5' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '6' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '7' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '8' })
+				_react2.default.createElement(_Sideright_img2.default, { num: '11', topvalue: '30' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '12', topvalue: '35' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '13', topvalue: '40' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '14', topvalue: '45' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '15', topvalue: '50' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '16', topvalue: '80' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '17', topvalue: '83' })
 			);
 		}
 	}]);

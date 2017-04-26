@@ -27,8 +27,9 @@ var Sideright_img = function (_React$Component) {
 		var _this = _possibleConstructorReturn(this, (Sideright_img.__proto__ || Object.getPrototypeOf(Sideright_img)).call(this, props));
 
 		_this.state = {
-			ss: 'sasa'
+			numx: _this.props.num
 		};
+		_this.handlechange = _this.handlechange.bind(_this);
 
 		return _this;
 	}
@@ -36,14 +37,18 @@ var Sideright_img = function (_React$Component) {
 	_createClass(Sideright_img, [{
 		key: 'handlechange',
 		value: function handlechange() {
-			alert('123');
+			alert(this.state.numx);
 		}
 	}, {
 		key: 'render',
 		value: function render() {
+			var topheight = this.props.topvalue + '%';
 			return _react2.default.createElement('img', {
-				src: './source/image/siderightnav_logo/srlogo' + this.props.num + '.png',
-				className: this.state.ss, onClick: this.handlechange });
+				src: './source/image/siderightnav_logo/srlogo' + this.state.numx + '.png',
+				onClick: this.handlechange,
+
+				style: { top: topheight }
+			});
 		}
 	}]);
 

@@ -208,7 +208,7 @@ body,html{
 	}
 	
 	#Mainheader_nav_left{
-		width: 200px;
+		width: 202px;
 		height: 100%;
 		position: absolute;
 		bottom: 0;
@@ -325,6 +325,10 @@ body,html{
 		height: 100%;
 		width: 200px;
 		position: relative;
+        border-width: 0.5px;
+		border-right-style: solid;
+		border-color: #E0E0E0;
+
 	}
 
 	#mainshow_ul >li:first-child{
@@ -408,7 +412,7 @@ body,html{
 
 
 	#lunbo_main{
-		width:800px;
+		width:799.5px;
 		height: 100%;
 		position: absolute;
 		left: 200px;
@@ -468,16 +472,17 @@ body,html{
 		bottom: 0px;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: space-between;
 		align-items: : center;
 
 	}
 
 	#lunbo_down div{
-		width: 33.333%;
-		height: 50%;
+		width: 33%;
+		height: 49%;
 		background-color: #B0FAAA;
 		position: relative;
+
 	}
 
 	#lunbo_down img{
@@ -619,8 +624,13 @@ body,html{
 	#sideright img{
 		width: 100%;
 		height: 30px;
+		position: absolute;
+		left: 0;
 	}
 
+
+
+	
 
 	.show_box{
 		width: 100%;
