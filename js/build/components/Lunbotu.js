@@ -30,11 +30,7 @@ var Lunbotu = function (_React$Component) {
 	_createClass(Lunbotu, [{
 		key: "render",
 		value: function render() {
-			return _react2.default.createElement(
-				"div",
-				{ id: "lunbo" },
-				"\u8F6E\u64AD\u56FE\u6446\u653E\u5360\u4F4D"
-			);
+			return _react2.default.createElement("div", { id: "lunbo" });
 		}
 	}]);
 

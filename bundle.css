@@ -48,6 +48,11 @@ body,html{
 		color:#676767;
 	}
 
+	#sitenav a:hover{
+		color: #bf0000;
+
+	}
+
 
 	#sitenav p{
 		height: 0;
@@ -112,18 +117,19 @@ body,html{
 		height: 45px;
 		position: absolute;
 		background-color: white;
-		color: red;
-		top: 10px;
+		color: #bf0000;
+		top: 20px;
 		left: 200px;
 		z-index: 100;
 		border-style: solid;
 		border-color: #CBC8C8;
 		border-width: 1px;
 		font-size: 20px;
+		
 		text-align: left;
 		padding-left: 10px;
 		border-radius: 3px;
-		font-weight: bolder;
+	
 		
 
 
@@ -413,6 +419,8 @@ body,html{
 		position: absolute;
 		top: 0;
 		font-size: 80px;
+		background-image: url('./source/image/mainshow_image/lunbo/lunbo1.png');
+		background-size:cover;
 	}
 
 	#lunbo_down{

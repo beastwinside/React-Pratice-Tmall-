@@ -306,11 +306,7 @@ var Lunbotu = function (_React$Component) {
 	_createClass(Lunbotu, [{
 		key: "render",
 		value: function render() {
-			return _react2.default.createElement(
-				"div",
-				{ id: "lunbo" },
-				"\u8F6E\u64AD\u56FE\u6446\u653E\u5360\u4F4D"
-			);
+			return _react2.default.createElement("div", { id: "lunbo" });
 		}
 	}]);
 
@@ -2001,7 +1997,23 @@ var Sitenav = function (_React$Component) {
 				_react2.default.createElement(
 					'p',
 					null,
-					' \u5929\u732B\u9996\u9875 \u55B5\uFF0C\u6B22\u8FCE\u6765\u5929\u732B \u8BF7\u767B\u5F55 \u514D\u8D39\u6CE8\u518C'
+					' ',
+					_react2.default.createElement(
+						'a',
+						null,
+						'\u5929\u732B\u9996\u9875 '
+					),
+					'\u55B5\uFF0C\u6B22\u8FCE\u6765\u5929\u732B ',
+					_react2.default.createElement(
+						'a',
+						null,
+						'\u8BF7\u767B\u5F55'
+					),
+					_react2.default.createElement(
+						'a',
+						null,
+						' \u514D\u8D39\u6CE8\u518C'
+					)
 				),
 				_react2.default.createElement(_Sitenav_ul2.default, null)
 			);
