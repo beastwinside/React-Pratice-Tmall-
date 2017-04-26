@@ -91,7 +91,7 @@ body,html{
 		left: 200px;
 		z-index: 100;
 		border-style: solid;
-		border-color: #2f2f2f;
+		border-color: #CBC8C8;
 		border-width: 1px;
 		font-size: 20px;
 		text-align: left;
@@ -392,7 +392,7 @@ body,html{
 			cursor: pointer;	
 			z-index: 2;
 			transition-property: width height ;
-			transition-duration: 1.5s;
+			transition-duration: 0.7s;
 		}
 
 		
