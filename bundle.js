@@ -1439,19 +1439,30 @@ var Lunboright_mywelfare = function (_React$Component) {
 					"div",
 					{ id: "welfarelogo" },
 					_react2.default.createElement(
-						"a",
-						null,
-						"\u4F18\u60E0\u5238"
+						"nav",
+						{ id: "welfare_nav" },
+						_react2.default.createElement(
+							"a",
+							null,
+							"\u4F18\u60E0\u5238"
+						),
+						_react2.default.createElement(
+							"a",
+							null,
+							"\u6DD8\u4EAB\u5361"
+						),
+						_react2.default.createElement(
+							"a",
+							null,
+							"\u6211\u5E38\u4E70"
+						)
 					),
 					_react2.default.createElement(
-						"a",
-						null,
-						"\u6DD8\u4EAB\u5361"
-					),
-					_react2.default.createElement(
-						"a",
-						null,
-						"\u6211\u5E38\u4E70"
+						"div",
+						{ id: "welfare_navlogo" },
+						_react2.default.createElement("img", { src: "./source/image/mainshow_image/lunbo_welfare_logo/\u4F18\u60E0\u5238.png" }),
+						_react2.default.createElement("img", { src: "./source/image/mainshow_image/lunbo_welfare_logo/\u4EAB\u6DD8\u5361.png" }),
+						_react2.default.createElement("img", { src: "./source/image/mainshow_image/lunbo_welfare_logo/\u4EAB\u6DD8\u5361.png" })
 					)
 				)
 			);
@@ -1572,6 +1583,25 @@ var Mainheader = function (_React$Component) {
 			return _react2.default.createElement(
 				'header',
 				{ id: 'mainheader' },
+				_react2.default.createElement(
+					'div',
+					{ id: 'mainheader_ico_container' },
+					_react2.default.createElement(
+						'a',
+						null,
+						_react2.default.createElement('img', { src: './source/image/mainheader_ico/\u4E00\u7AD9\u5F0F\u80A1\u9F50.png' })
+					),
+					_react2.default.createElement(
+						'a',
+						null,
+						_react2.default.createElement('img', { src: './source/image/mainheader_ico/\u6EE188\u5305\u90AE.png' })
+					),
+					_react2.default.createElement(
+						'a',
+						null,
+						_react2.default.createElement('img', { src: './source/image/mainheader_ico/\u56FD\u5FBD.png' })
+					)
+				),
 				_react2.default.createElement(
 					'ul',
 					{ id: 'header_form_down_ul' },

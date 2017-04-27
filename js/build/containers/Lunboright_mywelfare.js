@@ -42,19 +42,30 @@ var Lunboright_mywelfare = function (_React$Component) {
 					"div",
 					{ id: "welfarelogo" },
 					_react2.default.createElement(
-						"a",
-						null,
-						"\u4F18\u60E0\u5238"
+						"nav",
+						{ id: "welfare_nav" },
+						_react2.default.createElement(
+							"a",
+							null,
+							"\u4F18\u60E0\u5238"
+						),
+						_react2.default.createElement(
+							"a",
+							null,
+							"\u6DD8\u4EAB\u5361"
+						),
+						_react2.default.createElement(
+							"a",
+							null,
+							"\u6211\u5E38\u4E70"
+						)
 					),
 					_react2.default.createElement(
-						"a",
-						null,
-						"\u6DD8\u4EAB\u5361"
-					),
-					_react2.default.createElement(
-						"a",
-						null,
-						"\u6211\u5E38\u4E70"
+						"div",
+						{ id: "welfare_navlogo" },
+						_react2.default.createElement("img", { src: "./source/image/mainshow_image/lunbo_welfare_logo/\u4F18\u60E0\u5238.png" }),
+						_react2.default.createElement("img", { src: "./source/image/mainshow_image/lunbo_welfare_logo/\u4EAB\u6DD8\u5361.png" }),
+						_react2.default.createElement("img", { src: "./source/image/mainshow_image/lunbo_welfare_logo/\u4EAB\u6DD8\u5361.png" })
 					)
 				)
 			);

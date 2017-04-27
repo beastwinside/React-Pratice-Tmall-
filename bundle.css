@@ -88,9 +88,19 @@ body,html{
 		left: 0;
 		right: 0;
 		margin: auto;
-		
-
 	}
+
+	#mainheader_ico_container{
+		position: absolute;
+		right: -10px;
+		top: 10px;
+		z-index: 20;
+	}
+
+	#mainheader_ico_container img:hover{
+		cursor: pointer;
+	}
+
 	#headleftlogo{
 		width: 200px;
 		height: 80%;
@@ -512,7 +522,7 @@ body,html{
 	#lunbo_right{
 		width: 180px;
 		height: 100%;
-		background-color: #2B6DF6;
+		
 		position: absolute;
 		right: 0;
 		top: 0;
@@ -521,21 +531,29 @@ body,html{
 	}
 
 	#mywelfare{
-		width:100%;
-		height: 40%;
+		width:99%;
+		height: 39%;
 		position: absolute;
 		top: 0;
-		background-color: #FAFACA; 
+		background-color: #fffde1; 
+		border-style: solid;
+		
+		border-width: 1px;
+		border-color: #B2B1B1;
 
 
 	}
 
 	#welfarelogo{
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-color: #B7B7B7;
 		width:100%;
 		height: 30%;
 		position: absolute;
 		bottom: 0;
-		background-color: #F8FEAF;
+		background-color: #Fffde1;
+
 
 
 
@@ -547,8 +565,9 @@ body,html{
 	#welfarelogo a{
 		margin-left: 5px;
 		margin-right: 5px;
-		font-size: 16px;
-		color: #979696;
+		font-size: 12px;
+		color: #222121;
+
 
 	}
 
@@ -556,15 +575,34 @@ body,html{
 		color: #bf0000;
 	}
 
+	#welfare_nav{
+		width: 100%;
+		height: 50%;
+		bottom: 0;
+		position: absolute;
+		padding-bottom: 15px;
+
+	}
+
+	#welfare_navlogo{
+		padding-top: 5px;
+		height: 50%;	
+		width: 100%;
+		position: absolute;
+		top: 0;
+	}
+
+
+
 	#mywelfare_header{
 		width: 100%;
 		height: 20%;
 		position: absolute;
 		top: 0;
-		font-size: 22px;
+		font-size: 18px;
 		color: white;
-		background-color: #E3EE0B;
-		color: black
+		background-color: #D00825;
+		color: white;
 
 	}
 

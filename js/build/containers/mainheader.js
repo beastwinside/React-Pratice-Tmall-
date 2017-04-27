@@ -38,6 +38,25 @@ var Mainheader = function (_React$Component) {
 				'header',
 				{ id: 'mainheader' },
 				_react2.default.createElement(
+					'div',
+					{ id: 'mainheader_ico_container' },
+					_react2.default.createElement(
+						'a',
+						null,
+						_react2.default.createElement('img', { src: './source/image/mainheader_ico/\u4E00\u7AD9\u5F0F\u80A1\u9F50.png' })
+					),
+					_react2.default.createElement(
+						'a',
+						null,
+						_react2.default.createElement('img', { src: './source/image/mainheader_ico/\u6EE188\u5305\u90AE.png' })
+					),
+					_react2.default.createElement(
+						'a',
+						null,
+						_react2.default.createElement('img', { src: './source/image/mainheader_ico/\u56FD\u5FBD.png' })
+					)
+				),
+				_react2.default.createElement(
 					'ul',
 					{ id: 'header_form_down_ul' },
 					_react2.default.createElement(
