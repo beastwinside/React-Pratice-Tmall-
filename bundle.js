@@ -514,13 +514,20 @@ var Mainshow_ul = function (_React$Component) {
 			return _react2.default.createElement(
 				'ul',
 				{ id: 'mainshow_ul' },
-				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u98DE\u673A\u7EA2.png' }),
-				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u996E\u6599\u7EA2.png' }),
-				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u6CB9\u7EA2.png' }),
-				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u8721\u70DB\u7EA2.png' }),
-				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u526A\u5200\u7EA2.png' }),
-				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u9910\u5DFE\u7EB8\u7EA2.png' }),
-				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u9C7C\u513F\u7EA2.png' })
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u98DE\u673A\u7EA2.png',
+					a1p: '\u725B\u5976', a2p: '\u96F6\u98DF', a3p: '\u997C\u5E72', a4p: '\u901F\u98DF' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u996E\u6599\u7EA2.png',
+					a1p: '\u7CD6\u5DE7', a2p: '\u53D8\u5E72', a3p: '\u575A\u679C', a4p: '\u725B\u5976' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u6CB9\u7EA2.png',
+					a1p: '\u6CB9', a2p: '\u5927\u7C73', a3p: '\u8C03\u6599', a4p: '\u65B9\u4FBF\u9762' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u8721\u70DB\u7EA2.png',
+					a1p: '\u6D17\u53D1', a2p: '\u6C90\u6D74', a3p: '\u7259\u818F', a4p: '\u6D01\u9762\u5976' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u526A\u5200\u7EA2.png',
+					a1p: '\u6BDB\u5DFE', a2p: '\u5BB6\u7535', a3p: '\u6C34\u676F', a4p: '\u6536\u7EB3' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u9910\u5DFE\u7EB8\u7EA2.png',
+					a1p: '\u7EB8', a2p: '\u6D17\u8863', a3p: '\u6D17\u6D01\u7CBE', a4p: '\u5783\u573E\u888B' }),
+				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u9C7C\u513F\u7EA2.png',
+					a1p: '\u7EB8\u5C3F\u88E4', a2p: '\u5976\u7C89', a3p: '', a4p: '\u6E7F\u5DFE' })
 			);
 		}
 	}]);
@@ -553,10 +560,20 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Mainshow_ul_li = function (_React$Component) {
 	_inherits(Mainshow_ul_li, _React$Component);
 
-	function Mainshow_ul_li() {
+	function Mainshow_ul_li(props) {
 		_classCallCheck(this, Mainshow_ul_li);
 
-		return _possibleConstructorReturn(this, (Mainshow_ul_li.__proto__ || Object.getPrototypeOf(Mainshow_ul_li)).apply(this, arguments));
+		var _this = _possibleConstructorReturn(this, (Mainshow_ul_li.__proto__ || Object.getPrototypeOf(Mainshow_ul_li)).call(this, props));
+
+		_this.state = {
+			a1: _this.props.a1p,
+			a2: _this.props.a2p,
+			a3: _this.props.a3p,
+			a4: _this.props.a4p
+
+		};
+
+		return _this;
 	}
 
 	_createClass(Mainshow_ul_li, [{
@@ -577,22 +594,25 @@ var Mainshow_ul_li = function (_React$Component) {
 					_react2.default.createElement(
 						'a',
 						null,
-						'\u725B\u5976 '
+						this.state.a1
 					),
 					_react2.default.createElement(
 						'a',
 						null,
-						'\u96F6\u98DF '
+						this.state.a2,
+						' '
 					),
 					_react2.default.createElement(
 						'a',
 						null,
-						'\u997C\u5E72 '
+						this.state.a3,
+						' '
 					),
 					_react2.default.createElement(
 						'a',
 						null,
-						'\u901F\u98DF '
+						this.state.a4,
+						' '
 					)
 				)
 			);
@@ -1378,12 +1398,12 @@ var Lunboright = function (_React$Component) {
 				_react2.default.createElement(
 					'div',
 					{ id: 'lunbo_right_1' },
-					'\u5E7F\u544A'
+					_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright1.png' })
 				),
 				_react2.default.createElement(
 					'div',
 					{ id: 'lunbo_right_2' },
-					'\u5E7F\u544A'
+					_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright2.png' })
 				)
 			);
 		}

@@ -41,12 +41,12 @@ var Lunboright = function (_React$Component) {
 				_react2.default.createElement(
 					'div',
 					{ id: 'lunbo_right_1' },
-					'\u5E7F\u544A'
+					_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright1.png' })
 				),
 				_react2.default.createElement(
 					'div',
 					{ id: 'lunbo_right_2' },
-					'\u5E7F\u544A'
+					_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright2.png' })
 				)
 			);
 		}

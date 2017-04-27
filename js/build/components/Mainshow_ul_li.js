@@ -21,10 +21,20 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Mainshow_ul_li = function (_React$Component) {
 	_inherits(Mainshow_ul_li, _React$Component);
 
-	function Mainshow_ul_li() {
+	function Mainshow_ul_li(props) {
 		_classCallCheck(this, Mainshow_ul_li);
 
-		return _possibleConstructorReturn(this, (Mainshow_ul_li.__proto__ || Object.getPrototypeOf(Mainshow_ul_li)).apply(this, arguments));
+		var _this = _possibleConstructorReturn(this, (Mainshow_ul_li.__proto__ || Object.getPrototypeOf(Mainshow_ul_li)).call(this, props));
+
+		_this.state = {
+			a1: _this.props.a1p,
+			a2: _this.props.a2p,
+			a3: _this.props.a3p,
+			a4: _this.props.a4p
+
+		};
+
+		return _this;
 	}
 
 	_createClass(Mainshow_ul_li, [{
@@ -45,22 +55,25 @@ var Mainshow_ul_li = function (_React$Component) {
 					_react2.default.createElement(
 						'a',
 						null,
-						'\u725B\u5976 '
+						this.state.a1
 					),
 					_react2.default.createElement(
 						'a',
 						null,
-						'\u96F6\u98DF '
+						this.state.a2,
+						' '
 					),
 					_react2.default.createElement(
 						'a',
 						null,
-						'\u997C\u5E72 '
+						this.state.a3,
+						' '
 					),
 					_react2.default.createElement(
 						'a',
 						null,
-						'\u901F\u98DF '
+						this.state.a4,
+						' '
 					)
 				)
 			);
