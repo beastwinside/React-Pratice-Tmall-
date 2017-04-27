@@ -27,28 +27,52 @@ var Sideright_img = function (_React$Component) {
 		var _this = _possibleConstructorReturn(this, (Sideright_img.__proto__ || Object.getPrototypeOf(Sideright_img)).call(this, props));
 
 		_this.state = {
-			numx: _this.props.num
+			numx: _this.props.num,
+			display: 'none'
 		};
-		_this.handlechange = _this.handlechange.bind(_this);
+		_this.handlemouseenter = _this.handlemouseenter.bind(_this);
+		_this.handlemouseleave = _this.handlemouseleave.bind(_this);
 
 		return _this;
 	}
 
 	_createClass(Sideright_img, [{
-		key: 'handlechange',
-		value: function handlechange() {
-			alert(this.state.numx);
+		key: 'handlemouseenter',
+		value: function handlemouseenter() {
+			var x = '1' + this.props.num;
+			this.setState({
+				numx: x,
+				display: 'block'
+			});
+		}
+	}, {
+		key: 'handlemouseleave',
+		value: function handlemouseleave() {
+			this.setState({
+				numx: this.props.num,
+				display: 'none'
+			});
 		}
 	}, {
 		key: 'render',
 		value: function render() {
 			var topheight = this.props.topvalue + '%';
-			return _react2.default.createElement('img', {
-				src: './source/image/siderightnav_logo/srlogo' + this.state.numx + '.png',
-				onClick: this.handlechange,
+			return _react2.default.createElement(
+				'div',
+				{ style: { top: topheight },
+					onMouseEnter: this.handlemouseenter,
+					onMouseLeave: this.handlemouseleave },
+				_react2.default.createElement(
+					'span',
+					{ style: { display: this.state.display
+						} },
+					this.props.spanvalue
+				),
+				_react2.default.createElement('img', {
+					src: './source/image/siderightnav_logo/srlogo' + this.state.numx + '.png'
 
-				style: { top: topheight }
-			});
+				})
+			);
 		}
 	}]);
 

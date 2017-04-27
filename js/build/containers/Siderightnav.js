@@ -37,13 +37,13 @@ var Siderightnav = function (_React$Component) {
 			return _react2.default.createElement(
 				'nav',
 				{ id: 'sideright' },
-				_react2.default.createElement(_Sideright_img2.default, { num: '11', topvalue: '30' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '12', topvalue: '35' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '13', topvalue: '40' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '14', topvalue: '45' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '15', topvalue: '50' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '16', topvalue: '80' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '17', topvalue: '83' })
+				_react2.default.createElement(_Sideright_img2.default, { num: '1', topvalue: '20', spanvalue: '\u6211\u7684\u5929\u732B' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '2', topvalue: '30', spanvalue: '\u6211\u7684\u94B1\u5305' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '3', topvalue: '40', spanvalue: '\u6211\u7684\u5173\u6CE8' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '4', topvalue: '50', spanvalue: '\u6211\u7684\u6536\u85CF' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '5', topvalue: '60', spanvalue: '\u5B9A\u65F6\u5668' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '6', topvalue: '80', spanvalue: '\u7F16\u8F91' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '7', topvalue: '83', spanvalue: '\u83DC\u5355' })
 			);
 		}
 	}]);

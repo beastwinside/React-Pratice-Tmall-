@@ -1,11 +1,51 @@
 import  React from 'react';
-import Lunbotu_7but from './Lunbotu_7but';
+
 
 
 class Lunbotu extends React.Component{
+
+	constructor(props){
+		super(props);
+		this.state={
+			x:1,
+		}
+
+		this.xuanhuanalert=this.xuanhuanalert.bind(this);
+
+	}
+
+	xuanhuanalert(){
+		var am=this.state.x+1;
+		alert(am);
+		this.setState({
+			x:am,
+		})
+    
+	}
+
+	componentDidMount(){
+		
+			this.xuanhuanalert();
+		
+
+		
+	}
+
+
+
 	render(){
-		return<div id="lunbo">
-		<Lunbotu_7but />
+		var urlx="url('./source/image/mainshow_image/lunbo/lunbo"+this.state.x+".png')"
+		return<div id="lunbo" 
+		style={{backgroundImage:urlx}}>
+		<div id="Lunbotu_7but">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+		<div>7</div>
+		</div>;
 		</div>;
 
 

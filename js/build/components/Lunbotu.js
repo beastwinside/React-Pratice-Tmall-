@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -6,13 +6,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require('react');
+var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
-
-var _Lunbotu_7but = require('./Lunbotu_7but');
-
-var _Lunbotu_7but2 = _interopRequireDefault(_Lunbotu_7but);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25,19 +21,83 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Lunbotu = function (_React$Component) {
 	_inherits(Lunbotu, _React$Component);
 
-	function Lunbotu() {
+	function Lunbotu(props) {
 		_classCallCheck(this, Lunbotu);
 
-		return _possibleConstructorReturn(this, (Lunbotu.__proto__ || Object.getPrototypeOf(Lunbotu)).apply(this, arguments));
+		var _this = _possibleConstructorReturn(this, (Lunbotu.__proto__ || Object.getPrototypeOf(Lunbotu)).call(this, props));
+
+		_this.state = {
+			x: 1
+		};
+
+		_this.xuanhuanalert = _this.xuanhuanalert.bind(_this);
+
+		return _this;
 	}
 
 	_createClass(Lunbotu, [{
-		key: 'render',
+		key: "xuanhuanalert",
+		value: function xuanhuanalert() {
+			var am = this.state.x + 1;
+			alert(am);
+			this.setState({
+				x: am
+			});
+		}
+	}, {
+		key: "componentDidMount",
+		value: function componentDidMount() {
+
+			this.xuanhuanalert();
+		}
+	}, {
+		key: "render",
 		value: function render() {
+			var urlx = "url('./source/image/mainshow_image/lunbo/lunbo" + this.state.x + ".png')";
 			return _react2.default.createElement(
-				'div',
-				{ id: 'lunbo' },
-				_react2.default.createElement(_Lunbotu_7but2.default, null)
+				"div",
+				{ id: "lunbo",
+					style: { backgroundImage: urlx } },
+				_react2.default.createElement(
+					"div",
+					{ id: "Lunbotu_7but" },
+					_react2.default.createElement(
+						"div",
+						null,
+						"1"
+					),
+					_react2.default.createElement(
+						"div",
+						null,
+						"2"
+					),
+					_react2.default.createElement(
+						"div",
+						null,
+						"3"
+					),
+					_react2.default.createElement(
+						"div",
+						null,
+						"4"
+					),
+					_react2.default.createElement(
+						"div",
+						null,
+						"5"
+					),
+					_react2.default.createElement(
+						"div",
+						null,
+						"6"
+					),
+					_react2.default.createElement(
+						"div",
+						null,
+						"7"
+					)
+				),
+				";"
 			);
 		}
 	}]);
