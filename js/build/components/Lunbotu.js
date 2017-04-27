@@ -96,8 +96,7 @@ var Lunbotu = function (_React$Component) {
 						null,
 						"7"
 					)
-				),
-				";"
+				)
 			);
 		}
 	}]);

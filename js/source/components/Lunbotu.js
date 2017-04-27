@@ -45,7 +45,7 @@ class Lunbotu extends React.Component{
 		<div>5</div>
 		<div>6</div>
 		<div>7</div>
-		</div>;
+		</div>
 		</div>;
 
 
