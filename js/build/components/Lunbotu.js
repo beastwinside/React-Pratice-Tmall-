@@ -44,20 +44,42 @@ var Lunbotu = function (_React$Component) {
 			var _this2 = this;
 
 			setInterval(function () {
+				var ind = _this2.state.index;
+				var ind_ = ind - 1;
+				var mm = "lunbo_but" + ind;
+
+				var curbut = document.getElementById(mm);
+				curbut.style.backgroundColor = "red";
+
+				if (ind_ != 0) {
+					var mm_ = "lunbo_but" + ind_;
+					var subbut = document.getElementById(mm_);
+					subbut.style.backgroundColor = "black";
+				} else document.getElementById("lunbo_but7").style.backgroundColor = "black";
+
 				var am = _this2.state.x;
 				if (am >= 1 && am <= 6) am++;else am = 1;
 				_this2.setState({
-					x: am
+					x: am,
+					index: am
 
 				});
-			}, 3000);
+			}, 5000);
 		}
 	}, {
 		key: "handlclick",
 		value: function handlclick(e) {
-
+			var now = "lunbo_but" + e.target.innerText;
+			if (this.state.x != 1) var before = this.state.x - 1;else {
+				var before = 7;
+			}
+			before = "lunbo_but" + before;
+			document.getElementById(now).style.backgroundColor = "red";
+			document.getElementById(before).style.backgroundColor = "black";
 			this.setState({
-				x: e.target.innerText
+				x: e.target.innerText,
+				index: e.target.innerText
+
 			});
 		}
 	}, {
@@ -79,43 +101,43 @@ var Lunbotu = function (_React$Component) {
 					{ id: "Lunbotu_7but" },
 					_react2.default.createElement(
 						"div",
-						{
+						{ id: "lunbo_but1",
 							onClick: this.handlclick },
 						"1"
 					),
 					_react2.default.createElement(
 						"div",
-						{
+						{ id: "lunbo_but2",
 							onClick: this.handlclick },
 						"2"
 					),
 					_react2.default.createElement(
 						"div",
-						{
+						{ id: "lunbo_but3",
 							onClick: this.handlclick },
 						"3"
 					),
 					_react2.default.createElement(
 						"div",
-						{
+						{ id: "lunbo_but4",
 							onClick: this.handlclick },
 						"4"
 					),
 					_react2.default.createElement(
 						"div",
-						{
+						{ id: "lunbo_but5",
 							onClick: this.handlclick },
 						"5"
 					),
 					_react2.default.createElement(
 						"div",
-						{
+						{ id: "lunbo_but6",
 							onClick: this.handlclick },
 						"6"
 					),
 					_react2.default.createElement(
 						"div",
-						{
+						{ id: "lunbo_but7",
 							onClick: this.handlclick },
 						"7"
 					)
