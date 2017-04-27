@@ -37,7 +37,7 @@ class Lunbotu extends React.Component{
 			this.setState({
 				x:am,
 			})
-		}, 1000);
+		}, 2000);
 		
 
 		
