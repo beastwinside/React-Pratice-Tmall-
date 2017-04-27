@@ -15,17 +15,29 @@ class Lunbotu extends React.Component{
 	}
 
 	xuanhuanalert(){
-		var am=this.state.x+1;
+
+		var am=this.state.x;
 		
+
+		if(am>=1)
+			am=5;
+		else ;
 		this.setState({
 			x:am,
 		})
-    
+
 	}
 
 	componentDidMount(){
-		
-			this.xuanhuanalert();
+		 setInterval(()=> {
+			var am=this.state.x;
+			if(am>=1&&am<=5)
+				am++;
+			else am=1;
+			this.setState({
+				x:am,
+			})
+		}, 1000);
 		
 
 		

@@ -4,7 +4,7 @@ class Lunboright_mywelfare extends React.Component{
 	render(){
 		return<div id="mywelfare">
 		<div id="mywelfare_header">∏我的福利</div>
-		
+		<img id="fuli_logo" src="./source/image/mainshow_image/lunbo_welfare_logo/福利.png"/>
 		<div id="welfarelogo">
 		<nav id="welfare_nav"><a>优惠券</a>
 		<a>淘享卡</a>

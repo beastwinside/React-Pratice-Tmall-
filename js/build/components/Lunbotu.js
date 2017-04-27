@@ -38,8 +38,10 @@ var Lunbotu = function (_React$Component) {
 	_createClass(Lunbotu, [{
 		key: "xuanhuanalert",
 		value: function xuanhuanalert() {
-			var am = this.state.x + 1;
 
+			var am = this.state.x;
+
+			if (am >= 1) am = 5;else ;
 			this.setState({
 				x: am
 			});
@@ -47,8 +49,15 @@ var Lunbotu = function (_React$Component) {
 	}, {
 		key: "componentDidMount",
 		value: function componentDidMount() {
+			var _this2 = this;
 
-			this.xuanhuanalert();
+			setInterval(function () {
+				var am = _this2.state.x;
+				if (am >= 1 && am <= 5) am++;else am = 1;
+				_this2.setState({
+					x: am
+				});
+			}, 1000);
 		}
 	}, {
 		key: "render",

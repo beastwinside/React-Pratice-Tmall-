@@ -38,6 +38,7 @@ var Lunboright_mywelfare = function (_React$Component) {
 					{ id: "mywelfare_header" },
 					"\u220F\u6211\u7684\u798F\u5229"
 				),
+				_react2.default.createElement("img", { id: "fuli_logo", src: "./source/image/mainshow_image/lunbo_welfare_logo/\u798F\u5229.png" }),
 				_react2.default.createElement(
 					"div",
 					{ id: "welfarelogo" },

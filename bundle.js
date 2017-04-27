@@ -314,8 +314,10 @@ var Lunbotu = function (_React$Component) {
 	_createClass(Lunbotu, [{
 		key: "xuanhuanalert",
 		value: function xuanhuanalert() {
-			var am = this.state.x + 1;
 
+			var am = this.state.x;
+
+			if (am >= 1) am = 5;else ;
 			this.setState({
 				x: am
 			});
@@ -323,8 +325,15 @@ var Lunbotu = function (_React$Component) {
 	}, {
 		key: "componentDidMount",
 		value: function componentDidMount() {
+			var _this2 = this;
 
-			this.xuanhuanalert();
+			setInterval(function () {
+				var am = _this2.state.x;
+				if (am >= 1 && am <= 5) am++;else am = 1;
+				_this2.setState({
+					x: am
+				});
+			}, 1000);
 		}
 	}, {
 		key: "render",
@@ -1465,6 +1474,7 @@ var Lunboright_mywelfare = function (_React$Component) {
 					{ id: "mywelfare_header" },
 					"\u220F\u6211\u7684\u798F\u5229"
 				),
+				_react2.default.createElement("img", { id: "fuli_logo", src: "./source/image/mainshow_image/lunbo_welfare_logo/\u798F\u5229.png" }),
 				_react2.default.createElement(
 					"div",
 					{ id: "welfarelogo" },

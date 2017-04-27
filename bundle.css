@@ -562,6 +562,18 @@ body,html{
 
 	}
 
+
+	#fuli_logo{
+		width: 100%;
+		top: 30px;
+		left: 0;
+		position: absolute;
+	}
+
+	#fuli_logo:hover{
+		cursor: pointer;
+	}
+
 	#welfarelogo{
 		border-top-style: solid;
 		border-top-width: 1px;
@@ -636,7 +648,7 @@ body,html{
 		border-width: 1px;
 		border-color: #C3C2C2;
 		overflow: hidden;
-		
+
 
 	}
 
@@ -650,7 +662,7 @@ body,html{
 		border-width: 1px;
 		border-color: #C3C2C2;
 		overflow: hidden;
-		
+
 
 	}
 
@@ -660,7 +672,7 @@ body,html{
 	#lunbo_right_2:hover{
 		cursor: pointer;
 	}
-	
+
 
 	#sideleft{
 		width: 100px;
