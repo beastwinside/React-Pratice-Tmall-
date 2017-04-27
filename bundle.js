@@ -315,7 +315,7 @@ var Lunbotu = function (_React$Component) {
 		key: "xuanhuanalert",
 		value: function xuanhuanalert() {
 			var am = this.state.x + 1;
-			alert(am);
+
 			this.setState({
 				x: am
 			});
@@ -460,7 +460,12 @@ var Mainheader_nav = function (_React$Component) {
 				_react2.default.createElement(
 					"div",
 					{ id: "shopcart" },
-					"\uFFE50.00\u5143 0kg"
+					_react2.default.createElement(
+						"span",
+						null,
+						"\uFFE50.00\u5143"
+					),
+					" 0kg"
 				)
 			);
 		}
@@ -873,6 +878,7 @@ var Sitenav_ul = function (_React$Component) {
 					_react2.default.createElement(
 						'li',
 						null,
+						_react2.default.createElement('img', { src: './source/image/sitenav_logo/\u5173\u6CE8.png' }),
 						'\u6211\u5173\u6CE8\u7684\u54C1\u724C '
 					)
 				),
@@ -882,6 +888,7 @@ var Sitenav_ul = function (_React$Component) {
 					_react2.default.createElement(
 						'li',
 						null,
+						_react2.default.createElement('img', { src: './source/image/sitenav_logo/\u8D2D\u7269\u8F66.png' }),
 						'\u8D2D\u7269\u8F66 '
 					)
 				),
@@ -900,6 +907,7 @@ var Sitenav_ul = function (_React$Component) {
 					_react2.default.createElement(
 						'li',
 						null,
+						_react2.default.createElement('img', { src: './source/image/sitenav_logo/\u624B\u673A.png' }),
 						'\u624B\u673A\u7248 '
 					)
 				),
@@ -936,6 +944,7 @@ var Sitenav_ul = function (_React$Component) {
 					_react2.default.createElement(
 						'li',
 						null,
+						_react2.default.createElement('img', { src: './source/image/sitenav_logo/\u7F51\u7AD9\u5BFC\u822A.png' }),
 						'\u7F51\u7AD9\u5BFC\u822A '
 					)
 				)
@@ -1424,7 +1433,7 @@ var Lunboright_mywelfare = function (_React$Component) {
 				_react2.default.createElement(
 					"div",
 					{ id: "mywelfare_header" },
-					"\u6211\u7684\u798F\u5229\u533A"
+					"\u220F\u6211\u7684\u798F\u5229"
 				),
 				_react2.default.createElement(
 					"div",
@@ -2144,11 +2153,11 @@ var Siderightnav = function (_React$Component) {
 			return _react2.default.createElement(
 				'nav',
 				{ id: 'sideright' },
-				_react2.default.createElement(_Sideright_img2.default, { num: '1', topvalue: '20', spanvalue: '\u6211\u7684\u5929\u732B' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '2', topvalue: '30', spanvalue: '\u6211\u7684\u94B1\u5305' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '3', topvalue: '40', spanvalue: '\u6211\u7684\u5173\u6CE8' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '4', topvalue: '50', spanvalue: '\u6211\u7684\u6536\u85CF' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '5', topvalue: '60', spanvalue: '\u5B9A\u65F6\u5668' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '1', topvalue: '24', spanvalue: '\u6211\u7684\u5929\u732B' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '2', topvalue: '27', spanvalue: '\u6211\u7684\u94B1\u5305' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '3', topvalue: '30', spanvalue: '\u6211\u7684\u5173\u6CE8' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '4', topvalue: '33', spanvalue: '\u6211\u7684\u6536\u85CF' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '5', topvalue: '36', spanvalue: '\u5B9A\u65F6\u5668' }),
 				_react2.default.createElement(_Sideright_img2.default, { num: '6', topvalue: '80', spanvalue: '\u7F16\u8F91' }),
 				_react2.default.createElement(_Sideright_img2.default, { num: '7', topvalue: '83', spanvalue: '\u83DC\u5355' })
 			);
@@ -2204,6 +2213,7 @@ var Sitenav = function (_React$Component) {
 					'p',
 					null,
 					' ',
+					_react2.default.createElement('img', { src: './source/image/sitenav_logo/\u4E3B\u9875.png' }),
 					_react2.default.createElement(
 						'a',
 						null,

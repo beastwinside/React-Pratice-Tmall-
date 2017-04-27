@@ -16,7 +16,7 @@ class Lunbotu extends React.Component{
 
 	xuanhuanalert(){
 		var am=this.state.x+1;
-		alert(am);
+		
 		this.setState({
 			x:am,
 		})

@@ -48,6 +48,7 @@ var Sitenav_ul = function (_React$Component) {
 					_react2.default.createElement(
 						'li',
 						null,
+						_react2.default.createElement('img', { src: './source/image/sitenav_logo/\u5173\u6CE8.png' }),
 						'\u6211\u5173\u6CE8\u7684\u54C1\u724C '
 					)
 				),
@@ -57,6 +58,7 @@ var Sitenav_ul = function (_React$Component) {
 					_react2.default.createElement(
 						'li',
 						null,
+						_react2.default.createElement('img', { src: './source/image/sitenav_logo/\u8D2D\u7269\u8F66.png' }),
 						'\u8D2D\u7269\u8F66 '
 					)
 				),
@@ -75,6 +77,7 @@ var Sitenav_ul = function (_React$Component) {
 					_react2.default.createElement(
 						'li',
 						null,
+						_react2.default.createElement('img', { src: './source/image/sitenav_logo/\u624B\u673A.png' }),
 						'\u624B\u673A\u7248 '
 					)
 				),
@@ -111,6 +114,7 @@ var Sitenav_ul = function (_React$Component) {
 					_react2.default.createElement(
 						'li',
 						null,
+						_react2.default.createElement('img', { src: './source/image/sitenav_logo/\u7F51\u7AD9\u5BFC\u822A.png' }),
 						'\u7F51\u7AD9\u5BFC\u822A '
 					)
 				)

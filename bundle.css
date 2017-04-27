@@ -39,7 +39,7 @@ body,html{
 	#sitenav{
 		width:100%;
 		height: 30px;
-		background-color: #E7E9E8;
+		background-color: #f2f2f2;
 		position: relative;
 		left: 0;
 		right: 0;
@@ -56,18 +56,18 @@ body,html{
 
 	#sitenav p{
 		height: 0;
-		width: 300px;
+		width: 350px;
 		position: absolute;
-		right: 1200px;
+		right: 1250px;
 		top: 0;
 	}
 
 	#Sitenav_ul{
-		width: 700px;
+		width: 800px;
 		height: 100%;
 		position: absolute;
 		top: 0;
-		right: 350px;
+		right: 300px;
 		
 
 
@@ -281,7 +281,12 @@ body,html{
 		bottom: 10px;
 		border-top-left-radius: 15px;
 		border-bottom-left-radius: 15px;
+		font-size: 15px;
+	}
 
+	#shopcart span{
+		font-size: 25px;
+		color: yellow;
 	}
 
 	#shopcart:hover{
@@ -325,7 +330,7 @@ body,html{
 		height: 100%;
 		width: 200px;
 		position: relative;
-        border-width: 0.5px;
+		border-width: 0.5px;
 		border-right-style: solid;
 		border-color: #E0E0E0;
 
@@ -520,7 +525,7 @@ body,html{
 		height: 40%;
 		position: absolute;
 		top: 0;
-		background-color: #E77330; 
+		background-color: #FAFACA; 
 
 
 	}
@@ -555,7 +560,11 @@ body,html{
 		width: 100%;
 		height: 20%;
 		position: absolute;
-		top: 0;background-color: #980A0A;
+		top: 0;
+		font-size: 22px;
+		color: white;
+		background-color: #E3EE0B;
+		color: black
 
 	}
 
@@ -620,11 +629,11 @@ body,html{
 		color: white;
 		z-index: 3;
 	}
-		
+
 
 	#sideright div{
 		width: 450%;
-		height:50px;
+		height:30px;
 		position: absolute;
 		right: 0;
 		background-color: transparent;
@@ -640,10 +649,10 @@ body,html{
 		left: 0;
 		height: 100%;
 		width: 80%;
-		background-color: black;
-		font-size: 18px;
+		background-color: #6A6767;
+		font-size: 15px;
 		text-align: left;
-		text-indent: 10px;
+		text-indent: 20px;
 	}
 
 	#sideright img{

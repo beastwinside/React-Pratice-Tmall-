@@ -39,7 +39,7 @@ var Lunbotu = function (_React$Component) {
 		key: "xuanhuanalert",
 		value: function xuanhuanalert() {
 			var am = this.state.x + 1;
-			alert(am);
+
 			this.setState({
 				x: am
 			});

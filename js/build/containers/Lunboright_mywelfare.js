@@ -36,7 +36,7 @@ var Lunboright_mywelfare = function (_React$Component) {
 				_react2.default.createElement(
 					"div",
 					{ id: "mywelfare_header" },
-					"\u6211\u7684\u798F\u5229\u533A"
+					"\u220F\u6211\u7684\u798F\u5229"
 				),
 				_react2.default.createElement(
 					"div",

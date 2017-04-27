@@ -75,7 +75,12 @@ var Mainheader_nav = function (_React$Component) {
 				_react2.default.createElement(
 					"div",
 					{ id: "shopcart" },
-					"\uFFE50.00\u5143 0kg"
+					_react2.default.createElement(
+						"span",
+						null,
+						"\uFFE50.00\u5143"
+					),
+					" 0kg"
 				)
 			);
 		}

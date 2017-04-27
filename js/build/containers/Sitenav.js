@@ -42,6 +42,7 @@ var Sitenav = function (_React$Component) {
 					'p',
 					null,
 					' ',
+					_react2.default.createElement('img', { src: './source/image/sitenav_logo/\u4E3B\u9875.png' }),
 					_react2.default.createElement(
 						'a',
 						null,

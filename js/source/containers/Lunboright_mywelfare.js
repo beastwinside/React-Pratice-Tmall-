@@ -3,7 +3,7 @@ import React from 'react';
 class Lunboright_mywelfare extends React.Component{
 	render(){
 		return<div id="mywelfare">
-		<div id="mywelfare_header">我的福利区</div>
+		<div id="mywelfare_header">∏我的福利</div>
 		
 		<div id="welfarelogo">
 		<a>优惠券</a>
