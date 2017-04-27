@@ -8,37 +8,42 @@ class Lunbotu extends React.Component{
 		super(props);
 		this.state={
 			x:1,
+			index:1,
+			
 		}
 
 		this.xuanhuanalert=this.xuanhuanalert.bind(this);
+		this.handlclick=this.handlclick.bind(this);
+		
 
 	}
 
 	xuanhuanalert(){
 
-		var am=this.state.x;
-		
-
-		if(am>=1)
-			am=5;
-		else ;
-		this.setState({
-			x:am,
-		})
-
-	}
-
-	componentDidMount(){
-		 setInterval(()=> {
+		setInterval(()=> {
 			var am=this.state.x;
-			if(am>=1&&am<=5)
+			if(am>=1&&am<=6)
 				am++;
 			else am=1;
 			this.setState({
 				x:am,
+				
 			})
-		}, 2000);
+		}, 3000);
+
+	}
+
+	handlclick(e){
 		
+		this.setState({
+			x:e.target.innerText,
+		});
+	}
+
+	componentDidMount(){
+		
+
+		this.xuanhuanalert();
 
 		
 	}
@@ -50,13 +55,20 @@ class Lunbotu extends React.Component{
 		return<div id="lunbo" 
 		style={{backgroundImage:urlx}}>
 		<div id="Lunbotu_7but">
-		<div>1</div>
-		<div>2</div>
-		<div>3</div>
-		<div>4</div>
-		<div>5</div>
-		<div>6</div>
-		<div>7</div>
+		<div  
+		onClick={this.handlclick}  >1</div>
+		<div  
+		onClick={this.handlclick}  >2</div>
+		<div  
+		onClick={this.handlclick}  >3</div>
+		<div  
+		onClick={this.handlclick}  >4</div>
+		<div  
+		onClick={this.handlclick}   >5</div>
+		<div  
+		onClick={this.handlclick}  >6</div>
+		<div  
+		onClick={this.handlclick}  >7</div>
 		</div>
 		</div>;
 

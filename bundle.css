@@ -487,16 +487,16 @@ body,html{
 		font-size: 20px;
 		margin:2px;
 		color: white;
-
+		
 	}
-
 
 	#Lunbotu_7but div:hover{
-		background-color: #bf0000;
 		cursor: pointer;
-
+		background-color: red;
 	}
 
+
+	
 
 	#lunbo_down{
 		width: 100%;

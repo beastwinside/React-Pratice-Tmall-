@@ -303,10 +303,13 @@ var Lunbotu = function (_React$Component) {
 		var _this = _possibleConstructorReturn(this, (Lunbotu.__proto__ || Object.getPrototypeOf(Lunbotu)).call(this, props));
 
 		_this.state = {
-			x: 1
+			x: 1,
+			index: 1
+
 		};
 
 		_this.xuanhuanalert = _this.xuanhuanalert.bind(_this);
+		_this.handlclick = _this.handlclick.bind(_this);
 
 		return _this;
 	}
@@ -314,26 +317,30 @@ var Lunbotu = function (_React$Component) {
 	_createClass(Lunbotu, [{
 		key: "xuanhuanalert",
 		value: function xuanhuanalert() {
+			var _this2 = this;
 
-			var am = this.state.x;
+			setInterval(function () {
+				var am = _this2.state.x;
+				if (am >= 1 && am <= 6) am++;else am = 1;
+				_this2.setState({
+					x: am
 
-			if (am >= 1) am = 5;else ;
+				});
+			}, 3000);
+		}
+	}, {
+		key: "handlclick",
+		value: function handlclick(e) {
+
 			this.setState({
-				x: am
+				x: e.target.innerText
 			});
 		}
 	}, {
 		key: "componentDidMount",
 		value: function componentDidMount() {
-			var _this2 = this;
 
-			setInterval(function () {
-				var am = _this2.state.x;
-				if (am >= 1 && am <= 5) am++;else am = 1;
-				_this2.setState({
-					x: am
-				});
-			}, 1000);
+			this.xuanhuanalert();
 		}
 	}, {
 		key: "render",
@@ -348,37 +355,44 @@ var Lunbotu = function (_React$Component) {
 					{ id: "Lunbotu_7but" },
 					_react2.default.createElement(
 						"div",
-						null,
+						{
+							onClick: this.handlclick },
 						"1"
 					),
 					_react2.default.createElement(
 						"div",
-						null,
+						{
+							onClick: this.handlclick },
 						"2"
 					),
 					_react2.default.createElement(
 						"div",
-						null,
+						{
+							onClick: this.handlclick },
 						"3"
 					),
 					_react2.default.createElement(
 						"div",
-						null,
+						{
+							onClick: this.handlclick },
 						"4"
 					),
 					_react2.default.createElement(
 						"div",
-						null,
+						{
+							onClick: this.handlclick },
 						"5"
 					),
 					_react2.default.createElement(
 						"div",
-						null,
+						{
+							onClick: this.handlclick },
 						"6"
 					),
 					_react2.default.createElement(
 						"div",
-						null,
+						{
+							onClick: this.handlclick },
 						"7"
 					)
 				)
