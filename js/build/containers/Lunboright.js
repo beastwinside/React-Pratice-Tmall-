@@ -39,14 +39,22 @@ var Lunboright = function (_React$Component) {
 				{ id: 'lunbo_right' },
 				_react2.default.createElement(_Lunboright_mywelfare2.default, null),
 				_react2.default.createElement(
-					'div',
-					{ id: 'lunbo_right_1' },
-					_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright1.png' })
+					'a',
+					null,
+					_react2.default.createElement(
+						'div',
+						{ id: 'lunbo_right_1' },
+						_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright1.png' })
+					)
 				),
 				_react2.default.createElement(
-					'div',
-					{ id: 'lunbo_right_2' },
-					_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright2.png' })
+					'a',
+					null,
+					_react2.default.createElement(
+						'div',
+						{ id: 'lunbo_right_2' },
+						_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright2.png' })
+					)
 				)
 			);
 		}

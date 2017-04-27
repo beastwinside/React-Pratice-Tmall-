@@ -7,7 +7,8 @@ class Mainshow_ul_li extends React.Component{
 			a1:this.props.a1p,
 			a2:this.props.a2p,
 			a3:this.props.a3p,
-      		a4:this.props.a4p,
+			a4:this.props.a4p,
+			at:this.props.atp,
 
 		};
 
@@ -18,10 +19,12 @@ class Mainshow_ul_li extends React.Component{
 
 	render(){
 		return <li>
+		<div className='xxxx'></div>
 		<img src={this.props.li_img_url}/>
-		<span>进口商品</span>
+		<span>{this.state.at}	
+		</span>
 		<p>
-		<a>{this.state.a1}</a>
+		<a>{this.state.a1} </a>
 		<a>{this.state.a2} </a>
 		<a>{this.state.a3} </a>
 		<a>{this.state.a4} </a>

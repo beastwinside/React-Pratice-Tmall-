@@ -30,7 +30,8 @@ var Mainshow_ul_li = function (_React$Component) {
 			a1: _this.props.a1p,
 			a2: _this.props.a2p,
 			a3: _this.props.a3p,
-			a4: _this.props.a4p
+			a4: _this.props.a4p,
+			at: _this.props.atp
 
 		};
 
@@ -43,11 +44,12 @@ var Mainshow_ul_li = function (_React$Component) {
 			return _react2.default.createElement(
 				'li',
 				null,
+				_react2.default.createElement('div', { className: 'xxxx' }),
 				_react2.default.createElement('img', { src: this.props.li_img_url }),
 				_react2.default.createElement(
 					'span',
 					null,
-					'\u8FDB\u53E3\u5546\u54C1'
+					this.state.at
 				),
 				_react2.default.createElement(
 					'p',
@@ -55,7 +57,8 @@ var Mainshow_ul_li = function (_React$Component) {
 					_react2.default.createElement(
 						'a',
 						null,
-						this.state.a1
+						this.state.a1,
+						' '
 					),
 					_react2.default.createElement(
 						'a',

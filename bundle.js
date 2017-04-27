@@ -515,20 +515,20 @@ var Mainshow_ul = function (_React$Component) {
 				'ul',
 				{ id: 'mainshow_ul' },
 				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u98DE\u673A\u7EA2.png',
-					a1p: '\u725B\u5976', a2p: '\u96F6\u98DF', a3p: '\u997C\u5E72', a4p: '\u901F\u98DF' }),
+					a1p: '\u725B\u5976', a2p: '\u96F6\u98DF', a3p: '\u997C\u5E72', a4p: '\u901F\u98DF', atp: '\u8FDB\u53E3\u98DF\u54C1' }),
 				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u996E\u6599\u7EA2.png',
-					a1p: '\u7CD6\u5DE7', a2p: '\u53D8\u5E72', a3p: '\u575A\u679C', a4p: '\u725B\u5976' }),
+					a1p: '\u7CD6\u5DE7', a2p: '\u53D8\u5E72', a3p: '\u575A\u679C', a4p: '\u725B\u5976', atp: '\u98DF\u54C1\u996E\u6599' }),
 				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u6CB9\u7EA2.png',
-					a1p: '\u6CB9', a2p: '\u5927\u7C73', a3p: '\u8C03\u6599', a4p: '\u65B9\u4FBF\u9762' }),
+					a1p: '\u6CB9', a2p: '\u5927\u7C73', a3p: '\u8C03\u6599', a4p: '\u65B9\u4FBF\u9762', atp: '\u7CAE\u6CB9\u526F\u98DF' }),
 				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u8721\u70DB\u7EA2.png',
-					a1p: '\u6D17\u53D1', a2p: '\u6C90\u6D74', a3p: '\u7259\u818F', a4p: '\u6D01\u9762\u5976' }),
+					a1p: '\u6C34', a2p: '\u6C90\u6D74', a3p: '\u7259\u818F', a4p: '\u6D01\u9762\u5976', atp: '\u7F8E\u5BB9\u6D17\u62A4' }),
 				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u526A\u5200\u7EA2.png',
-					a1p: '\u6BDB\u5DFE', a2p: '\u5BB6\u7535', a3p: '\u6C34\u676F', a4p: '\u6536\u7EB3' }),
+					a1p: '\u6BDB\u5DFE', a2p: '\u5BB6\u7535', a3p: '\u6C34\u676F', a4p: '\u6536\u7EB3', atp: '\u5BB6\u5177\u5BB6\u7535' }),
 				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u9910\u5DFE\u7EB8\u7EA2.png',
-					a1p: '\u7EB8', a2p: '\u6D17\u8863', a3p: '\u6D17\u6D01\u7CBE', a4p: '\u5783\u573E\u888B' }),
+					a1p: '\u7EB8', a2p: '\u6D17\u8863', a3p: '\u7EB8\u5DFE', a4p: '\u5783\u573E\u888B', atp: '\u5BB6\u5EAD\u6E05\u6D01' }),
 				_react2.default.createElement(_Mainshow_ul_li2.default, { li_img_url: './source/image/mainshow_image/ul_li_icon/\u9C7C\u513F\u7EA2.png',
-					a1p: '\u7EB8\u5C3F\u88E4', a2p: '\u5976\u7C89', a3p: '', a4p: '\u6E7F\u5DFE' })
-			);
+					a1p: '\u7EB8\u5C3F\u88E4', a2p: '\u5976\u7C89', a3p: '', a4p: '\u6E7F\u5DFE', atp: '\u6BCD\u5A74\u7528\u54C1' })
+			);atp = "进口食品";
 		}
 	}]);
 
@@ -569,7 +569,8 @@ var Mainshow_ul_li = function (_React$Component) {
 			a1: _this.props.a1p,
 			a2: _this.props.a2p,
 			a3: _this.props.a3p,
-			a4: _this.props.a4p
+			a4: _this.props.a4p,
+			at: _this.props.atp
 
 		};
 
@@ -582,11 +583,12 @@ var Mainshow_ul_li = function (_React$Component) {
 			return _react2.default.createElement(
 				'li',
 				null,
+				_react2.default.createElement('div', { className: 'xxxx' }),
 				_react2.default.createElement('img', { src: this.props.li_img_url }),
 				_react2.default.createElement(
 					'span',
 					null,
-					'\u8FDB\u53E3\u5546\u54C1'
+					this.state.at
 				),
 				_react2.default.createElement(
 					'p',
@@ -594,7 +596,8 @@ var Mainshow_ul_li = function (_React$Component) {
 					_react2.default.createElement(
 						'a',
 						null,
-						this.state.a1
+						this.state.a1,
+						' '
 					),
 					_react2.default.createElement(
 						'a',
@@ -1396,14 +1399,22 @@ var Lunboright = function (_React$Component) {
 				{ id: 'lunbo_right' },
 				_react2.default.createElement(_Lunboright_mywelfare2.default, null),
 				_react2.default.createElement(
-					'div',
-					{ id: 'lunbo_right_1' },
-					_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright1.png' })
+					'a',
+					null,
+					_react2.default.createElement(
+						'div',
+						{ id: 'lunbo_right_1' },
+						_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright1.png' })
+					)
 				),
 				_react2.default.createElement(
-					'div',
-					{ id: 'lunbo_right_2' },
-					_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright2.png' })
+					'a',
+					null,
+					_react2.default.createElement(
+						'div',
+						{ id: 'lunbo_right_2' },
+						_react2.default.createElement('img', { src: './source/image/mainshow_image/lunboright/lunboright2.png' })
+					)
 				)
 			);
 		}
