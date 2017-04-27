@@ -30,7 +30,11 @@ var Sideleft_item = function (_React$Component) {
 	_createClass(Sideleft_item, [{
 		key: "render",
 		value: function render() {
-			return _react2.default.createElement("div", { className: "side_left_item" });
+			return _react2.default.createElement(
+				"div",
+				{ className: "side_left_item" },
+				this.props.item_value
+			);
 		}
 	}]);
 

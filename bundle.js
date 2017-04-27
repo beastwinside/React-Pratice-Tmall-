@@ -320,18 +320,6 @@ var Lunbotu = function (_React$Component) {
 			var _this2 = this;
 
 			setInterval(function () {
-				var ind = _this2.state.index;
-				var ind_ = ind - 1;
-				var mm = "lunbo_but" + ind;
-
-				var curbut = document.getElementById(mm);
-				curbut.style.backgroundColor = "red";
-
-				if (ind_ != 0) {
-					var mm_ = "lunbo_but" + ind_;
-					var subbut = document.getElementById(mm_);
-					subbut.style.backgroundColor = "black";
-				} else document.getElementById("lunbo_but7").style.backgroundColor = "black";
 
 				var am = _this2.state.x;
 				if (am >= 1 && am <= 6) am++;else am = 1;
@@ -340,18 +328,35 @@ var Lunbotu = function (_React$Component) {
 					index: am
 
 				});
-			}, 5000);
+			}, 4000);
+		}
+	}, {
+		key: "componentDidUpdate",
+		value: function componentDidUpdate() {
+			var ind = this.state.index;
+			var ind_ = ind - 1;
+			var mm = "lunbo_but" + ind;
+
+			var curbut = document.getElementById(mm);
+			curbut.style.backgroundColor = "red";
+
+			if (ind_ != 0) {
+				var mm_ = "lunbo_but" + ind_;
+				var subbut = document.getElementById(mm_);
+				subbut.style.backgroundColor = "black";
+			} else document.getElementById("lunbo_but7").style.backgroundColor = "black";
 		}
 	}, {
 		key: "handlclick",
 		value: function handlclick(e) {
-			var now = "lunbo_but" + e.target.innerText;
-			if (this.state.x != 1) var before = this.state.x - 1;else {
-				var before = 7;
-			}
-			before = "lunbo_but" + before;
-			document.getElementById(now).style.backgroundColor = "red";
-			document.getElementById(before).style.backgroundColor = "black";
+			document.getElementById("lunbo_but1").style.backgroundColor = "black";
+			document.getElementById("lunbo_but2").style.backgroundColor = "black";
+			document.getElementById("lunbo_but3").style.backgroundColor = "black";
+			document.getElementById("lunbo_but4").style.backgroundColor = "black";
+			document.getElementById("lunbo_but5").style.backgroundColor = "black";
+			document.getElementById("lunbo_but6").style.backgroundColor = "black";
+			document.getElementById("lunbo_but7").style.backgroundColor = "black";
+
 			this.setState({
 				x: e.target.innerText,
 				index: e.target.innerText
@@ -362,6 +367,7 @@ var Lunbotu = function (_React$Component) {
 		key: "componentDidMount",
 		value: function componentDidMount() {
 
+			document.getElementById("lunbo_but1").style.backgroundColor = "red";
 			this.xuanhuanalert();
 		}
 	}, {
@@ -803,7 +809,11 @@ var Sideleft_item = function (_React$Component) {
 	_createClass(Sideleft_item, [{
 		key: "render",
 		value: function render() {
-			return _react2.default.createElement("div", { className: "side_left_item" });
+			return _react2.default.createElement(
+				"div",
+				{ className: "side_left_item" },
+				this.props.item_value
+			);
 		}
 	}]);
 
@@ -2202,15 +2212,23 @@ var Sideleftnav = function (_React$Component) {
 			return _react2.default.createElement(
 				'nav',
 				{ id: 'sideleft' },
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null)
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u751F\u9C9C\u6C34\u679C' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u8FDB\u53E3\u96F6\u98DF' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u8FDB\u53E3\u9152\u996E' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u5976\u5236\u54C1  ' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u4F11\u95F2\u96F6\u98DF' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u997C\u5E72\u7CD6\u5DE7' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u9152\u6C34\u996E\u6599' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u51B2\u996E\u4FDD\u5065' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u7C73\u9762\u6742\u7CAE' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u6CB9\u54C1\u8C03\u5473' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u4E2A\u4EBA\u6E05\u6D01' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u7F8E\u5BB9\u62A4\u80A4' }),
+				_react2.default.createElement(
+					'div',
+					{ id: 'sideleft_erweima' },
+					_react2.default.createElement('img', { src: './source/image/erweima.jpg' })
+				)
 			);
 		}
 	}]);

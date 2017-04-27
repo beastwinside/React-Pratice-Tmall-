@@ -44,18 +44,6 @@ var Lunbotu = function (_React$Component) {
 			var _this2 = this;
 
 			setInterval(function () {
-				var ind = _this2.state.index;
-				var ind_ = ind - 1;
-				var mm = "lunbo_but" + ind;
-
-				var curbut = document.getElementById(mm);
-				curbut.style.backgroundColor = "red";
-
-				if (ind_ != 0) {
-					var mm_ = "lunbo_but" + ind_;
-					var subbut = document.getElementById(mm_);
-					subbut.style.backgroundColor = "black";
-				} else document.getElementById("lunbo_but7").style.backgroundColor = "black";
 
 				var am = _this2.state.x;
 				if (am >= 1 && am <= 6) am++;else am = 1;
@@ -64,18 +52,35 @@ var Lunbotu = function (_React$Component) {
 					index: am
 
 				});
-			}, 5000);
+			}, 4000);
+		}
+	}, {
+		key: "componentDidUpdate",
+		value: function componentDidUpdate() {
+			var ind = this.state.index;
+			var ind_ = ind - 1;
+			var mm = "lunbo_but" + ind;
+
+			var curbut = document.getElementById(mm);
+			curbut.style.backgroundColor = "red";
+
+			if (ind_ != 0) {
+				var mm_ = "lunbo_but" + ind_;
+				var subbut = document.getElementById(mm_);
+				subbut.style.backgroundColor = "black";
+			} else document.getElementById("lunbo_but7").style.backgroundColor = "black";
 		}
 	}, {
 		key: "handlclick",
 		value: function handlclick(e) {
-			var now = "lunbo_but" + e.target.innerText;
-			if (this.state.x != 1) var before = this.state.x - 1;else {
-				var before = 7;
-			}
-			before = "lunbo_but" + before;
-			document.getElementById(now).style.backgroundColor = "red";
-			document.getElementById(before).style.backgroundColor = "black";
+			document.getElementById("lunbo_but1").style.backgroundColor = "black";
+			document.getElementById("lunbo_but2").style.backgroundColor = "black";
+			document.getElementById("lunbo_but3").style.backgroundColor = "black";
+			document.getElementById("lunbo_but4").style.backgroundColor = "black";
+			document.getElementById("lunbo_but5").style.backgroundColor = "black";
+			document.getElementById("lunbo_but6").style.backgroundColor = "black";
+			document.getElementById("lunbo_but7").style.backgroundColor = "black";
+
 			this.setState({
 				x: e.target.innerText,
 				index: e.target.innerText
@@ -86,6 +91,7 @@ var Lunbotu = function (_React$Component) {
 		key: "componentDidMount",
 		value: function componentDidMount() {
 
+			document.getElementById("lunbo_but1").style.backgroundColor = "red";
 			this.xuanhuanalert();
 		}
 	}, {

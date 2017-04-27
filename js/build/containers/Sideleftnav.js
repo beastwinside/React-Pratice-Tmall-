@@ -37,15 +37,23 @@ var Sideleftnav = function (_React$Component) {
 			return _react2.default.createElement(
 				'nav',
 				{ id: 'sideleft' },
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null),
-				_react2.default.createElement(_Sideleft_item2.default, null)
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u751F\u9C9C\u6C34\u679C' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u8FDB\u53E3\u96F6\u98DF' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u8FDB\u53E3\u9152\u996E' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u5976\u5236\u54C1  ' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u4F11\u95F2\u96F6\u98DF' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u997C\u5E72\u7CD6\u5DE7' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u9152\u6C34\u996E\u6599' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u51B2\u996E\u4FDD\u5065' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u7C73\u9762\u6742\u7CAE' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u6CB9\u54C1\u8C03\u5473' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u4E2A\u4EBA\u6E05\u6D01' }),
+				_react2.default.createElement(_Sideleft_item2.default, { item_value: '\u7F8E\u5BB9\u62A4\u80A4' }),
+				_react2.default.createElement(
+					'div',
+					{ id: 'sideleft_erweima' },
+					_react2.default.createElement('img', { src: './source/image/erweima.jpg' })
+				)
 			);
 		}
 	}]);
