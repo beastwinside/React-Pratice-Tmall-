@@ -824,7 +824,6 @@ body,html{
 		height: 100%;
 		position: absolute;
 		left: 0;
-		background-color: #F88D0C;
 
 
 	}
@@ -834,7 +833,7 @@ body,html{
 		height: 40%;
 		position: absolute;
 		top: 0;
-		background-color: #2EE159;
+		
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
@@ -849,6 +848,31 @@ body,html{
 		height: 30%;
 		background-color: white;
 		border-radius: 50%;
+		font-size: 15px;
+		padding-top: 5px;
+		position: relative;
+
+	}
+
+	.showbox_9item span{
+		width: 100%;
+		height: 30px;
+		left: 0;
+		text-align: center;
+		top: 0;
+		bottom: 0;
+		position: absolute;
+		margin:auto;
+
+	}
+
+	.showbox_9item:hover{
+		width: 27.9%;
+		height: 29.9%;
+		background-color: transparent;
+		border-style: solid;
+		border-width: 0.1px;
+		cursor: pointer;
 
 	}
 
@@ -858,7 +882,7 @@ body,html{
 		height: 60%;
 		position: absolute;
 		bottom: 0;
-		background-color: #F7A2A2;
+		
 		left: 0;
 
 	}

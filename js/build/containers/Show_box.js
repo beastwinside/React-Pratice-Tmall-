@@ -34,6 +34,8 @@ var Show_box = function (_React$Component) {
 		_createClass(Show_box, [{
 				key: 'render',
 				value: function render() {
+
+						var boxsrc = "./source/image/showbox/showbox" + this.props.boxid + "/main.jpg";
 						return _react2.default.createElement(
 								'div',
 								{ className: 'show_box' },
@@ -51,21 +53,93 @@ var Show_box = function (_React$Component) {
 										{ className: 'show_container' },
 										_react2.default.createElement(
 												'div',
-												{ className: 'show_box_left' },
+												{ className: 'show_box_left', style: { backgroundColor: this.props.bgcolor } },
 												_react2.default.createElement(
 														'div',
 														{ className: 'show_box_left_top' },
-														_react2.default.createElement('span', { className: 'showbox_9item' }),
-														_react2.default.createElement('span', { className: 'showbox_9item' }),
-														_react2.default.createElement('span', { className: 'showbox_9item' }),
-														_react2.default.createElement('span', { className: 'showbox_9item' }),
-														_react2.default.createElement('span', { className: 'showbox_9item' }),
-														_react2.default.createElement('span', { className: 'showbox_9item' }),
-														_react2.default.createElement('span', { className: 'showbox_9item' }),
-														_react2.default.createElement('span', { className: 'showbox_9item' }),
-														_react2.default.createElement('span', { className: 'showbox_9item' })
+														_react2.default.createElement(
+																'div',
+																{ className: 'showbox_9item' },
+																_react2.default.createElement(
+																		'span',
+																		null,
+																		this.props.itemvalue1
+																)
+														),
+														_react2.default.createElement(
+																'div',
+																{ className: 'showbox_9item' },
+																_react2.default.createElement(
+																		'span',
+																		null,
+																		this.props.itemvalue2
+																)
+														),
+														_react2.default.createElement(
+																'div',
+																{ className: 'showbox_9item' },
+																_react2.default.createElement(
+																		'span',
+																		null,
+																		this.props.itemvalue3
+																)
+														),
+														_react2.default.createElement(
+																'div',
+																{ className: 'showbox_9item' },
+																_react2.default.createElement(
+																		'span',
+																		null,
+																		this.props.itemvalue4
+																)
+														),
+														_react2.default.createElement(
+																'div',
+																{ className: 'showbox_9item' },
+																_react2.default.createElement(
+																		'span',
+																		null,
+																		this.props.itemvalue5
+																)
+														),
+														_react2.default.createElement(
+																'div',
+																{ className: 'showbox_9item' },
+																_react2.default.createElement(
+																		'span',
+																		null,
+																		this.props.itemvalue6
+																)
+														),
+														_react2.default.createElement(
+																'div',
+																{ className: 'showbox_9item' },
+																_react2.default.createElement(
+																		'span',
+																		null,
+																		this.props.itemvalue7
+																)
+														),
+														_react2.default.createElement(
+																'div',
+																{ className: 'showbox_9item' },
+																_react2.default.createElement(
+																		'span',
+																		null,
+																		this.props.itemvalue8
+																)
+														),
+														_react2.default.createElement(
+																'div',
+																{ className: 'showbox_9item' },
+																_react2.default.createElement(
+																		'span',
+																		null,
+																		this.props.itemvalue9
+																)
+														)
 												),
-												_react2.default.createElement('img', { className: 'showbox_left_img', alt: '\u56FE\u7247' })
+												_react2.default.createElement('img', { className: 'showbox_left_img', src: boxsrc })
 										),
 										_react2.default.createElement(
 												'div',
