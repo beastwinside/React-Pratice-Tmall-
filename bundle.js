@@ -1182,12 +1182,12 @@ var Footer_down = function (_React$Component) {
 							'a',
 							null,
 							' \u652F\u4ED8\u5B9D'
+						),
+						_react2.default.createElement(
+							'span',
+							null,
+							'\u589E\u503C\u7535\u4FE1\u4E1A\u52A1\u7ECF\u8425\u8BB8\u53EF\u8BC1\uFF1A \u6D59B2-20110446 \u7F51\u7EDC\u6587\u5316\u7ECF\u8425\u8BB8\u53EF\u8BC1\uFF1A\u6D59\u7F51\u6587[2015]0295-065\u53F7 12318\u4E3E\u62A5 \u4E92\u8054\u7F51\u836F\u54C1\u4FE1\u606F\u670D\u52A1\u8D44\u8D28\u8BC1\u4E66\u7F16\u53F7\uFF1A\u6D59-\uFF08\u7ECF\u8425\u6027\uFF09-2017-0005 \u6D59\u516C\u7F51\u5B89\u5907 33010002000120\u53F7 \xA9 2003-2017 TMALL.COM \u7248\u6743\u6240\u6709'
 						)
-					),
-					_react2.default.createElement(
-						'p',
-						null,
-						'\u589E\u503C\u7535\u4FE1\u4E1A\u52A1\u7ECF\u8425\u8BB8\u53EF\u8BC1\uFF1A \u6D59B2-20110446 \u7F51\u7EDC\u6587\u5316\u7ECF\u8425\u8BB8\u53EF\u8BC1\uFF1A\u6D59\u7F51\u6587[2015]0295-065\u53F7 12318\u4E3E\u62A5 \u4E92\u8054\u7F51\u836F\u54C1\u4FE1\u606F\u670D\u52A1\u8D44\u8D28\u8BC1\u4E66\u7F16\u53F7\uFF1A\u6D59-\uFF08\u7ECF\u8425\u6027\uFF09-2017-0005 \u6D59\u516C\u7F51\u5B89\u5907 33010002000120\u53F7 \xA9 2003-2017 TMALL.COM \u7248\u6743\u6240\u6709'
 					)
 				)
 			);
@@ -2623,8 +2623,8 @@ var Siderightnav = function (_React$Component) {
 				_react2.default.createElement(_Sideright_img2.default, { num: '3', topvalue: '30', spanvalue: '\u6211\u7684\u5173\u6CE8' }),
 				_react2.default.createElement(_Sideright_img2.default, { num: '4', topvalue: '33', spanvalue: '\u6211\u7684\u6536\u85CF' }),
 				_react2.default.createElement(_Sideright_img2.default, { num: '5', topvalue: '36', spanvalue: '\u5B9A\u65F6\u5668' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '6', topvalue: '80', spanvalue: '\u7F16\u8F91' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '7', topvalue: '83', spanvalue: '\u83DC\u5355' })
+				_react2.default.createElement(_Sideright_img2.default, { num: '6', topvalue: '90', spanvalue: '\u7F16\u8F91' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '7', topvalue: '93', spanvalue: '\u83DC\u5355' })
 			);
 		}
 	}]);

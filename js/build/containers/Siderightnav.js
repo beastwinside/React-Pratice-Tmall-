@@ -42,8 +42,8 @@ var Siderightnav = function (_React$Component) {
 				_react2.default.createElement(_Sideright_img2.default, { num: '3', topvalue: '30', spanvalue: '\u6211\u7684\u5173\u6CE8' }),
 				_react2.default.createElement(_Sideright_img2.default, { num: '4', topvalue: '33', spanvalue: '\u6211\u7684\u6536\u85CF' }),
 				_react2.default.createElement(_Sideright_img2.default, { num: '5', topvalue: '36', spanvalue: '\u5B9A\u65F6\u5668' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '6', topvalue: '80', spanvalue: '\u7F16\u8F91' }),
-				_react2.default.createElement(_Sideright_img2.default, { num: '7', topvalue: '83', spanvalue: '\u83DC\u5355' })
+				_react2.default.createElement(_Sideright_img2.default, { num: '6', topvalue: '90', spanvalue: '\u7F16\u8F91' }),
+				_react2.default.createElement(_Sideright_img2.default, { num: '7', topvalue: '93', spanvalue: '\u83DC\u5355' })
 			);
 		}
 	}]);

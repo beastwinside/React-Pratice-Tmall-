@@ -1171,9 +1171,12 @@ body,html{
 		bottom: 0;
 		background-color:  #c40000;
 		color: white;
-
-
 	}
+
+	#Footer_down span{
+		color: #888585;
+	}
+
 	#Footer_down a:hover{
 		color: white;
 		cursor: pointer;

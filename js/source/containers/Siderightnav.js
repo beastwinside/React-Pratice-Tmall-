@@ -9,8 +9,8 @@ class Siderightnav extends React.Component{
 		<Sideright_img num='3' topvalue='30' spanvalue='我的关注'/>
 		<Sideright_img num='4' topvalue='33' spanvalue='我的收藏'/>
 		<Sideright_img num='5' topvalue='36' spanvalue='定时器'/>
-		<Sideright_img num='6' topvalue='80' spanvalue='编辑'/>
-		<Sideright_img num='7' topvalue='83' spanvalue='菜单'/>
+		<Sideright_img num='6' topvalue='90' spanvalue='编辑'/>
+		<Sideright_img num='7' topvalue='93' spanvalue='菜单'/>
 		
 		</nav> ;
 	}
