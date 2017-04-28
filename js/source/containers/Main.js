@@ -59,48 +59,48 @@ class 	Main extends React.Component{
 		itemvalue1="白酒" itemvalue2="保健酒" itemvalue3="啤酒" 
 		itemvalue4="酸梅汤"itemvalue5="其它饮料" itemvalue6="茶饮料"
 		itemvalue7="水" itemvalue8="果蔬饮料" itemvalue9="农夫果园"
-		mainitem1_price="" mainitem2_price=""mainitem3_price=""mainitem4_price=""
-		mainitem5_price=""mainitem6_price=""mainitem7_price=""mainitem8_price=""
+		mainitem1_price="99.0￥" mainitem2_price="139.0￥"mainitem3_price="408.0￥"mainitem4_price="106.9￥"
+		mainitem5_price="153.0￥"mainitem6_price="60.8￥"mainitem7_price="56.0￥"mainitem8_price="60.0￥"
 		/>
 
 		<Show_box  topvalue="冲印保健"bgcolor="#c6a868"boxid="8"
 		itemvalue1="蜂蜜" itemvalue2="膳食营养剂" itemvalue3="枸杞"
 		itemvalue4="阿胶"itemvalue5="维生素" itemvalue6="燕窝" 
 		itemvalue7="植物精华" itemvalue8="速溶咖啡" itemvalue9="麦片谷物冲饮"
-		mainitem1_price="" mainitem2_price=""mainitem3_price=""mainitem4_price=""
-		mainitem5_price=""mainitem6_price=""mainitem7_price=""mainitem8_price=""
+		mainitem1_price="29.9￥" mainitem2_price="19.9￥"mainitem3_price="12.8￥"mainitem4_price="39.9￥"
+		mainitem5_price="99.0￥"mainitem6_price="23.9￥"mainitem7_price="22.9￥"mainitem8_price="16.8￥"
 		/>
 
 		<Show_box  topvalue="米面杂粮"bgcolor="#ffbb00"boxid="9"
 		itemvalue1="大米" itemvalue2="银耳" itemvalue3="粗粮" 
 		itemvalue4="桂圆干"itemvalue5="食用菌" itemvalue6="莲子" 
 		itemvalue7="豆类" itemvalue8="百合" itemvalue9="木耳"
-		mainitem1_price="" mainitem2_price=""mainitem3_price=""mainitem4_price=""
-		mainitem5_price=""mainitem6_price=""mainitem7_price=""mainitem8_price=""
+		mainitem1_price="21.5￥" mainitem2_price="8.09￥"mainitem3_price="16.8￥"mainitem4_price="15.8￥"
+		mainitem5_price="29.9￥"mainitem6_price="55.0￥"mainitem7_price="27.9￥"mainitem8_price="32.8￥"
 		/>
 
 		<Show_box  topvalue="油品调味" bgcolor="#f4935f"boxid="10"
 		itemvalue1="调和油" itemvalue2="花生油" itemvalue3="玉米油" 
 		itemvalue4="葵花籽油"itemvalue5="橄榄油" itemvalue6="腌制品" 
 		itemvalue7="调味料" itemvalue8="辣椒调料" itemvalue9="酱油"
-		mainitem1_price="" mainitem2_price=""mainitem3_price=""mainitem4_price=""
-		mainitem5_price=""mainitem6_price=""mainitem7_price=""mainitem8_price=""
+		mainitem1_price="39.9￥" mainitem2_price="69.9￥"mainitem3_price="74.9￥"mainitem4_price="139.9￥"
+		mainitem5_price="129.9￥"mainitem6_price="39.9￥"mainitem7_price="8.9￥"mainitem8_price="25.9￥"
 		/>
 
 		<Show_box  topvalue="个人清洁"bgcolor="#6290f6"boxid="11"
 		itemvalue1="洗发水" itemvalue2="护发素" itemvalue3="沐浴露"
 		itemvalue4="洗手液"itemvalue5="香皂" itemvalue6="牙膏" 
 		itemvalue7="牙刷" itemvalue8="黑人" itemvalue9="舒客"
-		mainitem1_price="" mainitem2_price=""mainitem3_price=""mainitem4_price=""
-		mainitem5_price=""mainitem6_price=""mainitem7_price=""mainitem8_price=""
+		mainitem1_price="109.9￥" mainitem2_price="49.9￥"mainitem3_price="49.9￥"mainitem4_price="21.0￥"
+		mainitem5_price="56.0￥"mainitem6_price="13.9￥"mainitem7_price="39.9￥"mainitem8_price="16.9￥"
 		/>
 
 		<Show_box  topvalue="美容护肤" bgcolor="#ff909f"boxid="12"
 		itemvalue1="进口卸妆用品" itemvalue2="止汗香体" itemvalue3="男士控油"
 		itemvalue4="防晒"itemvalue5="护手霜" itemvalue6="男士爽肤水"
 		itemvalue7="进口面霜" itemvalue8="进口乳液" itemvalue9="男士乳液"
-		mainitem1_price="" mainitem2_price=""mainitem3_price=""mainitem4_price=""
-		mainitem5_price=""mainitem6_price=""mainitem7_price=""mainitem8_price=""
+		mainitem1_price="165.0￥" mainitem2_price="31.9￥"mainitem3_price="18.9￥"mainitem4_price="9.9￥"
+		mainitem5_price="19.9￥"mainitem6_price="39.0￥"mainitem7_price="30.6￥"mainitem8_price="69.0￥"
 		/>
 
 		

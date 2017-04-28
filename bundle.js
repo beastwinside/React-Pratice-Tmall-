@@ -1556,43 +1556,43 @@ var Main = function (_React$Component) {
 										itemvalue1: '\u767D\u9152', itemvalue2: '\u4FDD\u5065\u9152', itemvalue3: '\u5564\u9152',
 										itemvalue4: '\u9178\u6885\u6C64', itemvalue5: '\u5176\u5B83\u996E\u6599', itemvalue6: '\u8336\u996E\u6599',
 										itemvalue7: '\u6C34', itemvalue8: '\u679C\u852C\u996E\u6599', itemvalue9: '\u519C\u592B\u679C\u56ED',
-										mainitem1_price: '', mainitem2_price: '', mainitem3_price: '', mainitem4_price: '',
-										mainitem5_price: '', mainitem6_price: '', mainitem7_price: '', mainitem8_price: ''
+										mainitem1_price: '99.0\uFFE5', mainitem2_price: '139.0\uFFE5', mainitem3_price: '408.0\uFFE5', mainitem4_price: '106.9\uFFE5',
+										mainitem5_price: '153.0\uFFE5', mainitem6_price: '60.8\uFFE5', mainitem7_price: '56.0\uFFE5', mainitem8_price: '60.0\uFFE5'
 								}),
 								_react2.default.createElement(_Show_box2.default, { topvalue: '\u51B2\u5370\u4FDD\u5065', bgcolor: '#c6a868', boxid: '8',
 										itemvalue1: '\u8702\u871C', itemvalue2: '\u81B3\u98DF\u8425\u517B\u5242', itemvalue3: '\u67B8\u675E',
 										itemvalue4: '\u963F\u80F6', itemvalue5: '\u7EF4\u751F\u7D20', itemvalue6: '\u71D5\u7A9D',
 										itemvalue7: '\u690D\u7269\u7CBE\u534E', itemvalue8: '\u901F\u6EB6\u5496\u5561', itemvalue9: '\u9EA6\u7247\u8C37\u7269\u51B2\u996E',
-										mainitem1_price: '', mainitem2_price: '', mainitem3_price: '', mainitem4_price: '',
-										mainitem5_price: '', mainitem6_price: '', mainitem7_price: '', mainitem8_price: ''
+										mainitem1_price: '29.9\uFFE5', mainitem2_price: '19.9\uFFE5', mainitem3_price: '12.8\uFFE5', mainitem4_price: '39.9\uFFE5',
+										mainitem5_price: '99.0\uFFE5', mainitem6_price: '23.9\uFFE5', mainitem7_price: '22.9\uFFE5', mainitem8_price: '16.8\uFFE5'
 								}),
 								_react2.default.createElement(_Show_box2.default, { topvalue: '\u7C73\u9762\u6742\u7CAE', bgcolor: '#ffbb00', boxid: '9',
 										itemvalue1: '\u5927\u7C73', itemvalue2: '\u94F6\u8033', itemvalue3: '\u7C97\u7CAE',
 										itemvalue4: '\u6842\u5706\u5E72', itemvalue5: '\u98DF\u7528\u83CC', itemvalue6: '\u83B2\u5B50',
 										itemvalue7: '\u8C46\u7C7B', itemvalue8: '\u767E\u5408', itemvalue9: '\u6728\u8033',
-										mainitem1_price: '', mainitem2_price: '', mainitem3_price: '', mainitem4_price: '',
-										mainitem5_price: '', mainitem6_price: '', mainitem7_price: '', mainitem8_price: ''
+										mainitem1_price: '21.5\uFFE5', mainitem2_price: '8.09\uFFE5', mainitem3_price: '16.8\uFFE5', mainitem4_price: '15.8\uFFE5',
+										mainitem5_price: '29.9\uFFE5', mainitem6_price: '55.0\uFFE5', mainitem7_price: '27.9\uFFE5', mainitem8_price: '32.8\uFFE5'
 								}),
 								_react2.default.createElement(_Show_box2.default, { topvalue: '\u6CB9\u54C1\u8C03\u5473', bgcolor: '#f4935f', boxid: '10',
 										itemvalue1: '\u8C03\u548C\u6CB9', itemvalue2: '\u82B1\u751F\u6CB9', itemvalue3: '\u7389\u7C73\u6CB9',
 										itemvalue4: '\u8475\u82B1\u7C7D\u6CB9', itemvalue5: '\u6A44\u6984\u6CB9', itemvalue6: '\u814C\u5236\u54C1',
 										itemvalue7: '\u8C03\u5473\u6599', itemvalue8: '\u8FA3\u6912\u8C03\u6599', itemvalue9: '\u9171\u6CB9',
-										mainitem1_price: '', mainitem2_price: '', mainitem3_price: '', mainitem4_price: '',
-										mainitem5_price: '', mainitem6_price: '', mainitem7_price: '', mainitem8_price: ''
+										mainitem1_price: '39.9\uFFE5', mainitem2_price: '69.9\uFFE5', mainitem3_price: '74.9\uFFE5', mainitem4_price: '139.9\uFFE5',
+										mainitem5_price: '129.9\uFFE5', mainitem6_price: '39.9\uFFE5', mainitem7_price: '8.9\uFFE5', mainitem8_price: '25.9\uFFE5'
 								}),
 								_react2.default.createElement(_Show_box2.default, { topvalue: '\u4E2A\u4EBA\u6E05\u6D01', bgcolor: '#6290f6', boxid: '11',
 										itemvalue1: '\u6D17\u53D1\u6C34', itemvalue2: '\u62A4\u53D1\u7D20', itemvalue3: '\u6C90\u6D74\u9732',
 										itemvalue4: '\u6D17\u624B\u6DB2', itemvalue5: '\u9999\u7682', itemvalue6: '\u7259\u818F',
 										itemvalue7: '\u7259\u5237', itemvalue8: '\u9ED1\u4EBA', itemvalue9: '\u8212\u5BA2',
-										mainitem1_price: '', mainitem2_price: '', mainitem3_price: '', mainitem4_price: '',
-										mainitem5_price: '', mainitem6_price: '', mainitem7_price: '', mainitem8_price: ''
+										mainitem1_price: '109.9\uFFE5', mainitem2_price: '49.9\uFFE5', mainitem3_price: '49.9\uFFE5', mainitem4_price: '21.0\uFFE5',
+										mainitem5_price: '56.0\uFFE5', mainitem6_price: '13.9\uFFE5', mainitem7_price: '39.9\uFFE5', mainitem8_price: '16.9\uFFE5'
 								}),
 								_react2.default.createElement(_Show_box2.default, { topvalue: '\u7F8E\u5BB9\u62A4\u80A4', bgcolor: '#ff909f', boxid: '12',
 										itemvalue1: '\u8FDB\u53E3\u5378\u5986\u7528\u54C1', itemvalue2: '\u6B62\u6C57\u9999\u4F53', itemvalue3: '\u7537\u58EB\u63A7\u6CB9',
 										itemvalue4: '\u9632\u6652', itemvalue5: '\u62A4\u624B\u971C', itemvalue6: '\u7537\u58EB\u723D\u80A4\u6C34',
 										itemvalue7: '\u8FDB\u53E3\u9762\u971C', itemvalue8: '\u8FDB\u53E3\u4E73\u6DB2', itemvalue9: '\u7537\u58EB\u4E73\u6DB2',
-										mainitem1_price: '', mainitem2_price: '', mainitem3_price: '', mainitem4_price: '',
-										mainitem5_price: '', mainitem6_price: '', mainitem7_price: '', mainitem8_price: ''
+										mainitem1_price: '165.0\uFFE5', mainitem2_price: '31.9\uFFE5', mainitem3_price: '18.9\uFFE5', mainitem4_price: '9.9\uFFE5',
+										mainitem5_price: '19.9\uFFE5', mainitem6_price: '39.0\uFFE5', mainitem7_price: '30.6\uFFE5', mainitem8_price: '69.0\uFFE5'
 								}),
 								_react2.default.createElement(_Show_box_last2.default, null)
 						);
