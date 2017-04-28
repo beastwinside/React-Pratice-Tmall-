@@ -984,6 +984,9 @@ body,html{
 		background-color: red;
 
 	}
+	.show_box_right_u,.show_box_right_d{
+		cursor: pointer;
+	}
 
 	.show_box_right_d{
 		width: 100%;
