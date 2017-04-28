@@ -36,35 +36,35 @@ class Show_box extends React.Component{
 
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/1.jpg"}/>
-		<p>1</p>
+		<p>{this.props.mainitem1_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/2.jpg"}/>
-		<p>1</p>
+		<p>{this.props.mainitem2_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/3.jpg"}/>
-		<p>1</p>
+		<p>{this.props.mainitem3_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/4.jpg"}/>
-		<p>1</p>
+		<p>{this.props.mainitem4_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/5.jpg"}/>
-		<p>1</p>
+		<p>{this.props.mainitem5_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/6.jpg"}/>
-		<p>1</p>
+		<p>{this.props.mainitem6_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/7.jpg"}/>
-		<p>1</p>
+		<p>{this.props.mainitem7_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/8.jpg"}/>
-		<p>1</p>
+		<p>{this.props.mainitem8_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 
 		</div>

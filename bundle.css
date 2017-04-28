@@ -898,7 +898,7 @@ body,html{
 
 		width: 65%;
 		height: 100%;
-		background-color: #FCFCDC;
+		background-color: white;
 		position: absolute;
 		top: 0;
 		left: 20%;
@@ -918,18 +918,40 @@ body,html{
 		border-style: solid;
 		border-width: 0.1px;
 		border-color: #DAD9D9;
-		box-shadow: 1px 1px 1px 1px #5D5C5C;
+		
 
 	}
 
 	.show_box_main_item p{
-
+		font-size: 20px;
 		width: 100%;
 		height: 20%;
 		position: absolute;
 		bottom: 0;
-		background-color: #E4BBBB;
+		background-color: #bf0000;
 		color: white;
+		text-align: left;
+
+	}
+
+	.show_box_main_item p img{
+		height: 40px;
+		width: 40px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		right: 10px;
+		border-radius: 50%;
+		z-index: 3;
+	}
+
+	.show_box_main_item p img:hover{
+		height: 45px;
+		width: 45px;
+		cursor: pointer;
+		transition-property: height width;
+		transition-duration: 0.7s;
 
 	}
 
