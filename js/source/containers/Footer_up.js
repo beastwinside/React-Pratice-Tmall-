@@ -6,7 +6,7 @@ class Footer_up extends React.Component{
 		<div id="Footer_up_container">
 		<dl id='Footer_up_gwzn'>
 		<dt>购物指南</dt>
-		<dd>购物指南1</dd>
+		<dd>购物流程</dd>
 		<dd>购物指南2</dd>
 		<dd>购物指南3</dd>
 		<dd>购物指南4</dd>
