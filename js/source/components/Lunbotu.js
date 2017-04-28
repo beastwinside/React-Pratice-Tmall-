@@ -58,6 +58,8 @@ class Lunbotu extends React.Component{
 	}
 
 	handlclick(e){
+
+			
 			document.getElementById("lunbo_but1").style.backgroundColor="black";
 			document.getElementById("lunbo_but2").style.backgroundColor="black";
 			document.getElementById("lunbo_but3").style.backgroundColor="black";

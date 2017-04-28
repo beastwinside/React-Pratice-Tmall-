@@ -21,13 +21,22 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Sideleft_item = function (_React$Component) {
 	_inherits(Sideleft_item, _React$Component);
 
-	function Sideleft_item() {
+	function Sideleft_item(props) {
 		_classCallCheck(this, Sideleft_item);
 
-		return _possibleConstructorReturn(this, (Sideleft_item.__proto__ || Object.getPrototypeOf(Sideleft_item)).apply(this, arguments));
+		var _this = _possibleConstructorReturn(this, (Sideleft_item.__proto__ || Object.getPrototypeOf(Sideleft_item)).call(this, props));
+
+		_this.state = {};
+
+		return _this;
 	}
 
 	_createClass(Sideleft_item, [{
+		key: "componentDidMount",
+		value: function componentDidMount() {
+			alert("左边挂上去");
+		}
+	}, {
 		key: "render",
 		value: function render() {
 			return _react2.default.createElement(

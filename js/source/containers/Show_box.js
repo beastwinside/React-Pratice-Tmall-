@@ -6,7 +6,7 @@ class Show_box extends React.Component{
 	render(){
 		return<div className="show_box">
 		<header className="show_headerr">
-		<span>生鲜水果</span>
+		<span>{this.props.topvalue}</span>
 		</header>
 		<Show_container/>
 		</div>;

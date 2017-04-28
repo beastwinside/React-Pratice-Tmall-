@@ -2,6 +2,7 @@ import React from 'react';
 import Show_box_left_top from '../components/Show_box_left_top';
 
 class Show_box_left extends React.Component{
+	
 
 	render(){
 		return<div className="show_box_left">

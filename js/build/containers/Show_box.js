@@ -43,7 +43,7 @@ var Show_box = function (_React$Component) {
 					_react2.default.createElement(
 						'span',
 						null,
-						'\u751F\u9C9C\u6C34\u679C'
+						this.props.topvalue
 					)
 				),
 				_react2.default.createElement(_Show_container2.default, null)

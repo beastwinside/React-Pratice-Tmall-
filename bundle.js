@@ -349,6 +349,7 @@ var Lunbotu = function (_React$Component) {
 	}, {
 		key: "handlclick",
 		value: function handlclick(e) {
+
 			document.getElementById("lunbo_but1").style.backgroundColor = "black";
 			document.getElementById("lunbo_but2").style.backgroundColor = "black";
 			document.getElementById("lunbo_but3").style.backgroundColor = "black";
@@ -800,13 +801,22 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Sideleft_item = function (_React$Component) {
 	_inherits(Sideleft_item, _React$Component);
 
-	function Sideleft_item() {
+	function Sideleft_item(props) {
 		_classCallCheck(this, Sideleft_item);
 
-		return _possibleConstructorReturn(this, (Sideleft_item.__proto__ || Object.getPrototypeOf(Sideleft_item)).apply(this, arguments));
+		var _this = _possibleConstructorReturn(this, (Sideleft_item.__proto__ || Object.getPrototypeOf(Sideleft_item)).call(this, props));
+
+		_this.state = {};
+
+		return _this;
 	}
 
 	_createClass(Sideleft_item, [{
+		key: "componentDidMount",
+		value: function componentDidMount() {
+			alert("左边挂上去");
+		}
+	}, {
 		key: "render",
 		value: function render() {
 			return _react2.default.createElement(
@@ -1608,18 +1618,18 @@ var Main = function (_React$Component) {
 				'div',
 				{ id: 'main' },
 				_react2.default.createElement(_Mainshow2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
-				_react2.default.createElement(_Show_box2.default, null),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '1' }),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '2' }),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '3' }),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '4' }),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '5' }),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '6' }),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '7' }),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '8' }),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '9' }),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '10' }),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '11' }),
+				_react2.default.createElement(_Show_box2.default, { topvalue: '12' }),
 				_react2.default.createElement(_Show_box_last2.default, null)
 			);
 		}
@@ -1880,7 +1890,7 @@ var Show_box = function (_React$Component) {
 					_react2.default.createElement(
 						'span',
 						null,
-						'\u751F\u9C9C\u6C34\u679C'
+						this.props.topvalue
 					)
 				),
 				_react2.default.createElement(_Show_container2.default, null)
