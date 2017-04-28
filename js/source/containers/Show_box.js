@@ -1,5 +1,5 @@
 import React from 'react';
-import Show_box_main_cell from '../components/Show_box_main_cell';
+
 
 
 class Show_box extends React.Component{
@@ -33,20 +33,46 @@ class Show_box extends React.Component{
 		</div>
 
 		<div className="show_box_main">
-		<Show_box_main_cell/>
-		<Show_box_main_cell/>
-		<Show_box_main_cell/>
-		<Show_box_main_cell/>
-		<Show_box_main_cell/>
-		<Show_box_main_cell/>
-		<Show_box_main_cell/>
-		<Show_box_main_cell/>
+
+		<div className="show_box_main_item">
+		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/1.jpg"}/>
+		<p>1</p>
+		</div>
+		<div className="show_box_main_item">
+		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/2.jpg"}/>
+		<p>1</p>
+		</div>
+		<div className="show_box_main_item">
+		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/3.jpg"}/>
+		<p>1</p>
+		</div>
+		<div className="show_box_main_item">
+		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/4.jpg"}/>
+		<p>1</p>
+		</div>
+		<div className="show_box_main_item">
+		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/5.jpg"}/>
+		<p>1</p>
+		</div>
+		<div className="show_box_main_item">
+		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/6.jpg"}/>
+		<p>1</p>
+		</div>
+		<div className="show_box_main_item">
+		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/7.jpg"}/>
+		<p>1</p>
+		</div>
+		<div className="show_box_main_item">
+		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/8.jpg"}/>
+		<p>1</p>
+		</div>
+
 		</div>
 
 
 		<div className="show_box_right">
-		<img  alt="图" className="show_box_right_u" />
-		<img  alt="图" className="show_box_right_d" />
+		<img  src={"./source/image/showbox/showbox"+this.props.boxid+"/11.jpg"} className="show_box_right_u" />
+		<img  src={"./source/image/showbox/showbox"+this.props.boxid+"/12.jpg"} className="show_box_right_d" />
 
 		</div>
 		

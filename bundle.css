@@ -796,6 +796,8 @@ body,html{
 		font-size: 20px;
 		text-align: left;
 		border-bottom-style: solid;
+		border-bottom-width: 0.1px;
+		border-color: #C9C8C8;
 
 
 
@@ -852,6 +854,7 @@ body,html{
 		padding-top: 5px;
 		position: relative;
 
+
 	}
 
 	.showbox_9item span{
@@ -887,11 +890,15 @@ body,html{
 
 	}
 
+	.showbox_left_img:hover{
+		cursor: pointer;
+	}
+
 	.show_box_main{
 
 		width: 65%;
 		height: 100%;
-		background-color: #332F2F;
+		background-color: #FCFCDC;
 		position: absolute;
 		top: 0;
 		left: 20%;
@@ -906,8 +913,12 @@ body,html{
 	.show_box_main_item{
 		width: 24%;
 		height: 49%;
-		background-color: #F05E25;
+		background-color: white;
 		position: relative;
+		border-style: solid;
+		border-width: 0.1px;
+		border-color: #DAD9D9;
+		box-shadow: 1px 1px 1px 1px #5D5C5C;
 
 	}
 
