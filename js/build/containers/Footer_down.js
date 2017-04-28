@@ -39,12 +39,163 @@ var Footer_down = function (_React$Component) {
 					_react2.default.createElement(
 						'p',
 						{ id: 'Footer_down_p1' },
-						'\u5173\u4E8E\u5929\u732B \u5E2E\u52A9\u4E2D\u5FC3 \u5F00\u653E\u5E73\u53F0 \u8BDA\u8058\u82F1\u624D \u8054\u7CFB\u6211\u4EEC \u7F51\u7AD9\u5408\u4F5C \u6CD5\u5F8B\u58F0\u660E\u53CA\u9690\u79C1\u6743\u653F\u7B56'
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u5173\u4E8E\u5929\u732B'
+						),
+						_react2.default.createElement(
+							'a',
+							null,
+							' \u5E2E\u52A9\u4E2D\u5FC3 '
+						),
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u5F00\u653E\u5E73\u53F0'
+						),
+						_react2.default.createElement(
+							'a',
+							null,
+							' \u8BDA\u8058\u82F1\u624D'
+						),
+						_react2.default.createElement(
+							'a',
+							null,
+							' \u8054\u7CFB\u6211\u4EEC '
+						),
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u7F51\u7AD9\u5408\u4F5C '
+						),
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u6CD5\u5F8B\u58F0\u660E\u53CA\u9690\u79C1\u6743\u653F\u7B56'
+						)
 					),
 					_react2.default.createElement(
 						'p',
 						{ id: 'Footer_down_p2' },
-						'\u963F\u91CC\u5DF4\u5DF4\u96C6\u56E2| \u6DD8\u5B9D\u7F51 | \u5929\u732B | \u805A\u5212\u7B97 | \u5168\u7403\u901F\u5356\u901A | \u963F\u91CC\u5DF4\u5DF4\u56FD\u9645\u4EA4\u6613\u5E02\u573A| 1688 | \u963F\u91CC\u5988\u5988 | \u98DE\u732A | \u963F\u91CC\u4E91\u8BA1\u7B97 | YunOS | \u963F\u91CC\u901A\u4FE1 | \u4E07\u7F51 | \u9AD8\u5FB7 | UC | \u53CB\u76DF | \u867E\u7C73 | \u963F\u91CC\u661F\u7403 | \u6765\u5F80 | \u9489\u9489 | \u652F\u4ED8\u5B9D'
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u963F\u91CC\u5DF4\u5DF4\u96C6\u56E2'
+						),
+						'|',
+						_react2.default.createElement(
+							'a',
+							null,
+							' \u6DD8\u5B9D\u7F51 '
+						),
+						'|',
+						_react2.default.createElement(
+							'a',
+							null,
+							' \u5929\u732B'
+						),
+						' | ',
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u805A\u5212\u7B97'
+						),
+						' |',
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u5168\u7403\u901F\u5356\u901A'
+						),
+						' | ',
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u963F\u91CC\u5DF4\u5DF4\u56FD\u9645\u4EA4\u6613\u5E02\u573A'
+						),
+						'| ',
+						_react2.default.createElement(
+							'a',
+							null,
+							'1688'
+						),
+						' |',
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u963F\u91CC\u5988\u5988'
+						),
+						' |  | ',
+						_react2.default.createElement(
+							'a',
+							null,
+							'YunOS '
+						),
+						'|',
+						_react2.default.createElement(
+							'a',
+							null,
+							' \u963F\u91CC\u901A\u4FE1'
+						),
+						' | ',
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u4E07\u7F51 '
+						),
+						'| ',
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u9AD8\u5FB7'
+						),
+						' |',
+						_react2.default.createElement(
+							'a',
+							null,
+							' UC'
+						),
+						' | ',
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u53CB\u76DF'
+						),
+						' |',
+						_react2.default.createElement(
+							'a',
+							null,
+							' \u867E\u7C73'
+						),
+						' | ',
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u963F\u91CC\u661F\u7403 '
+						),
+						'| ',
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u6765\u5F80'
+						),
+						' | ',
+						_react2.default.createElement(
+							'a',
+							null,
+							'\u9489\u9489'
+						),
+						' |',
+						_react2.default.createElement(
+							'a',
+							null,
+							' \u652F\u4ED8\u5B9D'
+						)
+					),
+					_react2.default.createElement(
+						'p',
+						null,
+						'\u589E\u503C\u7535\u4FE1\u4E1A\u52A1\u7ECF\u8425\u8BB8\u53EF\u8BC1\uFF1A \u6D59B2-20110446 \u7F51\u7EDC\u6587\u5316\u7ECF\u8425\u8BB8\u53EF\u8BC1\uFF1A\u6D59\u7F51\u6587[2015]0295-065\u53F7 12318\u4E3E\u62A5 \u4E92\u8054\u7F51\u836F\u54C1\u4FE1\u606F\u670D\u52A1\u8D44\u8D28\u8BC1\u4E66\u7F16\u53F7\uFF1A\u6D59-\uFF08\u7ECF\u8425\u6027\uFF09-2017-0005 \u6D59\u516C\u7F51\u5B89\u5907 33010002000120\u53F7 \xA9 2003-2017 TMALL.COM \u7248\u6743\u6240\u6709'
 					)
 				)
 			);

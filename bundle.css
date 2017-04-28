@@ -724,14 +724,14 @@ body,html{
 
 	#sideright{
 		width: 30px;
-		height: 1080px;
+		height: 100%;
 		background-color: black;
 		position: fixed;
 		top: 0;
 		right: 0;
 		font-size: 20px;
 		color: white;
-		z-index: 3;
+		z-index: 7;
 	}
 
 
@@ -1077,7 +1077,11 @@ body,html{
 		border-top-style: solid;
 		border-top-width: 1px;
 		border-color: #BFBDBD;
-		z-index: 1;
+		z-index: 5;
+	}
+
+	footer a:hover{
+		color: #bf0000;
 	}
 
 	#Footer_up{
@@ -1089,6 +1093,18 @@ body,html{
 
 	}
 
+
+	#footerleft{
+		height: 200px;
+		width: 200px;
+		position: absolute;
+		left: 12%;
+		
+		top: 0;
+
+
+	}
+
 	#Footer_up_container{
 		height: 100%;
 		width: 800px;
@@ -1097,7 +1113,6 @@ body,html{
 		margin:auto;
 		position: absolute;
 		display: flex;
-		font-size: 20px;
 		color: #767575;
 		justify-content: space-between;
 
@@ -1108,13 +1123,17 @@ body,html{
 		font-weight: bolder;
 		color: #4A4848;
 	}
+
+	#Footer_up_container dd{
+		font-size: 14px;
+	}
 	
 	#Footer_up_gwzn{
 		width: 120px;
 		height: 180px;
 	
 		margin-right: 50px;
-		margin-top: 20px; 
+		margin-top: 10px; 
 
 	}
 
@@ -1123,7 +1142,7 @@ body,html{
 		height: 180px;
 		
 		margin-right: 50px;
-		margin-top: 20px; 
+		margin-top: 10px; 
 
 	}
 
@@ -1132,7 +1151,7 @@ body,html{
 		height: 180px;
 		
 		margin-right: 50px;
-		margin-top: 20px; 
+		margin-top: 10px; 
 
 	}
 
@@ -1140,7 +1159,7 @@ body,html{
 		width: 120px;
 		height: 180px;
 		
-		margin-top: 20px; 
+		margin-top: 10px; 
 	}
 
 
@@ -1150,8 +1169,14 @@ body,html{
 		width: 100%;
 		position: absolute;
 		bottom: 0;
-		background-color: red;
+		background-color:  #c40000;
 		color: white;
+
+
+	}
+	#Footer_down a:hover{
+		color: white;
+		cursor: pointer;
 
 	}
 
@@ -1162,26 +1187,32 @@ body,html{
 		left: 0;
 		right: 0;
 		margin: auto;
-		color: #EAE550;
-		border-style: solid;
+		color: #c40000;
+
+
+		
+		
 	}
 
 	#Footer_down_p1{
+		text-align:left;
 		width: 100%;
 		height: 70px;
 		position: relative;
-		background-color: black;
-		color: white;
-		font-size: 30px;
+		font-weight: bolder;
+		color: #ede6ff;
+		font-size: 15px;
 
 	}
+
+	
 
 	#Footer_down_p2{
 		width: 100%;
 		height: 60px;
 		position: relative;
-		background-color: grey;
-		color: white;
+		text-align: left;
+		color: #ede6ff;
 		font-size: 15px;
 
 	}

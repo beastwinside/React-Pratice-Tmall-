@@ -3,6 +3,8 @@ import 	React from 'react';
 class Show_box_last extends React.Component{
 	render(){
 		return<div id="Show_box_last">
+	
+
 		<div className="Show_box_last_item">
 		<nav>
 		<p><a>今日疯抢</a><a>新人活动</a></p>
