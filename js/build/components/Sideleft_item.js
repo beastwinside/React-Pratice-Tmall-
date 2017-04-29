@@ -33,7 +33,7 @@ var Sideleft_item = function (_React$Component) {
 			return _react2.default.createElement(
 				'div',
 				{ className: 'side_left_item',
-					style: { backgroundColor: 'white' } },
+					style: { backgroundColor: '#bf0000' } },
 				this.props.item_value
 			);
 		}
