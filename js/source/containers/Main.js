@@ -13,6 +13,8 @@ class 	Main extends React.Component{
 		itemvalue7="鸡肉" itemvalue8="鱼雷制品" itemvalue9="牛肉"
 		mainitem1_price="18￥" mainitem2_price="39.9￥"mainitem3_price="13.8￥"mainitem4_price="38.8￥"
 		mainitem5_price="9.9￥"mainitem6_price="65￥"mainitem7_price="58￥"mainitem8_price="26.8￥"
+		toprightvalue1="进口火龙果" toprightvalue2="冰鲜猪肉上新" toprightvalue3="三文鱼刺身"
+		 toprightvalue4="" toprightvalue5=""
 		/>
 
 		<Show_box  topvalue="进口零食速食" bgcolor="#ff9228" boxid="2"
@@ -21,6 +23,8 @@ class 	Main extends React.Component{
 		itemvalue7="海产品" itemvalue8="枣类" itemvalue9="薯片膨化"
 		mainitem1_price="16.9￥" mainitem2_price="10.8￥"mainitem3_price="39.9￥"mainitem4_price="14.9￥"
 		mainitem5_price="16.9￥"mainitem6_price="49.9￥"mainitem7_price="39.0￥"mainitem8_price="15.5￥"
+		toprightvalue1="6.5元起" toprightvalue2="张君雅小妹妹3.9元起" toprightvalue3="Loacker/莱家威化饼"
+		 toprightvalue4="皇冠4.9元起" toprightvalue5=""
 		/>
 
 		<Show_box  topvalue="进口酒饮粮油" bgcolor="#a95ffa" boxid="3"
@@ -29,6 +33,8 @@ class 	Main extends React.Component{
 		itemvalue7="谷物冲印" itemvalue8="茶饮料" itemvalue9="水"
 		mainitem1_price="19.9￥" mainitem2_price="69.9￥"mainitem3_price="8.8￥"mainitem4_price="119.0￥"
 		mainitem5_price="29.9￥"mainitem6_price="129.0￥"mainitem7_price="38.9￥"mainitem8_price="109.0￥"
+		toprightvalue1="" toprightvalue2="" toprightvalue3=""
+		 toprightvalue4="" toprightvalue5=""
 		/>
 
 		<Show_box  topvalue="奶制品" bgcolor="#2abff6"boxid="4"
@@ -37,6 +43,8 @@ class 	Main extends React.Component{
 		itemvalue7="蒙牛" itemvalue8="伊利" itemvalue9="三元"
 		mainitem1_price="27.9￥" mainitem2_price="54.9￥"mainitem3_price="74.8￥"mainitem4_price="52.9￥"
 		mainitem5_price="79.8￥"mainitem6_price="65.0￥"mainitem7_price="89.0￥"mainitem8_price="49.9￥"
+		toprightvalue1="进口橄榄油" toprightvalue2="进口厨房调料" toprightvalue3="进口果汁"
+		 toprightvalue4="进口啤酒" toprightvalue5="马玉山"
 		/>
 
 		<Show_box  topvalue="休闲零食" bgcolor="#67cd7d"boxid="5"
@@ -45,6 +53,11 @@ class 	Main extends React.Component{
 		itemvalue7="瓜子" itemvalue8="鸡鸭" itemvalue9="好吃的坚果"
 		mainitem1_price="9.9￥" mainitem2_price="15.9￥"mainitem3_price="8.9￥"mainitem4_price="19.9￥"
 		mainitem5_price="13.9￥"mainitem6_price="13.99￥"mainitem7_price="8.8￥"mainitem8_price="12.8￥"
+		toprightvalue1="
+奶制品
+
+    安慕希酸奶 " toprightvalue2="三元" toprightvalue3="有机牛奶"
+		 toprightvalue4="儿童牛奶专区" toprightvalue5="香蕉牛奶"
 		/>
 
 		<Show_box  topvalue="饼干糖巧"bgcolor="#ff7a64"boxid="6"
@@ -53,6 +66,8 @@ class 	Main extends React.Component{
 		itemvalue7="果冻/布丁" itemvalue8="口香糖" itemvalue9="小吃糕点"
 		mainitem1_price="7.9￥" mainitem2_price="49.9￥"mainitem3_price="39.8￥"mainitem4_price="13.8￥"
 		mainitem5_price="35.8￥"mainitem6_price="26.8￥"mainitem7_price="9.9￥"mainitem8_price="12.5￥"
+		toprightvalue1="百草味" toprightvalue2="良品铺子" toprightvalue3="新农哥"
+		 toprightvalue4="西域良品" toprightvalue5="来伊份"
 		/>
 
 		<Show_box  topvalue="酒水饮料" bgcolor="#83cfff"boxid="7"
@@ -61,6 +76,8 @@ class 	Main extends React.Component{
 		itemvalue7="水" itemvalue8="果蔬饮料" itemvalue9="农夫果园"
 		mainitem1_price="99.0￥" mainitem2_price="139.0￥"mainitem3_price="408.0￥"mainitem4_price="106.9￥"
 		mainitem5_price="153.0￥"mainitem6_price="60.8￥"mainitem7_price="56.0￥"mainitem8_price="60.0￥"
+		toprightvalue1="大牌直降" toprightvalue2="好丽友不止50%off" toprightvalue3="乐事享不停"
+		 toprightvalue4="德芙不止50%off" toprightvalue5="趣园1元起"
 		/>
 
 		<Show_box  topvalue="冲印保健"bgcolor="#c6a868"boxid="8"
@@ -69,6 +86,8 @@ class 	Main extends React.Component{
 		itemvalue7="植物精华" itemvalue8="速溶咖啡" itemvalue9="麦片谷物冲饮"
 		mainitem1_price="29.9￥" mainitem2_price="19.9￥"mainitem3_price="12.8￥"mainitem4_price="39.9￥"
 		mainitem5_price="99.0￥"mainitem6_price="23.9￥"mainitem7_price="22.9￥"mainitem8_price="16.8￥"
+		toprightvalue1="百威" toprightvalue2="农夫山泉有点甜" toprightvalue3="燕京啤酒 清爽感动世界"
+		 toprightvalue4="健康水生活" toprightvalue5="泸州老窖"
 		/>
 
 		<Show_box  topvalue="米面杂粮"bgcolor="#ffbb00"boxid="9"
@@ -77,6 +96,8 @@ class 	Main extends React.Component{
 		itemvalue7="豆类" itemvalue8="百合" itemvalue9="木耳"
 		mainitem1_price="21.5￥" mainitem2_price="8.09￥"mainitem3_price="16.8￥"mainitem4_price="15.8￥"
 		mainitem5_price="29.9￥"mainitem6_price="55.0￥"mainitem7_price="27.9￥"mainitem8_price="32.8￥"
+		toprightvalue1="五芳斋" toprightvalue2="真真老老" toprightvalue3="荣庆和"
+		 toprightvalue4="米粮调味" toprightvalue5=""
 		/>
 
 		<Show_box  topvalue="油品调味" bgcolor="#f4935f"boxid="10"
@@ -85,6 +106,8 @@ class 	Main extends React.Component{
 		itemvalue7="调味料" itemvalue8="辣椒调料" itemvalue9="酱油"
 		mainitem1_price="39.9￥" mainitem2_price="69.9￥"mainitem3_price="74.9￥"mainitem4_price="139.9￥"
 		mainitem5_price="129.9￥"mainitem6_price="39.9￥"mainitem7_price="8.9￥"mainitem8_price="25.9￥"
+		toprightvalue1="花生油聚“惠”" toprightvalue2="开胃菜热卖" toprightvalue3="清凉杂粮季"
+		 toprightvalue4="" toprightvalue5=""
 		/>
 
 		<Show_box  topvalue="个人清洁"bgcolor="#6290f6"boxid="11"
@@ -93,6 +116,8 @@ class 	Main extends React.Component{
 		itemvalue7="牙刷" itemvalue8="黑人" itemvalue9="舒客"
 		mainitem1_price="109.9￥" mainitem2_price="49.9￥"mainitem3_price="49.9￥"mainitem4_price="21.0￥"
 		mainitem5_price="56.0￥"mainitem6_price="13.9￥"mainitem7_price="39.9￥"mainitem8_price="16.9￥"
+		toprightvalue1="" toprightvalue2="" toprightvalue3=""
+		 toprightvalue4="" toprightvalue5=""
 		/>
 
 		<Show_box  topvalue="美容护肤" bgcolor="#ff909f"boxid="12"
@@ -101,6 +126,8 @@ class 	Main extends React.Component{
 		itemvalue7="进口面霜" itemvalue8="进口乳液" itemvalue9="男士乳液"
 		mainitem1_price="165.0￥" mainitem2_price="31.9￥"mainitem3_price="18.9￥"mainitem4_price="9.9￥"
 		mainitem5_price="19.9￥"mainitem6_price="39.0￥"mainitem7_price="30.6￥"mainitem8_price="69.0￥"
+		toprightvalue1="百雀羚" toprightvalue2="膜法世家" toprightvalue3="欧莱雅男士"
+		 toprightvalue4="妮维雅" toprightvalue5="曼秀雷敦"
 		/>
 
 		

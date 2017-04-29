@@ -961,6 +961,25 @@ body,html{
 
 	}
 
+
+	.showboxheader_right{
+		height: 50%;
+		width: 700px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		font-size: 16px;
+		color: #343333;
+		text-align: right;
+	}
+
+	.showboxheader_right a{
+		font-weight: normal;
+		margin-left: 10px;
+
+	}
+
+
 	.showbox_9item{
 
 		width: 28%;

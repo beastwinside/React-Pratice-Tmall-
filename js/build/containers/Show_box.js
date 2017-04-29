@@ -42,6 +42,35 @@ var Show_box = function (_React$Component) {
 												"span",
 												null,
 												this.props.topvalue
+										),
+										_react2.default.createElement(
+												"nav",
+												{ className: "showboxheader_right" },
+												_react2.default.createElement(
+														"a",
+														null,
+														this.props.toprightvalue5
+												),
+												_react2.default.createElement(
+														"a",
+														null,
+														this.props.toprightvalue4
+												),
+												_react2.default.createElement(
+														"a",
+														null,
+														this.props.toprightvalue3
+												),
+												_react2.default.createElement(
+														"a",
+														null,
+														this.props.toprightvalue2
+												),
+												_react2.default.createElement(
+														"a",
+														null,
+														this.props.toprightvalue1
+												)
 										)
 								),
 								_react2.default.createElement(

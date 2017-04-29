@@ -10,12 +10,19 @@ class Show_box extends React.Component{
 		return<div className="show_box">
 		<header className="show_headerr">
 		<span>{this.props.topvalue}</span>
+		<nav className="showboxheader_right">
+		<a>{this.props.toprightvalue5}</a>
+		<a>{this.props.toprightvalue4}</a>
+		<a>{this.props.toprightvalue3}</a>
+		<a>{this.props.toprightvalue2}</a>
+		<a>{this.props.toprightvalue1}</a>
+		</nav>
+
 		</header>
 
 
 		<div className="show_container">
 		<div className="show_box_left" style={{backgroundColor:this.props.bgcolor,}}>
-		
 		<div className="show_box_left_top" >
 		<div className="showbox_9item" ><span>{this.props.itemvalue1}</span></div>
 		<div className="showbox_9item" ><span>{this.props.itemvalue2}</span></div>
