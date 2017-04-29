@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require("react");
+var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -21,18 +21,19 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Sideleft_item = function (_React$Component) {
 	_inherits(Sideleft_item, _React$Component);
 
-	function Sideleft_item() {
+	function Sideleft_item(props) {
 		_classCallCheck(this, Sideleft_item);
 
-		return _possibleConstructorReturn(this, (Sideleft_item.__proto__ || Object.getPrototypeOf(Sideleft_item)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Sideleft_item.__proto__ || Object.getPrototypeOf(Sideleft_item)).call(this, props));
 	}
 
 	_createClass(Sideleft_item, [{
-		key: "render",
+		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
-				"div",
-				{ className: "side_left_item" },
+				'div',
+				{ className: 'side_left_item',
+					style: { backgroundColor: 'white' } },
 				this.props.item_value
 			);
 		}

@@ -679,7 +679,7 @@ var Mainshow_ul_li = function (_React$Component) {
 
 exports.default = Mainshow_ul_li;
 },{"react":230}],8:[function(require,module,exports){
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -687,7 +687,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require("react");
+var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -702,18 +702,19 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Sideleft_item = function (_React$Component) {
 	_inherits(Sideleft_item, _React$Component);
 
-	function Sideleft_item() {
+	function Sideleft_item(props) {
 		_classCallCheck(this, Sideleft_item);
 
-		return _possibleConstructorReturn(this, (Sideleft_item.__proto__ || Object.getPrototypeOf(Sideleft_item)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Sideleft_item.__proto__ || Object.getPrototypeOf(Sideleft_item)).call(this, props));
 	}
 
 	_createClass(Sideleft_item, [{
-		key: "render",
+		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
-				"div",
-				{ className: "side_left_item" },
+				'div',
+				{ className: 'side_left_item',
+					style: { backgroundColor: 'white' } },
 				this.props.item_value
 			);
 		}
@@ -4610,12 +4611,52 @@ var Sideleftnav = function (_React$Component) {
 	_createClass(Sideleftnav, [{
 		key: 'scrolltoshow',
 		value: function scrolltoshow() {
+			var xx = document.getElementsByClassName('side_left_item');
+			var clear = function clear() {
+				xx[0].style.backgroundColor = "white";
+				xx[1].style.backgroundColor = "white";
+				xx[2].style.backgroundColor = "white";
+				xx[3].style.backgroundColor = "white";
+				xx[4].style.backgroundColor = "white";
+				xx[5].style.backgroundColor = "white";
+				xx[6].style.backgroundColor = "white";
+				xx[7].style.backgroundColor = "white";
+				xx[8].style.backgroundColor = "white";
+				xx[9].style.backgroundColor = "white";
+				xx[10].style.backgroundColor = "white";
+				xx[11].style.backgroundColor = "white";
+			};
 
 			window.onscroll = function () {
 
 				var scrollTop = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset;;
-				if (scrollTop > 500) {
+				if (scrollTop >= 500) {
 					document.getElementById("sideleft").style.display = 'block';
+					if (scrollTop >= 500 && scrollTop < 1100) {
+						clear();xx[0].style.backgroundColor = "#E1145A";
+					} else if (scrollTop >= 1100 && scrollTop < 1700) {
+						clear();xx[1].style.backgroundColor = "#E1145A";
+					} else if (scrollTop >= 1700 && scrollTop < 2300) {
+						clear();xx[2].style.backgroundColor = "#E1145A";
+					} else if (scrollTop >= 2300 && scrollTop < 2900) {
+						clear();xx[3].style.backgroundColor = "#E1145A";
+					} else if (scrollTop >= 2900 && scrollTop < 3500) {
+						clear();xx[4].style.backgroundColor = "#E1145A";
+					} else if (scrollTop >= 3500 && scrollTop < 4100) {
+						clear();xx[5].style.backgroundColor = "#E1145A";
+					} else if (scrollTop >= 4100 && scrollTop < 4700) {
+						clear();xx[6].style.backgroundColor = "#E1145A";
+					} else if (scrollTop >= 4700 && scrollTop < 5300) {
+						clear();xx[7].style.backgroundColor = "#E1145A";
+					} else if (scrollTop >= 5300 && scrollTop < 5900) {
+						clear();xx[8].style.backgroundColor = "#E1145A";
+					} else if (scrollTop >= 5900 && scrollTop < 6500) {
+						clear();xx[9].style.backgroundColor = "#E1145A";
+					} else if (scrollTop >= 6500 && scrollTop < 7100) {
+						clear();xx[10].style.backgroundColor = "#E1145A";
+					} else if (scrollTop >= 7100 && scrollTop < 7700) {
+						clear();xx[11].style.backgroundColor = "#E1145A";
+					}
 				} else if (scrollTop < 500) {
 					document.getElementById("sideleft").style.display = 'none';
 				}
@@ -4624,6 +4665,7 @@ var Sideleftnav = function (_React$Component) {
 	}, {
 		key: 'componentDidMount',
 		value: function componentDidMount() {
+
 			this.scrolltoshow();
 		}
 	}, {
