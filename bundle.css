@@ -140,10 +140,25 @@ body,html{
 		padding-left: 10px;
 		border-radius: 3px;
 
-		
+	}
+
+
+	#pos_select_show{
+		width:600px;
+		height: 800px;
+		position: absolute;
+		z-index: 200;
+		background-color: red;
+		left: 200px;
+		top: 65px;
 
 
 	}
+
+	#pos_select_show:hover,#pos_select:hover{
+		cursor: pointer;
+	}
+	
 
 
 	#mainheader form{
@@ -1134,7 +1149,7 @@ body,html{
 	#Footer_up_gwzn{
 		width: 120px;
 		height: 180px;
-	
+
 		margin-right: 50px;
 		margin-top: 10px; 
 

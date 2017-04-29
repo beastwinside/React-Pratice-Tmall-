@@ -2,6 +2,35 @@ import React from 'react';
 import Mainheader_nav from '../components/Mainheader_nav';
 
 class Mainheader extends React.Component{
+	constructor(props){
+		super(props);
+		this.state={
+			display:'none',};
+	this.handlemouseenter=this.handlemouseenter.bind(this);
+	this.handlemouseleave=this.handlemouseleave.bind(this);
+
+	
+
+
+	}
+
+
+
+	 handlemouseenter(){
+	 	
+		this.setState({
+			display:'block',
+		});
+	}
+
+	handlemouseleave(){
+	
+		this.setState({
+			display:'none',
+		});
+	}
+
+
 	render(){
 		return <header id="mainheader">
 		<div id="mainheader_ico_container">
@@ -21,7 +50,13 @@ class Mainheader extends React.Component{
 		<div id="headleftlogo">
 		<div id="logo"></div>
 		</div>
+
+		<div id="pos_select_container"
+		onMouseEnter={this.handlemouseenter}
+		onMouseLeave={this.handlemouseleave}>
 		<div id="pos_select">北京</div>
+		<div id="pos_select_show" style={{display:this.state.display}}></div>
+			</div>
 		<form>
 		<input type="text"   />
 		<button id="search">搜索</button>

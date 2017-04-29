@@ -1859,13 +1859,36 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Mainheader = function (_React$Component) {
 	_inherits(Mainheader, _React$Component);
 
-	function Mainheader() {
+	function Mainheader(props) {
 		_classCallCheck(this, Mainheader);
 
-		return _possibleConstructorReturn(this, (Mainheader.__proto__ || Object.getPrototypeOf(Mainheader)).apply(this, arguments));
+		var _this = _possibleConstructorReturn(this, (Mainheader.__proto__ || Object.getPrototypeOf(Mainheader)).call(this, props));
+
+		_this.state = {
+			display: 'none' };
+		_this.handlemouseenter = _this.handlemouseenter.bind(_this);
+		_this.handlemouseleave = _this.handlemouseleave.bind(_this);
+
+		return _this;
 	}
 
 	_createClass(Mainheader, [{
+		key: 'handlemouseenter',
+		value: function handlemouseenter() {
+
+			this.setState({
+				display: 'block'
+			});
+		}
+	}, {
+		key: 'handlemouseleave',
+		value: function handlemouseleave() {
+
+			this.setState({
+				display: 'none'
+			});
+		}
+	}, {
 		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
@@ -1956,8 +1979,15 @@ var Mainheader = function (_React$Component) {
 				),
 				_react2.default.createElement(
 					'div',
-					{ id: 'pos_select' },
-					'\u5317\u4EAC'
+					{ id: 'pos_select_container',
+						onMouseEnter: this.handlemouseenter,
+						onMouseLeave: this.handlemouseleave },
+					_react2.default.createElement(
+						'div',
+						{ id: 'pos_select' },
+						'\u5317\u4EAC'
+					),
+					_react2.default.createElement('div', { id: 'pos_select_show', style: { display: this.state.display } })
 				),
 				_react2.default.createElement(
 					'form',
