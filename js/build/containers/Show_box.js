@@ -175,6 +175,11 @@ var Show_box = function (_React$Component) {
 														_react2.default.createElement("img", { src: "./source/image/showbox/showbox" + this.props.boxid + "/1.jpg" }),
 														_react2.default.createElement(
 																"p",
+																{ className: "showbox_mian_item_info" },
+																this.props.mainitem1_value
+														),
+														_react2.default.createElement(
+																"p",
 																null,
 																this.props.mainitem1_price,
 																_react2.default.createElement("img", { src: "./source/image/showbox/shopcart.png" })
@@ -184,6 +189,11 @@ var Show_box = function (_React$Component) {
 														"div",
 														{ className: "show_box_main_item" },
 														_react2.default.createElement("img", { src: "./source/image/showbox/showbox" + this.props.boxid + "/2.jpg" }),
+														_react2.default.createElement(
+																"p",
+																{ className: "showbox_mian_item_info" },
+																this.props.mainitem2_value
+														),
 														_react2.default.createElement(
 																"p",
 																null,
@@ -197,6 +207,11 @@ var Show_box = function (_React$Component) {
 														_react2.default.createElement("img", { src: "./source/image/showbox/showbox" + this.props.boxid + "/3.jpg" }),
 														_react2.default.createElement(
 																"p",
+																{ className: "showbox_mian_item_info" },
+																this.props.mainitem3_value
+														),
+														_react2.default.createElement(
+																"p",
 																null,
 																this.props.mainitem3_price,
 																_react2.default.createElement("img", { src: "./source/image/showbox/shopcart.png" })
@@ -206,6 +221,11 @@ var Show_box = function (_React$Component) {
 														"div",
 														{ className: "show_box_main_item" },
 														_react2.default.createElement("img", { src: "./source/image/showbox/showbox" + this.props.boxid + "/4.jpg" }),
+														_react2.default.createElement(
+																"p",
+																{ className: "showbox_mian_item_info" },
+																this.props.mainitem4_value
+														),
 														_react2.default.createElement(
 																"p",
 																null,
@@ -219,6 +239,11 @@ var Show_box = function (_React$Component) {
 														_react2.default.createElement("img", { src: "./source/image/showbox/showbox" + this.props.boxid + "/5.jpg" }),
 														_react2.default.createElement(
 																"p",
+																{ className: "showbox_mian_item_info" },
+																this.props.mainitem5_value
+														),
+														_react2.default.createElement(
+																"p",
 																null,
 																this.props.mainitem5_price,
 																_react2.default.createElement("img", { src: "./source/image/showbox/shopcart.png" })
@@ -228,6 +253,11 @@ var Show_box = function (_React$Component) {
 														"div",
 														{ className: "show_box_main_item" },
 														_react2.default.createElement("img", { src: "./source/image/showbox/showbox" + this.props.boxid + "/6.jpg" }),
+														_react2.default.createElement(
+																"p",
+																{ className: "showbox_mian_item_info" },
+																this.props.mainitem6_value
+														),
 														_react2.default.createElement(
 																"p",
 																null,
@@ -241,6 +271,11 @@ var Show_box = function (_React$Component) {
 														_react2.default.createElement("img", { src: "./source/image/showbox/showbox" + this.props.boxid + "/7.jpg" }),
 														_react2.default.createElement(
 																"p",
+																{ className: "showbox_mian_item_info" },
+																this.props.mainitem7_value
+														),
+														_react2.default.createElement(
+																"p",
 																null,
 																this.props.mainitem7_price,
 																_react2.default.createElement("img", { src: "./source/image/showbox/shopcart.png" })
@@ -250,6 +285,11 @@ var Show_box = function (_React$Component) {
 														"div",
 														{ className: "show_box_main_item" },
 														_react2.default.createElement("img", { src: "./source/image/showbox/showbox" + this.props.boxid + "/8.jpg" }),
+														_react2.default.createElement(
+																"p",
+																{ className: "showbox_mian_item_info" },
+																this.props.mainitem8_value
+														),
 														_react2.default.createElement(
 																"p",
 																null,

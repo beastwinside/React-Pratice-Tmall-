@@ -37,7 +37,7 @@ var Sitenav = function (_React$Component) {
 
 			return _react2.default.createElement(
 				'div',
-				{ id: 'sitenav' },
+				{ id: 'sitenav', name: 'top' },
 				_react2.default.createElement(
 					'p',
 					null,

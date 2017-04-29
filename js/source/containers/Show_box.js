@@ -43,34 +43,43 @@ class Show_box extends React.Component{
 
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/1.jpg"}/>
+		<p className="showbox_mian_item_info">{this.props.mainitem1_value}</p>
 		<p>{this.props.mainitem1_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/2.jpg"}/>
+
+		<p className="showbox_mian_item_info">{this.props.mainitem2_value}</p>
 		<p>{this.props.mainitem2_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/3.jpg"}/>
+		<p className="showbox_mian_item_info">{this.props.mainitem3_value}</p>
 		<p>{this.props.mainitem3_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/4.jpg"}/>
+		<p className="showbox_mian_item_info">{this.props.mainitem4_value}</p>
 		<p>{this.props.mainitem4_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/5.jpg"}/>
+		<p className="showbox_mian_item_info">{this.props.mainitem5_value}</p>
 		<p>{this.props.mainitem5_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/6.jpg"}/>
+		<p className="showbox_mian_item_info">{this.props.mainitem6_value}</p>
 		<p>{this.props.mainitem6_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/7.jpg"}/>
+		<p className="showbox_mian_item_info">{this.props.mainitem7_value}</p>
 		<p>{this.props.mainitem7_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 		<div className="show_box_main_item">
 		<img src={"./source/image/showbox/showbox"+this.props.boxid+"/8.jpg"}/>
+		<p className="showbox_mian_item_info">{this.props.mainitem8_value}</p>
 		<p>{this.props.mainitem8_price}<img  src="./source/image/showbox/shopcart.png" /></p>
 		</div>
 

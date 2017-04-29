@@ -11,7 +11,7 @@ class Siderightnav extends React.Component{
 		<Sideright_img num='5' topvalue='36' spanvalue='定时器'/>
 		<Sideright_img num='6' topvalue='90' spanvalue='编辑'/>
 		<Sideright_img num='7' topvalue='93' spanvalue='菜单'/>
-		
+		<a href="#top"><img id="topbut" src="./source/image/siderightnav_logo/srlogo8.png"/></a>
 		</nav> ;
 	}
 
