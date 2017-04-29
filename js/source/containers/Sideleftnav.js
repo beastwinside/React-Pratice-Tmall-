@@ -3,6 +3,37 @@ import Sideleft_item from '../components/Sideleft_item';
 
 
 class Sideleftnav extends React.Component{
+
+	constructor(props){
+		super(props);
+		this.scrolltoshow=this.scrolltoshow.bind(this);
+
+	}
+
+
+	scrolltoshow(){
+
+		window.onscroll = function(){
+
+			var scrollTop = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset;;
+			if( scrollTop>500)
+				{document.getElementById("sideleft").style.display='block';
+			}
+			else if(scrollTop<500)
+				{document.getElementById("sideleft").style.display='none';
+			}
+
+		}
+
+	}
+
+	componentDidMount(){
+		this.scrolltoshow();
+
+	}
+
+
+
 	render(){
 		return <nav id="sideleft">
 		<Sideleft_item item_value="生鲜水果 "/>

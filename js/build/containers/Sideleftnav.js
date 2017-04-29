@@ -25,13 +25,36 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Sideleftnav = function (_React$Component) {
 	_inherits(Sideleftnav, _React$Component);
 
-	function Sideleftnav() {
+	function Sideleftnav(props) {
 		_classCallCheck(this, Sideleftnav);
 
-		return _possibleConstructorReturn(this, (Sideleftnav.__proto__ || Object.getPrototypeOf(Sideleftnav)).apply(this, arguments));
+		var _this = _possibleConstructorReturn(this, (Sideleftnav.__proto__ || Object.getPrototypeOf(Sideleftnav)).call(this, props));
+
+		_this.scrolltoshow = _this.scrolltoshow.bind(_this);
+
+		return _this;
 	}
 
 	_createClass(Sideleftnav, [{
+		key: 'scrolltoshow',
+		value: function scrolltoshow() {
+
+			window.onscroll = function () {
+
+				var scrollTop = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset;;
+				if (scrollTop > 500) {
+					document.getElementById("sideleft").style.display = 'block';
+				} else if (scrollTop < 500) {
+					document.getElementById("sideleft").style.display = 'none';
+				}
+			};
+		}
+	}, {
+		key: 'componentDidMount',
+		value: function componentDidMount() {
+			this.scrolltoshow();
+		}
+	}, {
 		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(

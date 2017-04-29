@@ -34,6 +34,8 @@ var Mainheader = function (_React$Component) {
 									display: 'none' };
 						_this.handlemouseenter = _this.handlemouseenter.bind(_this);
 						_this.handlemouseleave = _this.handlemouseleave.bind(_this);
+						_this.handlecitymousemover = _this.handlecitymousemover.bind(_this);
+						_this.displaynone = _this.displaynone.bind(_this);
 
 						return _this;
 			}
@@ -41,6 +43,8 @@ var Mainheader = function (_React$Component) {
 			_createClass(Mainheader, [{
 						key: 'handlemouseenter',
 						value: function handlemouseenter() {
+									this.displaynone();
+									document.getElementById('city_container1').style.display = "block";
 
 									this.setState({
 												display: 'block'
@@ -53,6 +57,45 @@ var Mainheader = function (_React$Component) {
 									this.setState({
 												display: 'none'
 									});
+						}
+			}, {
+						key: 'displaynone',
+						value: function displaynone() {
+									document.getElementById('city_container1').style.display = "none";
+									document.getElementById('city_container2').style.display = "none";
+									document.getElementById('city_container3').style.display = "none";
+									document.getElementById('city_container4').style.display = "none";
+									document.getElementById('city_container5').style.display = "none";
+						}
+			}, {
+						key: 'handlecitymousemover',
+						value: function handlecitymousemover(e) {
+
+									var value = e.target.innerText;
+
+									switch (value) {
+												case 'ABCDE':
+															this.displaynone();
+															document.getElementById('city_container1').style.display = "block";
+															break;
+												case 'FGHJ':
+															this.displaynone();
+															document.getElementById('city_container2').style.display = "block";
+															break;
+												case 'KLMNP':
+															this.displaynone();
+															document.getElementById('city_container3').style.display = "block";
+															break;
+												case 'QRSTW':
+															this.displaynone();
+															document.getElementById('city_container4').style.display = "block";
+															break;
+												case 'XYZ':
+															this.displaynone();
+															document.getElementById('city_container5').style.display = "block";
+															break;
+
+									}
 						}
 			}, {
 						key: 'render',
@@ -238,27 +281,27 @@ var Mainheader = function (_React$Component) {
 																					null,
 																					_react2.default.createElement(
 																								'div',
-																								null,
+																								{ onMouseEnter: this.handlecitymousemover },
 																								'ABCDE'
 																					),
 																					_react2.default.createElement(
 																								'div',
-																								null,
+																								{ onMouseEnter: this.handlecitymousemover },
 																								'FGHJ'
 																					),
 																					_react2.default.createElement(
 																								'div',
-																								null,
+																								{ onMouseEnter: this.handlecitymousemover },
 																								'KLMNP'
 																					),
 																					_react2.default.createElement(
 																								'div',
-																								null,
+																								{ onMouseEnter: this.handlecitymousemover },
 																								'QRSTW'
 																					),
 																					_react2.default.createElement(
 																								'div',
-																								null,
+																								{ onMouseEnter: this.handlecitymousemover },
 																								'XYZ'
 																					)
 																		),
@@ -1450,7 +1493,11 @@ var Mainheader = function (_React$Component) {
 																											null,
 																											'R'
 																								),
-																								'\u65E5\u7167'
+																								_react2.default.createElement(
+																											'a',
+																											null,
+																											'\u65E5\u7167'
+																								)
 																					),
 																					_react2.default.createElement(
 																								'p',

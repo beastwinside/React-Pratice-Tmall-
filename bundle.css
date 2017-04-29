@@ -220,7 +220,7 @@ body,html{
 	}
 
 	#pos_select_show a{
-		font-size: 18px;
+		font-size: 12px;
 		margin-left: 30px;
 		
 
@@ -239,8 +239,8 @@ body,html{
 		
 	}
 
-	#city_container1,#city_container2,
-	#city_container4,#city_container5{
+	#city_container5,#city_container2,
+	#city_container3,#city_container4{
 		display: none;
 
 	}
@@ -791,6 +791,7 @@ body,html{
 		font-size: 20px;
 		color: white;
 		z-index:10;
+		display: none;
 
 
 	}

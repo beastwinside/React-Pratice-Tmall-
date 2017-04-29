@@ -8,7 +8,8 @@ class Mainheader extends React.Component{
 			display:'none',};
 			this.handlemouseenter=this.handlemouseenter.bind(this);
 			this.handlemouseleave=this.handlemouseleave.bind(this);
-
+			this.handlecitymousemover=this.handlecitymousemover.bind(this);
+			this.displaynone=this.displaynone.bind(this);
 
 
 
@@ -17,6 +18,8 @@ class Mainheader extends React.Component{
 
 
 		handlemouseenter(){
+			this.displaynone();
+			document.getElementById('city_container1').style.display="block";
 
 			this.setState({
 				display:'block',
@@ -28,6 +31,45 @@ class Mainheader extends React.Component{
 			this.setState({
 				display:'none',
 			});
+		}
+
+		displaynone(){
+			document.getElementById('city_container1').style.display="none";
+			document.getElementById('city_container2').style.display="none";
+			document.getElementById('city_container3').style.display="none";
+			document.getElementById('city_container4').style.display="none";
+			document.getElementById('city_container5').style.display="none";
+		}
+
+
+		handlecitymousemover(e){
+			
+			var value=e.target.innerText;
+
+			switch(value){
+				case 'ABCDE':
+				this.displaynone();
+				document.getElementById('city_container1').style.display="block";
+				break;
+				case 'FGHJ':
+				this.displaynone();
+				document.getElementById('city_container2').style.display="block";
+				break;
+				case 'KLMNP':
+				this.displaynone();
+				document.getElementById('city_container3').style.display="block";
+				break;
+				case 'QRSTW':
+				this.displaynone();
+				document.getElementById('city_container4').style.display="block";
+				break;
+				case 'XYZ':
+				this.displaynone();
+				document.getElementById('city_container5').style.display="block";
+				break;
+
+			}
+
 		}
 
 
@@ -62,11 +104,11 @@ class Mainheader extends React.Component{
 			<p><a>成都</a><a>深圳</a><a>南京</a><a>重庆</a><a>南昌</a><a>武汉</a></p>
 			</header>
 			<nav>
-			<div>ABCDE</div>
-			<div>FGHJ</div>
-			<div>KLMNP</div>
-			<div>QRSTW</div>
-			<div>XYZ</div>
+			<div onMouseEnter={this.handlecitymousemover} >ABCDE</div>
+			<div onMouseEnter={this.handlecitymousemover}>FGHJ</div>
+			<div onMouseEnter={this.handlecitymousemover}>KLMNP</div>
+			<div onMouseEnter={this.handlecitymousemover}>QRSTW</div>
+			<div onMouseEnter={this.handlecitymousemover}>XYZ</div>
 			</nav>
 			<div id="city_container1">
 
@@ -90,7 +132,7 @@ class Mainheader extends React.Component{
 			<a>恩施</a><a>鄂尔多斯</a><a>鄂州</a></p>
 
 			</div>
-			<div id="city_container2">
+			<div   id="city_container2">
 
 			<p>
 			<span>F</span>
@@ -112,7 +154,7 @@ class Mainheader extends React.Component{
 
 			</div>
 
-			<div id="city_container3">
+			<div  id="city_container3">
 
 			<p><span>K</span>
 
@@ -142,8 +184,7 @@ class Mainheader extends React.Component{
 			<a>潜江</a><a>齐齐哈尔</a><a>黔西南</a><a>庆阳</a><a>泉州</a><a>琼中</a>
 			<a>七台河</a><a>曲靖</a><a>琼海</a><a>衢州</a><a>秦皇岛</a><a>清远</a><a>钦州</a><a>青岛</a><a>黔东南</a><a>黔南</a>
 			</p><p><span>R</span>
-
-			日照
+			<a>日照</a>
 			</p><p><span>S</span>
 
 			<a>石家庄</a><a>神农架</a><a>汕头</a><a>汕尾</a><a>苏州</a><a>宿州</a><a>绥化</a>
@@ -161,7 +202,7 @@ class Mainheader extends React.Component{
 			<a>潍坊</a><a>芜湖</a><a>武威</a><a>渭南</a></p>
 
 			</div>
-			<div id="city_container5">
+			<div  id="city_container5">
 
 			<p><span>X</span>
 
