@@ -8,6 +8,9 @@
 ###    DEMO演示: <http://htmlpreview.github.io/?https://github.com/beastwinside/APP/blob/master/index.html> 
 ##     基本功能演示截图
 ![Alt text](./screenshot/1.png)
+![Alt text](./screenshot/2.png)
+![Alt text](./screenshot/3.png)
+![Alt text](./screenshot/4.png)
 
 ####    工程化步骤： 
 
