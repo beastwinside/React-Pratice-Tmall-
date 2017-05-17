@@ -11,7 +11,7 @@
 
 ####    工程化步骤： 
 
-####1 --文件分类准备 
+####    1 --文件分类准备 
 
 - 1.1css目录，分为主界面css和component文件夹，component文件夹里面的css，主要写组件的样式； 
 
@@ -21,7 +21,7 @@
 - 1.3根目录下放置index.html； 
 - 1.4根目录建立source文件夹，里面放app需要用到的静态文件资源； 
 
-####2 --编译 
+####    2 --编译 
 
 - 2.1使用babel编译，使用babel需要先下载react的依赖包; 
 
@@ -71,7 +71,7 @@
 
 - 
 
-####3 --打包转译后的js文件 
+####    3 --打包转译后的js文件 
 
 - 用browserify,命令为 
 
@@ -87,6 +87,5 @@
 
 - 
 
-####4 --index.html中引用bundle.css和bundle.js即可 
-
+####    4 --index.html中引用bundle.css和bundle.js即可 
 
