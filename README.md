@@ -8,6 +8,7 @@
 ###    DEMO演示: <http://htmlpreview.github.io/?https://github.com/beastwinside/APP/blob/master/index.html> 
 ##     基本功能演示截图
 
+<https://github.com/beastwinside/APP/blob/master/screenshot/1.png>
 
 ####    工程化步骤： 
 
